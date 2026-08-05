@@ -1,29 +1,75 @@
-Vliegbasis71-Live-Song-System/
+---
+hide:
+  - navigation
+---
 
-README.md
-LICENSE
-mkdocs.yml
+# 🎸 Vliegbasis71 Live Song System
 
-docs/
-    index.md
+## Het receptenboek voor Happy Strummers
 
-    01-Welkom.md
-    02-Wat-heb-je-nodig.md
-    03-De-Vijf-Lagen.md
-    04-Recept-01.md
-    05-Recept-02.md
-    ...
-    20-Recept-XX.md
+---
 
-assets/
-    logo.svg
-    mascot/
-    icons/
+# 🌳 Geen muziektheorie.
 
-images/
+Wel muziek maken.
 
-park-challenges/
+---
 
-printables/
+🎸 Bouw live liedjes.
 
-github/
+🌳 Speel in het park.
+
+🎵 Leer improviseren.
+
+😊 Maak mensen blij.
+
+---
+
+## 🚀 Begin hier
+
+👉 [📖 Welkom](01-Welkom.md)
+
+---
+
+## 🍳 Recepten
+
+Iedereen kan koken.
+
+Iedereen kan ook muziek maken.
+
+Dit boek leert je geen liedjes.
+
+Het leert je **liedjes bouwen**.
+
+---
+
+## ❤️ Filosofie
+
+> Muziek is geen wedstrijd.
+
+> Muziek is een gesprek.
+
+---
+
+# 🌈 Wat leer je?
+
+✅ Loopen
+
+✅ Melodie maken
+
+✅ Safe Notes
+
+✅ Live optreden
+
+✅ Toastmasters
+
+✅ Ed Sheeran-style opbouwen
+
+---
+
+# 🎥 Binnenkort
+
+- Online cursus
+- Video's
+- Printbare kaarten
+- Community recepten
