@@ -16,8 +16,9 @@ theme:
 
   language: nl
 
-  logo: assets/logo.png
-  favicon: assets/favicon.png
+theme:
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
 
   palette:
 
