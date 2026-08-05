@@ -1,7 +1,7 @@
 ---
 title: Receptenkaarten
 description: Praktische A5-kaarten die je kunt plastificeren en meenemen naar het park.
-icon: 🍳
+icon: material/chef-hat
 ---
 
 # 🍳 Hoofdstuk 19

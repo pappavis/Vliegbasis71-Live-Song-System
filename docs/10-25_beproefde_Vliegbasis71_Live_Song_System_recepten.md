@@ -1,7 +1,7 @@
 ---
 title: Het Receptenboek
 description: 25 beproefde Vliegbasis71 Live Song System recepten.
-icon: 🍳
+icon: material/chef-hat
 ---
 
 # 🍳 Hoofdstuk 10

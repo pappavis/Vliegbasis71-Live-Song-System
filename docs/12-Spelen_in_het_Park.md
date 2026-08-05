@@ -2,7 +2,7 @@
 ---
 title: Spelen in het Park
 description: Van oefenen in de woonkamer naar ontspannen live spelen tussen echte mensen.
-icon: 🌳
+icon: material/tree
 ---
 
 # 🌳 Hoofdstuk 12

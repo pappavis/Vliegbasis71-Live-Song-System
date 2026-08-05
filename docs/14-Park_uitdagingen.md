@@ -1,7 +1,7 @@
 ---
 title: Park Challenges
 description: 30 praktische uitdagingen waarmee je stap voor stap een ontspannen live-loopmuzikant wordt.
-icon: 🌳
+icon: material/tree
 ---
 
 # 🌳 Hoofdstuk 14

@@ -1,7 +1,7 @@
 ---
 title: Van recept naar lied
 description: Hoe je met één recept tientallen unieke liedjes kunt maken.
-icon: 🎼
+icon: material/music
 ---
 
 # 🎼 Hoofdstuk 11

@@ -1,7 +1,7 @@
 ---
 title: Begrippenlijst
 description: De complete woordenlijst van het Vliegbasis71 Live Song System.
-icon: 📚
+icon: material/book-open-page-variant
 ---
 
 # 📚 Hoofdstuk 22

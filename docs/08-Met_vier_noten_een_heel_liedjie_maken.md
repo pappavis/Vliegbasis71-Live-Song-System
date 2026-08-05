@@ -1,7 +1,7 @@
 ---
 title: Park Sessie 01 – Jouw eerste Live Song
 description: Bouw binnen vijf minuten een compleet looperlied.
-icon: 🌳
+icon: material/tree
 ---
 
 # 🌳 Park Sessie 01

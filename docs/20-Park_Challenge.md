@@ -1,7 +1,7 @@
 ---
 title: Park Challenge
 description: 30 praktische uitdagingen om van Happy Strummer naar Live Song Builder te groeien.
-icon: 🌳
+icon: material/tree
 ---
 
 # 🌳 Hoofdstuk 20

@@ -1,7 +1,7 @@
 ---
 title: De eerste 100 liedjes
 description: Waarom je eerste honderd liedjes belangrijker zijn dan je beste liedje.
-icon: 📈
+icon: material/chart-line
 ---
 
 # 📈 Hoofdstuk 9

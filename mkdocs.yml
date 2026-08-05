@@ -1,16 +1,118 @@
 site_name: Vliegbasis71 Live Song System
+site_description: Het receptenboek voor iedere Happy Strummer
+site_author: Michiel Erasmus
+site_url: https://YOUR-USERNAME.github.io/Vliegbasis71-Live-Song-System/
+
+repo_name: Vliegbasis71 Live Song System
+repo_url: https://github.com/YOUR-USERNAME/Vliegbasis71-Live-Song-System
+edit_uri: edit/main/docs/
+
 docs_dir: docs
+
 theme:
   name: material
   language: nl
+
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   custom_dir: docs/overrides
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Donkere modus
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Lichte modus
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+
+    - search.highlight
+    - search.suggest
+
+    - content.code.copy
+    - content.tabs.link
+
+    - toc.follow
+
 plugins:
   - search
+
+markdown_extensions:
+
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.keys
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 extra_css:
   - stylesheets/extra.css
+
 extra_javascript:
   - javascripts/extra.js
+
 nav:
-  - Home: index.md
+
+  - 🏠 Home: index.md
+
+  - 📚 Boek:
+
+      - 01 Welkom: 01-Welkom.md
+      - 02 Wat heb je nodig: 02-Wat-heb-je-nodig.md
+      - 03 De Vijf Lagen: 03-De-Vijf-Lagen.md
+      - 04 Kampvuurstarter: 04-Kampvuurstarter.md
+      - 05 De Ed Sheeran basis: 05-De_Ed_Sheeran_basis.md
+      - 06 Het Kleurenkompas: 06_Het_kleurenkompas.md
+      - 07 Melodieën die meerdere akkoorden verbinden: 07-Melodieën_die_meerdere_akkoorden-verbinden.md
+      - 08 Met vier noten een heel liedje maken: 08-Met_vier_noten_een_heel_liedjie_maken.md
+      - 09 De eerste 100 liedjes: 09-De_eerste_100_liedjes.md
+      - 10 25 Recepten: 10-25_beproefde_Vliegbasis71_Live_Song_System_recepten.md
+      - 11 Van recept naar lied: 11-Van_recept_naar_lied.md
+      - 12 Spelen in het park: 12-Spelen_in_het_Park.md
+      - 13 Toastmasters Live: 13-Toastmasters_Live.md
+      - 14 Park uitdagingen: 14-Park_uitdagingen.md
+      - 15 De eerste 100 Live Liedjes: 15-De_Eerste_100_Live_Liedjes.md
+      - 16 Manifest: 16-Het_Vliegbasis71_Manifest.md
+      - 17 Bijbel: 17-De_Vliegbasis71_Bijbel.md
+
+  - 📎 Bijlagen:
+
+      - 18 Kleurenkaart: 18-De_Kleurenkaart.md
+      - 19 Receptenkaarten: 19-Receptenkaarten_voor_Happy_Strummers.md
+      - 20 Park Challenge: 20-Park_Challenge.md
+      - 21 Complete Safe Notes Matrix: 21-Complete_Safe_Notes_Matrix.md
+      - 22 Begrippenlijst: 22-Begrippenlijst.md
+      - 23 Vliegbasis71 Kennisbank: 23-Vliegbasis71_kennisbank.md

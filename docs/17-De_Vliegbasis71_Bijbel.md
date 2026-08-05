@@ -1,7 +1,7 @@
 ---
 title: De Vliegbasis71 Bijbel
 description: Het leven ná dit boek – hoe je blijft groeien als Happy Strummer.
-icon: 📖
+icon: material/book-open
 ---
 
 # 📖 Hoofdstuk 17

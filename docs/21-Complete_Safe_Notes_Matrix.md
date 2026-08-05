@@ -1,7 +1,7 @@
 ---
 title: Complete Safe Notes Matrix
 description: De complete kleurenmatrix van het Vliegbasis71 Live Song System.
-icon: 🎨
+icon: material/palette
 ---
 
 # 🎨 Hoofdstuk 21

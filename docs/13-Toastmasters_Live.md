@@ -1,7 +1,7 @@
 ---
 title: Toastmasters Live
 description: Leer in enkele minuten een live lied bouwen én tegelijk een verhaal vertellen.
-icon: 🎤
+icon: material/microphone
 ---
 
 # 🎤 Hoofdstuk 13

@@ -1,7 +1,7 @@
 ---
 title: Bijlage A - De Kleurenkaart
 description: De complete Vliegbasis71 Live Song System kleurenkaart voor melodieën.
-icon: 🌈
+icon: material/palette
 ---
 
 # 🌈 Hoofdstuk 18

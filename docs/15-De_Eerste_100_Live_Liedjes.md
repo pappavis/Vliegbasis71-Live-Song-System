@@ -1,7 +1,7 @@
 ---
 title: De Eerste 100 Live Liedjes
 description: Waarom je eerste honderd live-optredens belangrijker zijn dan je eerste perfecte optreden.
-icon: 🚀
+icon: material/rocket-launch
 ---
 
 # 🚀 Hoofdstuk 15

@@ -1,7 +1,7 @@
 ---
 title: Het Vliegbasis71 Manifest
 description: De filosofie achter het Vliegbasis71 Live Song System.
-icon: ✈️
+icon: material/airplane
 ---
 
 # ✈️ Hoofdstuk 16

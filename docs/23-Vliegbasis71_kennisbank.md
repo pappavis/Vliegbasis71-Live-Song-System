@@ -1,7 +1,7 @@
 ---
 title: GitHub, MkDocs & Website
 description: Bouw jouw eigen online Vliegbasis71 kennisbank.
-icon: 🌍
+icon: material/earth
 ---
 
 # 🌍 Hoofdstuk 23
