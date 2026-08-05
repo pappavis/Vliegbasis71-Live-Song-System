@@ -1,0 +1,65 @@
+site_name: Vliegbasis71 Live Song System
+site_description: Receptenboek voor Happy Strummers
+site_author: Michiel Erasmus
+
+repo_name: Vliegbasis71 Live Song System
+repo_url: https://github.com/<username>/Vliegbasis71-Live-Song-System
+
+theme:
+  name: material
+
+  language: nl
+
+  palette:
+
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Donkere modus
+
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Lichte modus
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+
+  - Home: index.md
+
+  - Deel 1:
+      - Welkom: 01-Welkom.md
+      - Wat heb je nodig: 02-Wat-heb-je-nodig.md
+      - De Vijf Lagen: 03-De-Vijf-Lagen.md
+
+extra:
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+  
