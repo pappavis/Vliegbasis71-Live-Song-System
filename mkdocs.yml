@@ -381,8 +381,19 @@ nav:
 
 
   # ==========================================================
-  #
   # COLLABORATIVE SONG METHOD
+  #
+  # IMPORTANT:
+  # This is intentionally a TOP-LEVEL navigation item.
+  #
+  # With Material for MkDocs and navigation.tabs enabled,
+  # this places "🎵 Collaborative Song" in the top menu
+  # alongside:
+  #
+  #   🏠 Home
+  #   📚 Boek
+  #   📎 Bijlagen
+  #   🎵 Collaborative Song
   #
   # ==========================================================
 
@@ -580,4 +591,3 @@ nav:
 
               - Oefenronde:
                   collaborative-song/cpractise-round01.md
-        
