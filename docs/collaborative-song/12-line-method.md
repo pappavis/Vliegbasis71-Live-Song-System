@@ -133,6 +133,11 @@ De facilitator wel.
 
 ---
 
+<img src="../assets/Liedjes_workshop_structuur.png" width="70%" height="70%">
+
+
+---
+
 # 🚦 Beginner Mode
 
 Voor een eerste sessie geldt:

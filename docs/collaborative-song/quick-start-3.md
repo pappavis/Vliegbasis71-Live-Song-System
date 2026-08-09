@@ -325,3 +325,4 @@ ________________________________
 Dat is genoeg.
 
 ➡️ Volgende stap: [12-Line Method](12-line-method-2.md)
+
