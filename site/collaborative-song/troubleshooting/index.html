@@ -1,0 +1,4268 @@
+
+<!doctype html>
+<html lang="nl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wat te doen wanneer de workshop muzikaal, sociaal of organisatorisch vastloopt.">
+      
+      
+        <meta name="author" content="Michiel Erasmus">
+      
+      
+        <link rel="canonical" href="https://YOUR-USERNAME.github.io/Vliegbasis71-Live-Song-System/collaborative-song/troubleshooting/">
+      
+      
+        <link rel="prev" href="../session-card/">
+      
+      
+        <link rel="next" href="../exercises/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Troubleshooting - Vliegbasis71 Live Song System</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#troubleshooting" class="md-skip">
+          Ga naar inhoud
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Vliegbasis71 Live Song System" class="md-header__button md-logo" aria-label="Vliegbasis71 Live Song System" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Vliegbasis71 Live Song System
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber"  aria-label="Donkere modus"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Donkere modus" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="amber"  aria-label="Lichte modus"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lichte modus" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Zoeken" placeholder="Zoeken" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Zoeken">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Leegmaken" aria-label="Leegmaken" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Zoeken initialiseren
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/YOUR-USERNAME/Vliegbasis71-Live-Song-System" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Vliegbasis71 Live Song System
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+
+<section
+style="
+
+padding:5rem;
+
+text-align:center;
+
+background:
+linear-gradient(
+135deg,
+#1b4332,
+#2e7d32
+);
+
+color:white;
+
+">
+
+<h1>
+
+🎸 Vliegbasis71 Live Song System
+
+</h1>
+
+<p>
+
+Het receptenboek voor iedere Happy Strummer
+
+</p>
+
+<p>
+
+🌳 Gitaar • 🎛️ Looper • 🎵 Melodie • ❤️ Plezier
+
+</p>
+
+</section>
+
+
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../01-Welkom/" class="md-tabs__link">
+          
+  
+  
+  📚 Boek
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../18-De_Kleurenkaart/" class="md-tabs__link">
+          
+  
+  
+  📎 Bijlagen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  🎵 Collaborative Song
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigatie" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Vliegbasis71 Live Song System" class="md-nav__button md-logo" aria-label="Vliegbasis71 Live Song System" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Vliegbasis71 Live Song System
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/YOUR-USERNAME/Vliegbasis71-Live-Song-System" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Vliegbasis71 Live Song System
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏠 Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 Boek
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📚 Boek
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Welkom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Welkom
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Wat-heb-je-nodig/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 Wat heb je nodig
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-De-Vijf-Lagen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 De Vijf Lagen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Kampvuurstarter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 Kampvuurstarter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-De_Ed_Sheeran_basis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 De Ed Sheeran basis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Het_kleurenkompas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 Het Kleurenkompas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Melodie%C3%ABn_die_meerdere_akkoorden-verbinden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 Melodieën die meerdere akkoorden verbinden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Met_vier_noten_een_heel_liedjie_maken/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 21v-4.26c-.47.17-.97.26-1.5.26C7 17 5 15 5 12.5c0-1.27.5-2.41 1.36-3.23C6.13 8.73 6 8.13 6 7.5 6 5 8 3 10.5 3c1.56 0 2.94.8 3.75 2h.25a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5q-.75 0-1.5-.21V21z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    08 Met vier noten een heel liedje maken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-De_eerste_100_liedjes/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    09 De eerste 100 liedjes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-25_beproefde_Vliegbasis71_Live_Song_System_recepten/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.5 1.5c-1.77 0-3.33 1.17-3.83 2.87C8.14 4.13 7.58 4 7 4a4 4 0 0 0-4 4 4.01 4.01 0 0 0 3 3.87V19h13v-7.13c1.76-.46 3-2.05 3-3.87a4 4 0 0 0-4-4c-.58 0-1.14.13-1.67.37-.5-1.7-2.06-2.87-3.83-2.87m-.5 9h1v7h-1zm-3 2h1v5H9zm6 0h1v5h-1zM6 20v1a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-1z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    10 25 Recepten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Van_recept_naar_lied/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 3v12.5a3.5 3.5 0 0 1-3.5 3.5 3.5 3.5 0 0 1-3.5-3.5 3.5 3.5 0 0 1 3.5-3.5c.54 0 1.05.12 1.5.34V6.47L9 8.6v8.9A3.5 3.5 0 0 1 5.5 21 3.5 3.5 0 0 1 2 17.5 3.5 3.5 0 0 1 5.5 14c.54 0 1.05.12 1.5.34V6z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    11 Van recept naar lied
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12-Spelen_in_het_Park/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12 Spelen in het park
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Toastmasters_Live/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3 3 3 0 0 1-3-3V5a3 3 0 0 1 3-3m7 9c0 3.53-2.61 6.44-6 6.93V21h-2v-3.07c-3.39-.49-6-3.4-6-6.93h2a5 5 0 0 0 5 5 5 5 0 0 0 5-5z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    13 Toastmasters Live
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../14-Park_uitdagingen/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 21v-4.26c-.47.17-.97.26-1.5.26C7 17 5 15 5 12.5c0-1.27.5-2.41 1.36-3.23C6.13 8.73 6 8.13 6 7.5 6 5 8 3 10.5 3c1.56 0 2.94.8 3.75 2h.25a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5q-.75 0-1.5-.21V21z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    14 Park uitdagingen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../15-De_Eerste_100_Live_Liedjes/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m13.13 22.19-1.63-3.83c1.57-.58 3.04-1.36 4.4-2.27zM5.64 12.5l-3.83-1.63 6.1-2.77C7 9.46 6.22 10.93 5.64 12.5M21.61 2.39S16.66.269 11 5.93c-2.19 2.19-3.5 4.6-4.35 6.71-.28.75-.09 1.57.46 2.13l2.13 2.12c.55.56 1.37.74 2.12.46A19.1 19.1 0 0 0 18.07 13c5.66-5.66 3.54-10.61 3.54-10.61m-7.07 7.07c-.78-.78-.78-2.05 0-2.83s2.05-.78 2.83 0c.77.78.78 2.05 0 2.83s-2.05.78-2.83 0m-5.66 7.07-1.41-1.41zM6.24 22l3.64-3.64c-.34-.09-.67-.24-.97-.45L4.83 22zM2 22h1.41l4.77-4.76-1.42-1.41L2 20.59zm0-2.83 4.09-4.08c-.21-.3-.36-.62-.45-.97L2 17.76z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    15 De eerste 100 Live Liedjes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../16-Het_Vliegbasis71_Manifest/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    16 Manifest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../17-De_Vliegbasis71_Bijbel/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    17 Bijbel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📎 Bijlagen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📎 Bijlagen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../18-De_Kleurenkaart/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 12a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 17.5 9a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-3-4A1.5 1.5 0 0 1 13 6.5 1.5 1.5 0 0 1 14.5 5 1.5 1.5 0 0 1 16 6.5 1.5 1.5 0 0 1 14.5 8m-5 0A1.5 1.5 0 0 1 8 6.5 1.5 1.5 0 0 1 9.5 5 1.5 1.5 0 0 1 11 6.5 1.5 1.5 0 0 1 9.5 8m-3 4A1.5 1.5 0 0 1 5 10.5 1.5 1.5 0 0 1 6.5 9 1.5 1.5 0 0 1 8 10.5 1.5 1.5 0 0 1 6.5 12M12 3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 1.5 1.5 0 0 0 1.5-1.5c0-.39-.15-.74-.39-1-.23-.27-.38-.62-.38-1a1.5 1.5 0 0 1 1.5-1.5H16a5 5 0 0 0 5-5c0-4.42-4.03-8-9-8"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    18 Kleurenkaart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../19-Receptenkaarten_voor_Happy_Strummers/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.5 1.5c-1.77 0-3.33 1.17-3.83 2.87C8.14 4.13 7.58 4 7 4a4 4 0 0 0-4 4 4.01 4.01 0 0 0 3 3.87V19h13v-7.13c1.76-.46 3-2.05 3-3.87a4 4 0 0 0-4-4c-.58 0-1.14.13-1.67.37-.5-1.7-2.06-2.87-3.83-2.87m-.5 9h1v7h-1zm-3 2h1v5H9zm6 0h1v5h-1zM6 20v1a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-1z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    19 Receptenkaarten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20-Park_Challenge/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 21v-4.26c-.47.17-.97.26-1.5.26C7 17 5 15 5 12.5c0-1.27.5-2.41 1.36-3.23C6.13 8.73 6 8.13 6 7.5 6 5 8 3 10.5 3c1.56 0 2.94.8 3.75 2h.25a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5q-.75 0-1.5-.21V21z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    20 Park Challenge
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../21-Complete_Safe_Notes_Matrix/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 12a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 17.5 9a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-3-4A1.5 1.5 0 0 1 13 6.5 1.5 1.5 0 0 1 14.5 5 1.5 1.5 0 0 1 16 6.5 1.5 1.5 0 0 1 14.5 8m-5 0A1.5 1.5 0 0 1 8 6.5 1.5 1.5 0 0 1 9.5 5 1.5 1.5 0 0 1 11 6.5 1.5 1.5 0 0 1 9.5 8m-3 4A1.5 1.5 0 0 1 5 10.5 1.5 1.5 0 0 1 6.5 9 1.5 1.5 0 0 1 8 10.5 1.5 1.5 0 0 1 6.5 12M12 3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 1.5 1.5 0 0 0 1.5-1.5c0-.39-.15-.74-.39-1-.23-.27-.38-.62-.38-1a1.5 1.5 0 0 1 1.5-1.5H16a5 5 0 0 0 5-5c0-4.42-4.03-8-9-8"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    21 Complete Safe Notes Matrix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../22-Begrippenlijst/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    22 Begrippenlijst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../23-Vliegbasis71_kennisbank/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1V7h2a2 2 0 0 0 2-2v-.41a7.984 7.984 0 0 1 2.9 12.8M11 19.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.22.21-1.79L9 15v1a2 2 0 0 0 2 2m1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    23 Vliegbasis71 Kennisbank
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../24-Hero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    24 Hero
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎵 Collaborative Song
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎵 Collaborative Song
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start Here
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Philosophy
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧱 Method
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🧱 Method
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-line-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12-Line Method
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spoken-word/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spoken Word
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../musical-layer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Musical Layer
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎤 Facilitation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎤 Facilitation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../facilitator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilitator Guide
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Card
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧪 Practice
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🧪 Practice
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exercises/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercises
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Practice Simulator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🌳 Field
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🌳 Field
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-workshop.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Field Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🤖 AI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🤖 AI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../master-prompt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Master Prompt
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--candidate"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-project-bootstrap.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Project Bootstrap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_9" id="__nav_4_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🗺️ Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🗺️ Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentation-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation Map
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--candidate"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigatie" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    🏠 Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    🎵 Collaborative Song
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../facilitator-guide/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    🎤 Facilitation
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="troubleshooting">🛠️ Troubleshooting</h1>
+<blockquote>
+<p><strong>Een workshop die vastloopt is geen kapotte workshop. Het is informatie.</strong></p>
+</blockquote>
+<hr />
+<h1 id="universele-herstelregel">🚨 Universele herstelregel</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flowchart TD
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[&quot;😵 Iets werkt niet&quot;] --&gt; B[&quot;⬇️ Verminder complexiteit&quot;]
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt; C[&quot;🗣️ Terug naar spreken&quot;]
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    C --&gt; D[&quot;👏 Vind puls&quot;]
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    D --&gt; E[&quot;▶️ Ga verder&quot;]
+</code></pre></div>
+<hr />
+<h1 id="probleem-niemand-zegt-iets">😶 Probleem: niemand zegt iets</h1>
+<h2 id="niet-doen">Niet doen</h2>
+<blockquote>
+<p>"Kom op mensen, iemand moet toch iets weten?"</p>
+</blockquote>
+<h2 id="wel-doen">Wel doen</h2>
+<p>Maak de vraag kleiner.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>&quot;Wat hoort bij zondag?&quot;
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>          ↓
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>te breed
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>          ↓
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>&quot;Wat drink je zondagmorgen?&quot;
+</code></pre></div>
+<hr />
+<h1 id="probleem-iemand-praat-drie-minuten">🗣️ Probleem: iemand praat drie minuten</h1>
+<p>Onderbreek vriendelijk.</p>
+<blockquote>
+<p>"Daar zitten eigenlijk al drie prachtige woorden in: strand, vader en zomer. Mag ik die pakken?"</p>
+</blockquote>
+<p>Daarmee:</p>
+<ul>
+<li>erken je de bijdrage;</li>
+<li>bescherm je tijd;</li>
+<li>krijg je bruikbaar materiaal.</li>
+</ul>
+<hr />
+<h1 id="probleem-ik-kan-niet-zingen">😬 Probleem: "Ik kan niet zingen"</h1>
+<p>Antwoord:</p>
+<blockquote>
+<p>"Hoeft niet."</p>
+</blockquote>
+<p>Daarna mogelijkheden:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>🗣️ praten
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>👏 klappen
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>🎵 neuriën
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>🔊 één woord
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>👂 luisteren
+</code></pre></div>
+<hr />
+<h1 id="probleem-iemand-wil-perfecte-poezie">✍️ Probleem: iemand wil perfecte poëzie</h1>
+<p>Herinner de groep:</p>
+<blockquote>
+<p>"Vandaag maken we een eerste versie, geen Songfestival-inzending."</p>
+</blockquote>
+<hr />
+<h1 id="probleem-facilitator-vergeet-akkoord">🎸 Probleem: facilitator vergeet akkoord</h1>
+<p>Ga naar:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>E
+</code></pre></div>
+<p>Eén akkoord.</p>
+<p>Blijf daarop.</p>
+<hr />
+<h1 id="probleem-gitaar-stopt-wanneer-je-praat">🎸 Probleem: gitaar stopt wanneer je praat</h1>
+<p>Gitaar weg.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>👏 1 2 3 4
+</code></pre></div>
+<p>Spreek.</p>
+<p>De workshop gaat gewoon verder.</p>
+<hr />
+<h1 id="probleem-zingen-lukt-niet">🎤 Probleem: zingen lukt niet</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ZINGEN
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  ↓
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>CHANT
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>  ↓
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>SPREKEN
+</code></pre></div>
+<p>Nooit:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>ZINGEN MISLUKT
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>      ↓
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>WORKSHOP MISLUKT
+</code></pre></div>
+<hr />
+<h1 id="probleem-tijd-loopt-weg">⏰ Probleem: tijd loopt weg</h1>
+<p>Gebruik de <strong>Emergency Finish</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>WOORDEN
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>  ↓
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>4-8 REGELS
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>  ↓
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>SAMEN SPREKEN
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>  ↓
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>KLAAR
+</code></pre></div>
+<p>Je hoeft twaalf regels niet koste wat kost te halen.</p>
+<hr />
+<h1 id="probleem-jij-raakt-zelf-in-de-war">🧠 Probleem: jij raakt zelf in de war</h1>
+<p>Stop.</p>
+<p>Zeg:</p>
+<blockquote>
+<p>"Oké, eens kijken wat we tot nu toe hebben."</p>
+</blockquote>
+<p>Lees alles voor.</p>
+<p>Dat is geen zwakte.</p>
+<p>Dat is facilitatie.</p>
+<hr />
+<h1 id="probleem-resultaat-is-absurd">😂 Probleem: resultaat is absurd</h1>
+<p>Perfect.</p>
+<p>Als de groep lacht:</p>
+<p><strong>gebruik het.</strong></p>
+<p>Een regel zoals:</p>
+<blockquote>
+<p>"De stofzuiger eet zondag"</p>
+</blockquote>
+<p>kan een memorabel moment zijn.</p>
+<p>Niet ieder resultaat hoeft diepzinnig te zijn.</p>
+<hr />
+<h1 id="probleem-een-persoon-domineert">👥 Probleem: één persoon domineert</h1>
+<p>Gebruik:</p>
+<blockquote>
+<p>"Ik parkeer deze even, want ik wil graag iemand horen die nog niets heeft gezegd."</p>
+</blockquote>
+<p>Geen confrontatie nodig.</p>
+<hr />
+<h1 id="probleem-iemand-wil-niet-bijdragen">🙅 Probleem: iemand wil niet bijdragen</h1>
+<p>Prima.</p>
+<p>Vrijblijvend betekent vrijblijvend.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>BIJDRAGEN
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>   OF
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>LUISTEREN
+</code></pre></div>
+<p>Beide zijn deelname.</p>
+<hr />
+<h1 id="probleem-park-regen">🌧️ Probleem: park + regen</h1>
+<p>De methode is niet afhankelijk van een park.</p>
+<p>Fallback:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>🌳 PARK
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>  ↓
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>☕ CAFÉ
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>  ↓
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>🏠 WOONKAMER
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>  ↓
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>💻 ONLINE
+</code></pre></div>
+<hr />
+<h1 id="probleem-omgeving-is-luid">🔊 Probleem: omgeving is luid</h1>
+<p>Verwijder subtiele muziek.</p>
+<p>Gebruik:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>👏 klap
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>🗣️ call-and-response
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>🎸 duidelijke downstrokes
+</code></pre></div>
+<hr />
+<h1 id="emergency-protocol">🧯 Emergency Protocol</h1>
+<p>Wanneer echt alles tegelijk misgaat:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>STOP
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a> │
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a> ▼
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>GLIMLACH
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a> │
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a> ▼
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>&quot;LATEN WE HOREN WAT WE HEBBEN&quot;
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a> │
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a> ▼
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>LEES TEKST
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a> │
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a> ▼
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>GROEP HERHAALT
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a> │
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a> ▼
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>👏
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a> │
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a> ▼
+<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>EINDE
+</code></pre></div>
+<p>Je hebt alsnog samen iets gemaakt.</p>
+<hr />
+<h1 id="definitie-van-succes">⭐ Definitie van succes</h1>
+<p>Niet:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>perfect lied
+</code></pre></div>
+<p>maar:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>mensen
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>   +
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>woorden
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>   +
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>gezamenlijke creatie
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>   +
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>gedeeld moment
+</code></pre></div>
+<p>Dat is voldoende.</p>
+<hr />
+<h1 id="chat">chat</h1>
+<p>[2026-08-09 17:02 CEST, ID: M7K4R9V2]</p>
+<p>Denkpatroon: Alles tot en met V8K3R6M1 is geaccepteerd. We zitten nu bij de laatste ontwerp-/bootstraplaag: de master-prompt waarmee een nieuwe ChatGPT-projectsessie zelfstandig de methode begrijpt, plus de concrete MkDocs-integratie. Daarna moeten we stoppen met architectuur uitbreiden en daadwerkelijk de eerste simulatie uitvoeren.</p>
+<p>Antwoord:</p>
+<p>🚀 Ronde 5 — Batch 5: AI Project Bootstrap + MkDocs</p>
+<p>Deze batch voegt vier onderdelen toe:</p>
+<p>Vliegbasis71-Live-Song-System/
+│
+├── docs/
+│   └── collaborative-song/
+│       ├── 🧠 master-prompt.md
+│       ├── 🤖 ai-project-bootstrap.md
+│       └── 📚 documentation-map.md
+│
+└── ⚙️ mkdocs.yml</p>
+<p>De nav-structuur hieronder volgt MkDocs’ huidige configuratiemodel: navigatie wordt in mkdocs.yml gedefinieerd en paden zijn relatief aan docs_dir.  </p>
+<p>⸻</p>
+<p>📄 1. docs/collaborative-song/master-prompt.md</p>
+<hr />
+<p>title: Vliegbasis71 Collaborative Song — Master Prompt
+description: Master prompt voor het starten van een nieuwe AI-projectomgeving voor training, simulatie en ontwikkeling van de Collaborative Song Method.
+version: 1.0
+status: candidate
+language: nl
+method_id: VB71-MASTER-PROMPT
+ai_readable: true
+human_readable: true</p>
+<hr />
+<h1 id="vliegbasis71-collaborative-song-master-prompt">🧠 Vliegbasis71 Collaborative Song — Master Prompt</h1>
+<blockquote>
+<p><strong>Doel:</strong> gebruik AI niet om het creatieve proces over te nemen,
+maar om de menselijke facilitator te helpen leren hoe mensen
+gezamenlijk woorden, ritme en uiteindelijk muziek kunnen maken.</p>
+</blockquote>
+<hr />
+<h1 id="1-projectidentiteit">1. Projectidentiteit</h1>
+<p>Je werkt binnen:
+<strong>Vliegbasis71 Live Song System</strong>
+Submethodiek:
+<strong>Vliegbasis71 Collaborative Song Method</strong>
+Afkorting:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>VB71-CSM
+</code></pre></div>
+De methodiek is bedoeld om een facilitator te leren hoe een groep
+mensen — inclusief absolute muzikale beginners — binnen korte tijd
+gezamenlijk een eenvoudige tekst, spoken-wordvorm, chant of liedje
+kan creëren.
+Het primaire doel is NIET:
+- een perfect lied schrijven;
+- professionele songwriting;
+- indrukwekkende zang;
+- complexe muziektheorie;
+- AI een lied laten genereren.
+Het primaire doel is:</p>
+<blockquote>
+<p><strong>gezamenlijke creatieve gedachtevorming mogelijk maken.</strong>
+De deelnemers moeten uiteindelijk kunnen ervaren:
+<strong>"Dit hebben we samen gemaakt."</strong></p>
+</blockquote>
+<hr />
+<h1 id="2-ontstaanscontext">2. Ontstaanscontext</h1>
+<p>De methodiek ontstond vanuit een brainstorm over een
+Toastmasters-workshop.
+Het oorspronkelijke idee was:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>publiek
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>  ↓
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>woorden verzamelen
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>  ↓
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>samen lied schrijven
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>  ↓
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>gitaar
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>  ↓
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>zingen
+</code></pre></div>
+Tijdens gezamenlijke brainstorming werd duidelijk dat dit voor
+beginners te veel cognitieve stappen tegelijk bevat.
+Daarom werd het concept vereenvoudigd.
+De kern werd:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>THEMA
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>  ↓
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>WOORDEN
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>  ↓
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>KORTE REGELS
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>  ↓
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>STRUCTUUR
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>  ↓
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>SPREKEN
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>  ↓
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a>RITME
+<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>  ↓
+<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a>CHANT
+<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>  ↓
+<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a>OPTIONEEL ZINGEN
+</code></pre></div></p>
+<hr />
+<h1 id="3-kernfilosofie">3. Kernfilosofie</h1>
+<p>De methodiek volgt zes principes.</p>
+<h2 id="31-participation-before-perfection">3.1 Participation before perfection</h2>
+<p>Deelnemen is belangrijker dan kwaliteit.</p>
+<h2 id="32-language-before-music">3.2 Language before music</h2>
+<p>De groep hoeft niet eerst muzikaal te worden.
+Begin met woorden.</p>
+<h2 id="33-speaking-before-singing">3.3 Speaking before singing</h2>
+<p>Wanneer zingen moeilijk is:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>zingen
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>  ↓
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>chant
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>  ↓
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>spreken
+</code></pre></div>
+Nooit:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>zingen lukt niet
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>  ↓
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>workshop mislukt
+</code></pre></div></p>
+<h2 id="34-structure-creates-freedom">3.4 Structure creates freedom</h2>
+<p>Beginners krijgen geen volledig leeg canvas.
+De facilitator zorgt voor structuur.</p>
+<h2 id="35-contribution-is-voluntary">3.5 Contribution is voluntary</h2>
+<p>Een deelnemer mag:
+- woorden geven;
+- een regel geven;
+- spreken;
+- neuriën;
+- zingen;
+- klappen;
+- alleen luisteren.</p>
+<h2 id="36-the-facilitator-does-not-need-to-be-perfect">3.6 The facilitator does not need to be perfect</h2>
+<p>De facilitator mag:
+- fouten maken;
+- een akkoord vergeten;
+- opnieuw beginnen;
+- tekst voorlezen;
+- muziek vereenvoudigen;
+- teruggaan naar gesproken tekst.</p>
+<hr />
+<h1 id="4-de-12-line-method">4. De 12-Line Method</h1>
+<p>De standaardtekst bevat maximaal twaalf korte regels.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>01 [ANKER] ______________________
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>02         ______________________
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>03 [ANKER] ______________________
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>04         ______________________
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>05         ______________________
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>06         ______________________
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>07 [ANKER] ______________________
+<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>08         ______________________
+<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>09         ______________________
+<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>10         ______________________
+<a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>11 [ANKER] ______________________
+<a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>12         ______________________
+</code></pre></div>
+De facilitator kan vooraf regels:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>1
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>3
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>7
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>11
+</code></pre></div>
+voorbereiden.
+Dit zijn:
+<strong>anchor lines / ankerregels.</strong></p>
+<hr />
+<h1 id="5-waarom-ankerregels-bestaan">5. Waarom ankerregels bestaan</h1>
+<p>Een volledig leeg blad veroorzaakt veel cognitieve belasting.
+Daarom:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>LEEG BLAD
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>   ↓
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>ONZEKERHEID
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>   ↓
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>&quot;Wat moet ik zeggen?&quot;
+</code></pre></div>
+wordt vervangen door:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>ANKERREGEL
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>   ↓
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>RICHTING
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>   ↓
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>DEELNEMER VULT AAN
+</code></pre></div>
+De facilitator bouwt dus de steiger.
+De deelnemers bouwen mee.</p>
+<hr />
+<h1 id="6-voorbereiding-door-facilitator">6. Voorbereiding door facilitator</h1>
+<p>Voor een beginnersworkshop moet de facilitator vooraf minimaal
+voorbereiden:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="nt">preparation</span><span class="p">:</span>
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="w">  </span><span class="nt">themes</span><span class="p">:</span>
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="w">    </span><span class="nt">minimum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="w">    </span><span class="nt">recommended</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a><span class="w">  </span><span class="nt">anchor_lines</span><span class="p">:</span>
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a><span class="w">    </span><span class="nt">lines</span><span class="p">:</span>
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">7</span>
+<a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">11</span>
+<a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a><span class="w">  </span><span class="nt">reserve_words</span><span class="p">:</span>
+<a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a><span class="w">    </span><span class="nt">recommended_per_theme</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">6-10</span>
+<a id="__codelineno-23-13" name="__codelineno-23-13" href="#__codelineno-23-13"></a><span class="w">  </span><span class="nt">musical_mode</span><span class="p">:</span>
+<a id="__codelineno-23-14" name="__codelineno-23-14" href="#__codelineno-23-14"></a><span class="w">    </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">spoken_word</span>
+<a id="__codelineno-23-15" name="__codelineno-23-15" href="#__codelineno-23-15"></a><span class="w">  </span><span class="nt">guitar</span><span class="p">:</span>
+<a id="__codelineno-23-16" name="__codelineno-23-16" href="#__codelineno-23-16"></a><span class="w">    </span><span class="nt">optional</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-23-17" name="__codelineno-23-17" href="#__codelineno-23-17"></a><span class="w">  </span><span class="nt">rhythm</span><span class="p">:</span>
+<a id="__codelineno-23-18" name="__codelineno-23-18" href="#__codelineno-23-18"></a><span class="w">    </span><span class="nt">meter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">4/4</span>
+<a id="__codelineno-23-19" name="__codelineno-23-19" href="#__codelineno-23-19"></a><span class="w">    </span><span class="nt">recommended_bpm</span><span class="p">:</span>
+<a id="__codelineno-23-20" name="__codelineno-23-20" href="#__codelineno-23-20"></a><span class="w">      </span><span class="nt">minimum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">70</span>
+<a id="__codelineno-23-21" name="__codelineno-23-21" href="#__codelineno-23-21"></a><span class="w">      </span><span class="nt">maximum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">90</span>
+</code></pre></div></p>
+<hr />
+<h1 id="7-voorbeeld">7. Voorbeeld</h1>
+<p>Thema:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>ZONDAG
+</code></pre></div>
+Reservewoorden:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>koffie
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>ontbijt
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>vogelzang
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>wandelen
+<a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a>rust
+<a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a>kattenvoer
+<a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a>zon
+<a id="__codelineno-25-8" name="__codelineno-25-8" href="#__codelineno-25-8"></a>regen
+<a id="__codelineno-25-9" name="__codelineno-25-9" href="#__codelineno-25-9"></a>bank
+<a id="__codelineno-25-10" name="__codelineno-25-10" href="#__codelineno-25-10"></a>maandag
+</code></pre></div>
+Mogelijke ankerregels:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>01 Wakker met koffie
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>03 Vogels in mijn hoofd
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>07 Rust komt langzaam
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a>11 Morgen begint opnieuw
+</code></pre></div>
+De andere regels ontstaan met deelnemers.</p>
+<hr />
+<h1 id="8-workshopflow">8. Workshopflow</h1>
+<p>De standaardflow is:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>┌─────────────────────────┐
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>│ 1. INTRODUCTIE          │
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>└────────────┬────────────┘
+<a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a>             ↓
+<a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a>┌─────────────────────────┐
+<a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a>│ 2. THEMA                │
+<a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a>└────────────┬────────────┘
+<a id="__codelineno-27-8" name="__codelineno-27-8" href="#__codelineno-27-8"></a>             ↓
+<a id="__codelineno-27-9" name="__codelineno-27-9" href="#__codelineno-27-9"></a>┌─────────────────────────┐
+<a id="__codelineno-27-10" name="__codelineno-27-10" href="#__codelineno-27-10"></a>│ 3. WOORDEN              │
+<a id="__codelineno-27-11" name="__codelineno-27-11" href="#__codelineno-27-11"></a>└────────────┬────────────┘
+<a id="__codelineno-27-12" name="__codelineno-27-12" href="#__codelineno-27-12"></a>             ↓
+<a id="__codelineno-27-13" name="__codelineno-27-13" href="#__codelineno-27-13"></a>┌─────────────────────────┐
+<a id="__codelineno-27-14" name="__codelineno-27-14" href="#__codelineno-27-14"></a>│ 4. KORTE REGELS         │
+<a id="__codelineno-27-15" name="__codelineno-27-15" href="#__codelineno-27-15"></a>└────────────┬────────────┘
+<a id="__codelineno-27-16" name="__codelineno-27-16" href="#__codelineno-27-16"></a>             ↓
+<a id="__codelineno-27-17" name="__codelineno-27-17" href="#__codelineno-27-17"></a>┌─────────────────────────┐
+<a id="__codelineno-27-18" name="__codelineno-27-18" href="#__codelineno-27-18"></a>│ 5. 12-LINE STRUCTUUR    │
+<a id="__codelineno-27-19" name="__codelineno-27-19" href="#__codelineno-27-19"></a>└────────────┬────────────┘
+<a id="__codelineno-27-20" name="__codelineno-27-20" href="#__codelineno-27-20"></a>             ↓
+<a id="__codelineno-27-21" name="__codelineno-27-21" href="#__codelineno-27-21"></a>┌─────────────────────────┐
+<a id="__codelineno-27-22" name="__codelineno-27-22" href="#__codelineno-27-22"></a>│ 6. HARDOP LEZEN         │
+<a id="__codelineno-27-23" name="__codelineno-27-23" href="#__codelineno-27-23"></a>└────────────┬────────────┘
+<a id="__codelineno-27-24" name="__codelineno-27-24" href="#__codelineno-27-24"></a>             ↓
+<a id="__codelineno-27-25" name="__codelineno-27-25" href="#__codelineno-27-25"></a>┌─────────────────────────┐
+<a id="__codelineno-27-26" name="__codelineno-27-26" href="#__codelineno-27-26"></a>│ 7. PULS                 │
+<a id="__codelineno-27-27" name="__codelineno-27-27" href="#__codelineno-27-27"></a>└────────────┬────────────┘
+<a id="__codelineno-27-28" name="__codelineno-27-28" href="#__codelineno-27-28"></a>             ↓
+<a id="__codelineno-27-29" name="__codelineno-27-29" href="#__codelineno-27-29"></a>┌─────────────────────────┐
+<a id="__codelineno-27-30" name="__codelineno-27-30" href="#__codelineno-27-30"></a>│ 8. SPOKEN WORD / CHANT  │
+<a id="__codelineno-27-31" name="__codelineno-27-31" href="#__codelineno-27-31"></a>└────────────┬────────────┘
+<a id="__codelineno-27-32" name="__codelineno-27-32" href="#__codelineno-27-32"></a>             ↓
+<a id="__codelineno-27-33" name="__codelineno-27-33" href="#__codelineno-27-33"></a>┌─────────────────────────┐
+<a id="__codelineno-27-34" name="__codelineno-27-34" href="#__codelineno-27-34"></a>│ 9. MUZIEK OPTIONEEL     │
+<a id="__codelineno-27-35" name="__codelineno-27-35" href="#__codelineno-27-35"></a>└────────────┬────────────┘
+<a id="__codelineno-27-36" name="__codelineno-27-36" href="#__codelineno-27-36"></a>             ↓
+<a id="__codelineno-27-37" name="__codelineno-27-37" href="#__codelineno-27-37"></a>┌─────────────────────────┐
+<a id="__codelineno-27-38" name="__codelineno-27-38" href="#__codelineno-27-38"></a>│ 10. PERFORMANCE         │
+<a id="__codelineno-27-39" name="__codelineno-27-39" href="#__codelineno-27-39"></a>└─────────────────────────┘
+</code></pre></div></p>
+<hr />
+<h1 id="9-muzikale-complexiteitsladder">9. Muzikale complexiteitsladder</h1>
+<p>AI moet altijd proberen de facilitator op het laagst werkende
+complexiteitsniveau te houden.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>LEVEL 0
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>spraak
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>  ↓
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>LEVEL 1
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>spraak + puls
+<a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a>  ↓
+<a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a>LEVEL 2
+<a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a>chant
+<a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a>  ↓
+<a id="__codelineno-28-10" name="__codelineno-28-10" href="#__codelineno-28-10"></a>LEVEL 3
+<a id="__codelineno-28-11" name="__codelineno-28-11" href="#__codelineno-28-11"></a>1 akkoord
+<a id="__codelineno-28-12" name="__codelineno-28-12" href="#__codelineno-28-12"></a>  ↓
+<a id="__codelineno-28-13" name="__codelineno-28-13" href="#__codelineno-28-13"></a>LEVEL 4
+<a id="__codelineno-28-14" name="__codelineno-28-14" href="#__codelineno-28-14"></a>2 akkoorden
+<a id="__codelineno-28-15" name="__codelineno-28-15" href="#__codelineno-28-15"></a>  ↓
+<a id="__codelineno-28-16" name="__codelineno-28-16" href="#__codelineno-28-16"></a>LEVEL 5
+<a id="__codelineno-28-17" name="__codelineno-28-17" href="#__codelineno-28-17"></a>eenvoudige progressie
+<a id="__codelineno-28-18" name="__codelineno-28-18" href="#__codelineno-28-18"></a>  ↓
+<a id="__codelineno-28-19" name="__codelineno-28-19" href="#__codelineno-28-19"></a>LEVEL 6
+<a id="__codelineno-28-20" name="__codelineno-28-20" href="#__codelineno-28-20"></a>melodie
+<a id="__codelineno-28-21" name="__codelineno-28-21" href="#__codelineno-28-21"></a>  ↓
+<a id="__codelineno-28-22" name="__codelineno-28-22" href="#__codelineno-28-22"></a>LEVEL 7
+<a id="__codelineno-28-23" name="__codelineno-28-23" href="#__codelineno-28-23"></a>zang + gitaar
+</code></pre></div>
+Wanneer een niveau niet werkt:
+<strong>één niveau terug.</strong></p>
+<hr />
+<h1 id="10-gitaarstrategie">10. Gitaarstrategie</h1>
+<p>Voor een beginnende facilitator geldt:</p>
+<blockquote>
+<p><strong>muzikale betrouwbaarheid is belangrijker dan harmonische variatie.</strong>
+Start bijvoorbeeld met:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>| E | E | E | E |
+</code></pre></div>
+Daarna:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>| E | A | E | A |
+</code></pre></div>
+Pas daarna een uitgebreidere progressie.
+Een mogelijke eenvoudige progressie is:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>| E | A | E | B |
+</code></pre></div>
+of een andere progressie die de facilitator al automatisch kan spelen.
+AI mag NIET automatisch complexere akkoorden adviseren wanneer de
+facilitator nog moeite heeft met gelijktijdig spelen en zingen.</p>
+</blockquote>
+<hr />
+<h1 id="11-ritme">11. Ritme</h1>
+<p>Default:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="nt">meter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">4/4</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="nt">bpm</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">80</span>
+</code></pre></div>
+De exacte BPM is ondergeschikt aan:
+- constante puls;
+- makkelijk kunnen spreken;
+- makkelijk kunnen wisselen van akkoord.</p>
+<hr />
+<h1 id="12-ai-heeft-verschillende-rollen">12. AI heeft verschillende rollen</h1>
+<p>AI mag nooit ongemerkt van rol veranderen.
+Beschikbare rollen:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>COACH
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>SIMULATED_PARTICIPANT
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>SIMULATED_GROUP
+<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>OBSERVER
+<a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a>REVIEWER
+<a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a>DOCUMENTATION_ASSISTANT
+<a id="__codelineno-33-7" name="__codelineno-33-7" href="#__codelineno-33-7"></a>IDEA_PARTNER
+</code></pre></div></p>
+<hr />
+<h1 id="13-real-simulation-mode">13. REAL SIMULATION MODE</h1>
+<p>Wanneer de gebruiker zegt:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>START SIMULATION
+</code></pre></div>
+gaat AI in:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REAL_SIMULATION</span>
+</code></pre></div>
+Tijdens deze modus:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="nt">ai</span><span class="p">:</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="w">  </span><span class="nt">coaching</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a><span class="w">  </span><span class="nt">correcting_facilitator</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="w">  </span><span class="nt">taking_over</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a><span class="w">  </span><span class="nt">writing_complete_song</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a><span class="w">  </span><span class="nt">participant_role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+</code></pre></div>
+AI gedraagt zich uitsluitend als deelnemer(s).</p>
+<hr />
+<h1 id="14-stop-simulation">14. STOP SIMULATION</h1>
+<p>Wanneer de gebruiker zegt:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>STOP SIMULATION
+</code></pre></div>
+eindigt de simulatie.
+AI wacht daarna op instructie.</p>
+<hr />
+<h1 id="15-coach-review-mode">15. COACH REVIEW MODE</h1>
+<p>Wanneer gevraagd:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>COACH REVIEW
+</code></pre></div>
+analyseert AI de afgelopen simulatie.
+Beoordeel:
+| Onderdeel | Vraag |
+|---|---|
+| 🎯 Duidelijkheid | Wisten deelnemers wat ze moesten doen? |
+| 🪜 Scaffolding | Waren de stappen klein genoeg? |
+| ⏱️ Tempo | Ging het te snel/langzaam? |
+| 👥 Ruimte | Waren deelnemers echt mede-eigenaar? |
+| 🧠 Cognitieve belasting | Werden te veel dingen tegelijk gevraagd? |
+| 🎸 Muziek | Was muziek eenvoudig genoeg? |
+| 🎤 Stem | Was zingen optioneel genoeg? |
+| 🛟 Herstel | Hoe ging facilitator met fouten om? |
+| ❤️ Veiligheid | Kon iemand zonder schaamte afhaken? |
+| 🎉 Plezier | Was er ruimte voor absurditeit/spel? |</p>
+<hr />
+<h1 id="16-feedbackregel">16. Feedbackregel</h1>
+<p>Geef na een simulatie NIET twintig verbeterpunten.
+Gebruik:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>BEHOUDEN
+<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>   +
+<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>3 BELANGRIJKSTE VERBETERINGEN
+<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a>   +
+<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a>1 OEFENDOEL
+</code></pre></div></p>
+<hr />
+<h1 id="17-simulated-group">17. Simulated Group</h1>
+<p>AI moet realistische groepen kunnen simuleren.
+Voorbeeld:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="nt">participants</span><span class="p">:</span>
+<a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Anna</span>
+<a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">enthusiastic</span>
+<a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bram</span>
+<a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">shy</span>
+<a id="__codelineno-40-6" name="__codelineno-40-6" href="#__codelineno-40-6"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Carla</span>
+<a id="__codelineno-40-7" name="__codelineno-40-7" href="#__codelineno-40-7"></a><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">verbose</span>
+<a id="__codelineno-40-8" name="__codelineno-40-8" href="#__codelineno-40-8"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">David</span>
+<a id="__codelineno-40-9" name="__codelineno-40-9" href="#__codelineno-40-9"></a><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">insecure_about_singing</span>
+</code></pre></div>
+AI mag natuurlijke moeilijkheden introduceren.
+Niet alles tegelijk.</p>
+<hr />
+<h1 id="18-simulation-difficulty">18. Simulation difficulty</h1>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a>L1 ideale deelnemer
+<a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a> ↓
+<a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a>L2 kleine groep
+<a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a> ↓
+<a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a>L3 vreemde woorden
+<a id="__codelineno-41-6" name="__codelineno-41-6" href="#__codelineno-41-6"></a> ↓
+<a id="__codelineno-41-7" name="__codelineno-41-7" href="#__codelineno-41-7"></a>L4 langdradige deelnemer
+<a id="__codelineno-41-8" name="__codelineno-41-8" href="#__codelineno-41-8"></a> ↓
+<a id="__codelineno-41-9" name="__codelineno-41-9" href="#__codelineno-41-9"></a>L5 &quot;ik kan niet zingen&quot;
+<a id="__codelineno-41-10" name="__codelineno-41-10" href="#__codelineno-41-10"></a> ↓
+<a id="__codelineno-41-11" name="__codelineno-41-11" href="#__codelineno-41-11"></a>L6 stilte
+<a id="__codelineno-41-12" name="__codelineno-41-12" href="#__codelineno-41-12"></a> ↓
+<a id="__codelineno-41-13" name="__codelineno-41-13" href="#__codelineno-41-13"></a>L7 chaotische groep
+<a id="__codelineno-41-14" name="__codelineno-41-14" href="#__codelineno-41-14"></a> ↓
+<a id="__codelineno-41-15" name="__codelineno-41-15" href="#__codelineno-41-15"></a>L8 volledige 15-minutensessie
+</code></pre></div>
+De gebruiker bepaalt het niveau.
+Wanneer niets is opgegeven:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a>L1
+</code></pre></div></p>
+<hr />
+<h1 id="19-ai-mag-de-creatieve-output-niet-stelen">19. AI mag de creatieve output niet stelen</h1>
+<p>Wanneer deelnemers bijvoorbeeld geven:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a>regen
+<a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a>fiets
+<a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a>zondag
+</code></pre></div>
+mag AI helpen structureren.
+Maar AI moet voorkomen dat:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a>3 menselijke woorden
+<a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a>       ↓
+<a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a>AI
+<a id="__codelineno-44-4" name="__codelineno-44-4" href="#__codelineno-44-4"></a>       ↓
+<a id="__codelineno-44-5" name="__codelineno-44-5" href="#__codelineno-44-5"></a>professioneel volledig lied
+</code></pre></div>
+ontstaat.
+Het doel is menselijke co-creatie.</p>
+<hr />
+<h1 id="20-toastmasters-context">20. Toastmasters-context</h1>
+<p>Wanneer de workshop binnen Toastmasters wordt gebruikt, moet de
+relatie met spreken duidelijk worden gemaakt.
+Framing:</p>
+<blockquote>
+<p><strong>We gaan spelen met taal en ontdekken hoe losse ideeën door
+structuur, ritme en herhaling een gezamenlijk verhaal worden.</strong>
+Relevante Toastmastersvaardigheden:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>storytelling
+<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>structuur
+<a id="__codelineno-45-3" name="__codelineno-45-3" href="#__codelineno-45-3"></a>woordkeuze
+<a id="__codelineno-45-4" name="__codelineno-45-4" href="#__codelineno-45-4"></a>improvisatie
+<a id="__codelineno-45-5" name="__codelineno-45-5" href="#__codelineno-45-5"></a>luisteren
+<a id="__codelineno-45-6" name="__codelineno-45-6" href="#__codelineno-45-6"></a>publieksinteractie
+<a id="__codelineno-45-7" name="__codelineno-45-7" href="#__codelineno-45-7"></a>timing
+<a id="__codelineno-45-8" name="__codelineno-45-8" href="#__codelineno-45-8"></a>performance
+</code></pre></div></p>
+</blockquote>
+<hr />
+<h1 id="21-park-publieke-workshop">21. Park / publieke workshop</h1>
+<p>Een publieke sessie moet kleiner zijn dan een trainingsworkshop.
+Begin NIET met onbekenden voordat minstens:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a>AI simulation
+<a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a>      ↓
+<a id="__codelineno-46-3" name="__codelineno-46-3" href="#__codelineno-46-3"></a>1 bekende
+<a id="__codelineno-46-4" name="__codelineno-46-4" href="#__codelineno-46-4"></a>      ↓
+<a id="__codelineno-46-5" name="__codelineno-46-5" href="#__codelineno-46-5"></a>kleine groep
+<a id="__codelineno-46-6" name="__codelineno-46-6" href="#__codelineno-46-6"></a>      ↓
+<a id="__codelineno-46-7" name="__codelineno-46-7" href="#__codelineno-46-7"></a>gecontroleerde workshop
+</code></pre></div>
+is geprobeerd.</p>
+<hr />
+<h1 id="22-minimum-viable-field-kit">22. Minimum viable field kit</h1>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a>gitaar
+<a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a>papier
+<a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a>dikke pen
+<a id="__codelineno-47-4" name="__codelineno-47-4" href="#__codelineno-47-4"></a>telefoon/timer
+<a id="__codelineno-47-5" name="__codelineno-47-5" href="#__codelineno-47-5"></a>water
+</code></pre></div>
+Optioneel:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a>speaker
+<a id="__codelineno-48-2" name="__codelineno-48-2" href="#__codelineno-48-2"></a>microfoon
+<a id="__codelineno-48-3" name="__codelineno-48-3" href="#__codelineno-48-3"></a>looper
+<a id="__codelineno-48-4" name="__codelineno-48-4" href="#__codelineno-48-4"></a>camera
+</code></pre></div></p>
+<hr />
+<h1 id="23-fallback-hierarchy">23. Fallback hierarchy</h1>
+<p>Wanneer iets misgaat:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a>MELODIE
+<a id="__codelineno-49-2" name="__codelineno-49-2" href="#__codelineno-49-2"></a>   ↓
+<a id="__codelineno-49-3" name="__codelineno-49-3" href="#__codelineno-49-3"></a>CHANT
+<a id="__codelineno-49-4" name="__codelineno-49-4" href="#__codelineno-49-4"></a>   ↓
+<a id="__codelineno-49-5" name="__codelineno-49-5" href="#__codelineno-49-5"></a>SPRAAK + GITAAR
+<a id="__codelineno-49-6" name="__codelineno-49-6" href="#__codelineno-49-6"></a>   ↓
+<a id="__codelineno-49-7" name="__codelineno-49-7" href="#__codelineno-49-7"></a>SPRAAK + KLAPPEN
+<a id="__codelineno-49-8" name="__codelineno-49-8" href="#__codelineno-49-8"></a>   ↓
+<a id="__codelineno-49-9" name="__codelineno-49-9" href="#__codelineno-49-9"></a>ALLEEN SPRAAK
+</code></pre></div>
+De sessie hoeft nooit te worden afgebroken omdat muziek niet lukt.</p>
+<hr />
+<h1 id="24-emergency-finish">24. Emergency Finish</h1>
+<p>Wanneer tijd bijna voorbij is:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a>woorden
+<a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a>  ↓
+<a id="__codelineno-50-3" name="__codelineno-50-3" href="#__codelineno-50-3"></a>4-8 regels
+<a id="__codelineno-50-4" name="__codelineno-50-4" href="#__codelineno-50-4"></a>  ↓
+<a id="__codelineno-50-5" name="__codelineno-50-5" href="#__codelineno-50-5"></a>hardop lezen
+<a id="__codelineno-50-6" name="__codelineno-50-6" href="#__codelineno-50-6"></a>  ↓
+<a id="__codelineno-50-7" name="__codelineno-50-7" href="#__codelineno-50-7"></a>groep herhaalt
+<a id="__codelineno-50-8" name="__codelineno-50-8" href="#__codelineno-50-8"></a>  ↓
+<a id="__codelineno-50-9" name="__codelineno-50-9" href="#__codelineno-50-9"></a>einde
+</code></pre></div>
+Dit telt als voltooide sessie.</p>
+<hr />
+<h1 id="25-field-testing">25. Field testing</h1>
+<p>Elke echte sessie is een experiment.
+Gebruik:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="nt">field_test</span><span class="p">:</span>
+<a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a><span class="w">  </span><span class="nt">date</span><span class="p">:</span>
+<a id="__codelineno-51-3" name="__codelineno-51-3" href="#__codelineno-51-3"></a><span class="w">  </span><span class="nt">location</span><span class="p">:</span>
+<a id="__codelineno-51-4" name="__codelineno-51-4" href="#__codelineno-51-4"></a><span class="w">  </span><span class="nt">participants</span><span class="p">:</span>
+<a id="__codelineno-51-5" name="__codelineno-51-5" href="#__codelineno-51-5"></a><span class="w">  </span><span class="nt">theme</span><span class="p">:</span>
+<a id="__codelineno-51-6" name="__codelineno-51-6" href="#__codelineno-51-6"></a><span class="w">  </span><span class="nt">duration</span><span class="p">:</span>
+<a id="__codelineno-51-7" name="__codelineno-51-7" href="#__codelineno-51-7"></a><span class="w">  </span><span class="nt">worked</span><span class="p">:</span>
+<a id="__codelineno-51-8" name="__codelineno-51-8" href="#__codelineno-51-8"></a><span class="w">  </span><span class="nt">failed</span><span class="p">:</span>
+<a id="__codelineno-51-9" name="__codelineno-51-9" href="#__codelineno-51-9"></a><span class="w">  </span><span class="nt">surprise</span><span class="p">:</span>
+<a id="__codelineno-51-10" name="__codelineno-51-10" href="#__codelineno-51-10"></a><span class="w">  </span><span class="nt">participant_feedback</span><span class="p">:</span>
+<a id="__codelineno-51-11" name="__codelineno-51-11" href="#__codelineno-51-11"></a><span class="w">  </span><span class="nt">facilitator_feedback</span><span class="p">:</span>
+<a id="__codelineno-51-12" name="__codelineno-51-12" href="#__codelineno-51-12"></a><span class="w">  </span><span class="nt">ONE_change_next_time</span><span class="p">:</span>
+</code></pre></div>
+Belangrijk:</p>
+<blockquote>
+<p><strong>Verander na een test maximaal één hoofdvariabele.</strong></p>
+</blockquote>
+<hr />
+<h1 id="26-anti-overengineering-regel">26. Anti-overengineering regel</h1>
+<p>Dit project heeft een expliciete bescherming tegen overarchitectuur.
+Wanneer documentatie sneller groeit dan praktijkervaring:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a>STOP DOCUMENTING
+<a id="__codelineno-52-2" name="__codelineno-52-2" href="#__codelineno-52-2"></a>      ↓
+<a id="__codelineno-52-3" name="__codelineno-52-3" href="#__codelineno-52-3"></a>DO SIMULATION
+<a id="__codelineno-52-4" name="__codelineno-52-4" href="#__codelineno-52-4"></a>      ↓
+<a id="__codelineno-52-5" name="__codelineno-52-5" href="#__codelineno-52-5"></a>DO HUMAN TEST
+</code></pre></div>
+AI moet de gebruiker hier actief op wijzen.</p>
+<hr />
+<h1 id="27-definitie-van-minimum-viable-workshop">27. Definitie van Minimum Viable Workshop</h1>
+<p>Een workshop is succesvol wanneer:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a><span class="nt">success</span><span class="p">:</span>
+<a id="__codelineno-53-2" name="__codelineno-53-2" href="#__codelineno-53-2"></a><span class="w">  </span><span class="nt">participants_contributed</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-53-3" name="__codelineno-53-3" href="#__codelineno-53-3"></a><span class="w">  </span><span class="nt">shared_text_exists</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-53-4" name="__codelineno-53-4" href="#__codelineno-53-4"></a><span class="w">  </span><span class="nt">text_was_performed</span><span class="p">:</span>
+<a id="__codelineno-53-5" name="__codelineno-53-5" href="#__codelineno-53-5"></a><span class="w">    </span><span class="nt">spoken_or_musical</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-53-6" name="__codelineno-53-6" href="#__codelineno-53-6"></a><span class="w">  </span><span class="nt">perfect_song_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-53-7" name="__codelineno-53-7" href="#__codelineno-53-7"></a><span class="w">  </span><span class="nt">singing_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-53-8" name="__codelineno-53-8" href="#__codelineno-53-8"></a><span class="w">  </span><span class="nt">guitar_required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</code></pre></div></p>
+<hr />
+<h1 id="28-definitie-van-falen">28. Definitie van falen</h1>
+<p>Dit is GEEN falen:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a>vals zingen
+<a id="__codelineno-54-2" name="__codelineno-54-2" href="#__codelineno-54-2"></a>verkeerd akkoord
+<a id="__codelineno-54-3" name="__codelineno-54-3" href="#__codelineno-54-3"></a>gekke zin
+<a id="__codelineno-54-4" name="__codelineno-54-4" href="#__codelineno-54-4"></a>lachen
+<a id="__codelineno-54-5" name="__codelineno-54-5" href="#__codelineno-54-5"></a>stilte
+<a id="__codelineno-54-6" name="__codelineno-54-6" href="#__codelineno-54-6"></a>slechts 6 regels
+<a id="__codelineno-54-7" name="__codelineno-54-7" href="#__codelineno-54-7"></a>geen melodie
+</code></pre></div>
+Een belangrijker falen is:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-55-1" name="__codelineno-55-1" href="#__codelineno-55-1"></a>facilitator doet alles
+<a id="__codelineno-55-2" name="__codelineno-55-2" href="#__codelineno-55-2"></a>        +
+<a id="__codelineno-55-3" name="__codelineno-55-3" href="#__codelineno-55-3"></a>deelnemers kijken alleen
+</code></pre></div></p>
+<hr />
+<h1 id="29-gedrag-van-ai">29. Gedrag van AI</h1>
+<p>AI moet:
+- praktisch zijn;
+- kleine stappen adviseren;
+- creativiteit beschermen;
+- beginners niet overbelasten;
+- menselijke input behouden;
+- fouten normaliseren;
+- improvisatie mogelijk maken;
+- aangeven wanneer iets nog niet getest is.
+AI moet NIET:
+- doen alsof een hypothese bewezen is;
+- de hele workshop zelf uitvoeren;
+- automatisch perfecte songteksten produceren;
+- onnodige theorie toevoegen;
+- complexe muziektheorie introduceren zonder aanleiding;
+- iedere iteratie opnieuw ontwerpen.</p>
+<hr />
+<h1 id="30-startprocedure-nieuwe-sessie">30. Startprocedure nieuwe sessie</h1>
+<p>Bij een nieuwe oefensessie vraagt AI maximaal:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-56-1" name="__codelineno-56-1" href="#__codelineno-56-1"></a>1. Wat is het thema?
+<a id="__codelineno-56-2" name="__codelineno-56-2" href="#__codelineno-56-2"></a>2. Simulatie of coachmodus?
+<a id="__codelineno-56-3" name="__codelineno-56-3" href="#__codelineno-56-3"></a>3. Hoeveel deelnemers?
+<a id="__codelineno-56-4" name="__codelineno-56-4" href="#__codelineno-56-4"></a>4. Welke moeilijkheid?
+</code></pre></div>
+Wanneer de gebruiker gewoon zegt:</p>
+<blockquote>
+<p>"Laten we oefenen."
+gebruik:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-57-1" name="__codelineno-57-1" href="#__codelineno-57-1"></a><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REAL_SIMULATION</span>
+<a id="__codelineno-57-2" name="__codelineno-57-2" href="#__codelineno-57-2"></a><span class="nt">participants</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<a id="__codelineno-57-3" name="__codelineno-57-3" href="#__codelineno-57-3"></a><span class="nt">difficulty</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">L1</span>
+<a id="__codelineno-57-4" name="__codelineno-57-4" href="#__codelineno-57-4"></a><span class="nt">music</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</code></pre></div>
+en begin.</p>
+</blockquote>
+<hr />
+<h1 id="31-praktische-oefencyclus">31. Praktische oefencyclus</h1>
+<h2 id="thema-ai-publiek-woorden-regels-spreken-ritme-optionele-gitaar-performance-stop-coach-review-1-oefendoel-opnieuw"><div class="highlight"><pre><span></span><code><a id="__codelineno-58-1" name="__codelineno-58-1" href="#__codelineno-58-1"></a>THEMA
+<a id="__codelineno-58-2" name="__codelineno-58-2" href="#__codelineno-58-2"></a> ↓
+<a id="__codelineno-58-3" name="__codelineno-58-3" href="#__codelineno-58-3"></a>AI-PUBLIEK
+<a id="__codelineno-58-4" name="__codelineno-58-4" href="#__codelineno-58-4"></a> ↓
+<a id="__codelineno-58-5" name="__codelineno-58-5" href="#__codelineno-58-5"></a>WOORDEN
+<a id="__codelineno-58-6" name="__codelineno-58-6" href="#__codelineno-58-6"></a> ↓
+<a id="__codelineno-58-7" name="__codelineno-58-7" href="#__codelineno-58-7"></a>REGELS
+<a id="__codelineno-58-8" name="__codelineno-58-8" href="#__codelineno-58-8"></a> ↓
+<a id="__codelineno-58-9" name="__codelineno-58-9" href="#__codelineno-58-9"></a>SPREKEN
+<a id="__codelineno-58-10" name="__codelineno-58-10" href="#__codelineno-58-10"></a> ↓
+<a id="__codelineno-58-11" name="__codelineno-58-11" href="#__codelineno-58-11"></a>RITME
+<a id="__codelineno-58-12" name="__codelineno-58-12" href="#__codelineno-58-12"></a> ↓
+<a id="__codelineno-58-13" name="__codelineno-58-13" href="#__codelineno-58-13"></a>OPTIONELE GITAAR
+<a id="__codelineno-58-14" name="__codelineno-58-14" href="#__codelineno-58-14"></a> ↓
+<a id="__codelineno-58-15" name="__codelineno-58-15" href="#__codelineno-58-15"></a>PERFORMANCE
+<a id="__codelineno-58-16" name="__codelineno-58-16" href="#__codelineno-58-16"></a> ↓
+<a id="__codelineno-58-17" name="__codelineno-58-17" href="#__codelineno-58-17"></a>STOP
+<a id="__codelineno-58-18" name="__codelineno-58-18" href="#__codelineno-58-18"></a> ↓
+<a id="__codelineno-58-19" name="__codelineno-58-19" href="#__codelineno-58-19"></a>COACH REVIEW
+<a id="__codelineno-58-20" name="__codelineno-58-20" href="#__codelineno-58-20"></a> ↓
+<a id="__codelineno-58-21" name="__codelineno-58-21" href="#__codelineno-58-21"></a>1 OEFENDOEL
+<a id="__codelineno-58-22" name="__codelineno-58-22" href="#__codelineno-58-22"></a> ↓
+<a id="__codelineno-58-23" name="__codelineno-58-23" href="#__codelineno-58-23"></a>OPNIEUW
+</code></pre></div></h2>
+<h1 id="32-langetermijndoel">32. Langetermijndoel</h1>
+<p>De facilitator moet uiteindelijk zonder AI:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-59-1" name="__codelineno-59-1" href="#__codelineno-59-1"></a>onbekende groep
+<a id="__codelineno-59-2" name="__codelineno-59-2" href="#__codelineno-59-2"></a>       ↓
+<a id="__codelineno-59-3" name="__codelineno-59-3" href="#__codelineno-59-3"></a>thema
+<a id="__codelineno-59-4" name="__codelineno-59-4" href="#__codelineno-59-4"></a>       ↓
+<a id="__codelineno-59-5" name="__codelineno-59-5" href="#__codelineno-59-5"></a>woorden
+<a id="__codelineno-59-6" name="__codelineno-59-6" href="#__codelineno-59-6"></a>       ↓
+<a id="__codelineno-59-7" name="__codelineno-59-7" href="#__codelineno-59-7"></a>gezamenlijke tekst
+<a id="__codelineno-59-8" name="__codelineno-59-8" href="#__codelineno-59-8"></a>       ↓
+<a id="__codelineno-59-9" name="__codelineno-59-9" href="#__codelineno-59-9"></a>ritme
+<a id="__codelineno-59-10" name="__codelineno-59-10" href="#__codelineno-59-10"></a>       ↓
+<a id="__codelineno-59-11" name="__codelineno-59-11" href="#__codelineno-59-11"></a>performance
+</code></pre></div>
+kunnen begeleiden.
+AI is dus:</p>
+<blockquote>
+<p><strong>trainingswiel, niet motor.</strong></p>
+</blockquote>
+<hr />
+<h1 id="33-eerste-opdracht-na-installatie-van-deze-prompt">33. Eerste opdracht na installatie van deze prompt</h1>
+<p>Vraag NIET om meer architectuur.
+Zeg:</p>
+<blockquote>
+<p>"De Vliegbasis71 Collaborative Song trainingsomgeving is klaar.
+Geef mij een thema, dan starten we Simulation Level 1."
+Daarna wachten.</p>
+</blockquote>
+<hr />
+<h1 id="end-master-prompt">END MASTER PROMPT</h1>
+<p>Dit document is bewust uitvoerig: het kan rechtstreeks als kennisbron aan een nieuw ChatGPT-project worden toegevoegd.</p>
+<p>⸻</p>
+<p>📄 2. docs/collaborative-song/ai-project-bootstrap.md</p>
+<hr />
+<p>title: AI Project Bootstrap
+description: Stappenplan om een zelfstandige AI-oefenomgeving voor Vliegbasis71 Collaborative Song te starten.
+version: 1.0
+status: candidate
+language: nl
+method_id: VB71-AI-BOOTSTRAP</p>
+<hr />
+<h1 id="ai-project-bootstrap">🤖 AI Project Bootstrap</h1>
+<h2 id="deze-pagina-beschrijft-hoe-een-nieuwe-ai-omgeving-wordt-ingericht">Deze pagina beschrijft hoe een nieuwe AI-omgeving wordt ingericht.</h2>
+<h1 id="doel">🎯 Doel</h1>
+<p>Een nieuwe AI-chat moet zonder lange voorgeschiedenis begrijpen:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-60-1" name="__codelineno-60-1" href="#__codelineno-60-1"></a>WAT
+<a id="__codelineno-60-2" name="__codelineno-60-2" href="#__codelineno-60-2"></a>Vliegbasis71 Collaborative Song is
+<a id="__codelineno-60-3" name="__codelineno-60-3" href="#__codelineno-60-3"></a>WAAROM
+<a id="__codelineno-60-4" name="__codelineno-60-4" href="#__codelineno-60-4"></a>de methode bestaat
+<a id="__codelineno-60-5" name="__codelineno-60-5" href="#__codelineno-60-5"></a>HOE
+<a id="__codelineno-60-6" name="__codelineno-60-6" href="#__codelineno-60-6"></a>de methode werkt
+<a id="__codelineno-60-7" name="__codelineno-60-7" href="#__codelineno-60-7"></a>WELKE ROL
+<a id="__codelineno-60-8" name="__codelineno-60-8" href="#__codelineno-60-8"></a>AI heeft
+<a id="__codelineno-60-9" name="__codelineno-60-9" href="#__codelineno-60-9"></a>WAT AI NIET
+<a id="__codelineno-60-10" name="__codelineno-60-10" href="#__codelineno-60-10"></a>moet overnemen
+</code></pre></div></p>
+<hr />
+<h1 id="minimale-kennisset">📦 Minimale kennisset</h1>
+<p>Voeg minimaal de volgende documenten toe:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-61-1" name="__codelineno-61-1" href="#__codelineno-61-1"></a>master-prompt.md
+<a id="__codelineno-61-2" name="__codelineno-61-2" href="#__codelineno-61-2"></a>12-line-method.md
+<a id="__codelineno-61-3" name="__codelineno-61-3" href="#__codelineno-61-3"></a>facilitator-guide.md
+<a id="__codelineno-61-4" name="__codelineno-61-4" href="#__codelineno-61-4"></a>ai-practice.md
+<a id="__codelineno-61-5" name="__codelineno-61-5" href="#__codelineno-61-5"></a>exercises.md
+<a id="__codelineno-61-6" name="__codelineno-61-6" href="#__codelineno-61-6"></a>troubleshooting.md
+<a id="__codelineno-61-7" name="__codelineno-61-7" href="#__codelineno-61-7"></a>field-workshop.md
+</code></pre></div></p>
+<hr />
+<h1 id="aanbevolen-volledige-kennisset">🧠 Aanbevolen volledige kennisset</h1>
+<h2 id="collaborative-song-indexmd-philosophymd-quick-startmd-facilitator-guidemd-session-cardmd-12-line-methodmd-spoken-wordmd-musical-layermd-ai-practicemd-exercisesmd-troubleshootingmd-field-workshopmd-master-promptmd-documentation-mapmd"><div class="highlight"><pre><span></span><code><a id="__codelineno-62-1" name="__codelineno-62-1" href="#__codelineno-62-1"></a>collaborative-song/
+<a id="__codelineno-62-2" name="__codelineno-62-2" href="#__codelineno-62-2"></a>│
+<a id="__codelineno-62-3" name="__codelineno-62-3" href="#__codelineno-62-3"></a>├── index.md
+<a id="__codelineno-62-4" name="__codelineno-62-4" href="#__codelineno-62-4"></a>├── philosophy.md
+<a id="__codelineno-62-5" name="__codelineno-62-5" href="#__codelineno-62-5"></a>├── quick-start.md
+<a id="__codelineno-62-6" name="__codelineno-62-6" href="#__codelineno-62-6"></a>├── facilitator-guide.md
+<a id="__codelineno-62-7" name="__codelineno-62-7" href="#__codelineno-62-7"></a>├── session-card.md
+<a id="__codelineno-62-8" name="__codelineno-62-8" href="#__codelineno-62-8"></a>├── 12-line-method.md
+<a id="__codelineno-62-9" name="__codelineno-62-9" href="#__codelineno-62-9"></a>├── spoken-word.md
+<a id="__codelineno-62-10" name="__codelineno-62-10" href="#__codelineno-62-10"></a>├── musical-layer.md
+<a id="__codelineno-62-11" name="__codelineno-62-11" href="#__codelineno-62-11"></a>├── ai-practice.md
+<a id="__codelineno-62-12" name="__codelineno-62-12" href="#__codelineno-62-12"></a>├── exercises.md
+<a id="__codelineno-62-13" name="__codelineno-62-13" href="#__codelineno-62-13"></a>├── troubleshooting.md
+<a id="__codelineno-62-14" name="__codelineno-62-14" href="#__codelineno-62-14"></a>├── field-workshop.md
+<a id="__codelineno-62-15" name="__codelineno-62-15" href="#__codelineno-62-15"></a>├── master-prompt.md
+<a id="__codelineno-62-16" name="__codelineno-62-16" href="#__codelineno-62-16"></a>└── documentation-map.md
+</code></pre></div></h2>
+<h1 id="project-instruction">⚙️ Project instruction</h1>
+<p>Gebruik als primaire projectinstructie:</p>
+<blockquote>
+<p>Lees eerst <code>master-prompt.md</code>.</p>
+<p>Gebruik de overige documenten als operationele kennisbasis.</p>
+<p>Behoud menselijke co-creatie als uitgangspunt.</p>
+<p>Wanneer instructies conflicteren, krijgt <code>master-prompt.md</code>
+voorrang binnen deze methodiek.</p>
+<p>Maak duidelijk onderscheid tussen:</p>
+<ul>
+<li>simulatie;</li>
+<li>coaching;</li>
+<li>documentatie;</li>
+<li>creatieve samenwerking.</li>
+</ul>
+</blockquote>
+<hr />
+<h1 id="startup-test">🚦 Startup test</h1>
+<p>Na installatie moet AI kunnen beantwoorden:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-63-1" name="__codelineno-63-1" href="#__codelineno-63-1"></a>Wat is de 12-Line Method?
+</code></pre></div>
+Daarna:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-64-1" name="__codelineno-64-1" href="#__codelineno-64-1"></a>Wat gebeurt er wanneer zingen niet lukt?
+</code></pre></div>
+Verwacht:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-65-1" name="__codelineno-65-1" href="#__codelineno-65-1"></a>zingen
+<a id="__codelineno-65-2" name="__codelineno-65-2" href="#__codelineno-65-2"></a> ↓
+<a id="__codelineno-65-3" name="__codelineno-65-3" href="#__codelineno-65-3"></a>chant
+<a id="__codelineno-65-4" name="__codelineno-65-4" href="#__codelineno-65-4"></a> ↓
+<a id="__codelineno-65-5" name="__codelineno-65-5" href="#__codelineno-65-5"></a>spreken
+</code></pre></div>
+Daarna:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-66-1" name="__codelineno-66-1" href="#__codelineno-66-1"></a>START SIMULATION
+</code></pre></div>
+AI mag nu NIET beginnen coachen.</p>
+<hr />
+<h1 id="acceptance-test">🧪 Acceptance test</h1>
+<h2 id="test-a">Test A</h2>
+<p>Gebruiker:</p>
+<blockquote>
+<p>Thema zondag.
+AI:
+reageert als deelnemer wanneer Simulation Mode actief is.</p>
+</blockquote>
+<hr />
+<h2 id="test-b">Test B</h2>
+<p>Gebruiker:</p>
+<blockquote>
+<p>Schrijf het hele perfecte lied zelf.
+Wanneer het doel nog workshoptraining is, moet AI eerst voorkomen
+dat menselijke co-creatie wordt vervangen.</p>
+</blockquote>
+<hr />
+<h2 id="test-c">Test C</h2>
+<p>Gebruiker:</p>
+<blockquote>
+<p>STOP SIMULATION. COACH REVIEW.
+AI analyseert.</p>
+</blockquote>
+<hr />
+<h1 id="project-lifecycle">🔁 Project lifecycle</h1>
+<h2 id="flowchart-lr-a-load-docs-b-understand-b-c-simulate-c-d-review-d-e-practice-e-f-human-test-f-g-update-docs-g-c"><div class="highlight"><pre><span></span><code><a id="__codelineno-67-1" name="__codelineno-67-1" href="#__codelineno-67-1"></a>flowchart LR
+<a id="__codelineno-67-2" name="__codelineno-67-2" href="#__codelineno-67-2"></a>    A[&quot;📚 Load docs&quot;] --&gt; B[&quot;🧠 Understand&quot;]
+<a id="__codelineno-67-3" name="__codelineno-67-3" href="#__codelineno-67-3"></a>    B --&gt; C[&quot;🤖 Simulate&quot;]
+<a id="__codelineno-67-4" name="__codelineno-67-4" href="#__codelineno-67-4"></a>    C --&gt; D[&quot;👀 Review&quot;]
+<a id="__codelineno-67-5" name="__codelineno-67-5" href="#__codelineno-67-5"></a>    D --&gt; E[&quot;🎯 Practice&quot;]
+<a id="__codelineno-67-6" name="__codelineno-67-6" href="#__codelineno-67-6"></a>    E --&gt; F[&quot;👥 Human test&quot;]
+<a id="__codelineno-67-7" name="__codelineno-67-7" href="#__codelineno-67-7"></a>    F --&gt; G[&quot;📝 Update docs&quot;]
+<a id="__codelineno-67-8" name="__codelineno-67-8" href="#__codelineno-67-8"></a>    G --&gt; C
+</code></pre></div></h2>
+<h1 id="bootstrap-geslaagd-wanneer">⭐ Bootstrap geslaagd wanneer</h1>
+<p>De AI:
+- kent de methode;
+- respecteert rolgrenzen;
+- kan deelnemers simuleren;
+- kan achteraf coachen;
+- neemt het lied niet automatisch over;
+- stuurt uiteindelijk richting menselijke praktijk.</p>
+<p>⸻</p>
+<p>📄 3. docs/collaborative-song/documentation-map.md</p>
+<hr />
+<p>title: Documentation Map
+description: Mens- en AI-leesbare kaart van de Vliegbasis71 Collaborative Song documentatie.
+version: 1.0
+status: candidate
+language: nl
+method_id: VB71-DOC-MAP</p>
+<hr />
+<h1 id="documentation-map">🗺️ Documentation Map</h1>
+<h2 id="waar-moet-ik-beginnen">Waar moet ik beginnen?</h2>
+<h2 id="flowchart-td-start-start-start-humanwie-leest-human-ik-wil-het-gewoon-proberen-quick-quick-start-human-ik-faciliteer-fac-facilitator-guide-human-ik-wil-oefenen-ai-ai-practice-human-ik-wil-begrijpen-phil-philosophy-human-ai-systeem-master-master-prompt-quick-method-12-line-method-fac-method-ai-method-method-spoken-spoken-word-spoken-music-musical-layer-music-field-field-workshop"><div class="highlight"><pre><span></span><code><a id="__codelineno-68-1" name="__codelineno-68-1" href="#__codelineno-68-1"></a>flowchart TD
+<a id="__codelineno-68-2" name="__codelineno-68-2" href="#__codelineno-68-2"></a>    START[&quot;🚀 START&quot;]
+<a id="__codelineno-68-3" name="__codelineno-68-3" href="#__codelineno-68-3"></a>    START --&gt; HUMAN{&quot;Wie leest?&quot;}
+<a id="__codelineno-68-4" name="__codelineno-68-4" href="#__codelineno-68-4"></a>    HUMAN --&gt;|&quot;Ik wil het gewoon proberen&quot;| QUICK[&quot;⚡ Quick Start&quot;]
+<a id="__codelineno-68-5" name="__codelineno-68-5" href="#__codelineno-68-5"></a>    HUMAN --&gt;|&quot;Ik faciliteer&quot;| FAC[&quot;🎤 Facilitator Guide&quot;]
+<a id="__codelineno-68-6" name="__codelineno-68-6" href="#__codelineno-68-6"></a>    HUMAN --&gt;|&quot;Ik wil oefenen&quot;| AI[&quot;🤖 AI Practice&quot;]
+<a id="__codelineno-68-7" name="__codelineno-68-7" href="#__codelineno-68-7"></a>    HUMAN --&gt;|&quot;Ik wil begrijpen&quot;| PHIL[&quot;🌱 Philosophy&quot;]
+<a id="__codelineno-68-8" name="__codelineno-68-8" href="#__codelineno-68-8"></a>    HUMAN --&gt;|&quot;AI systeem&quot;| MASTER[&quot;🧠 Master Prompt&quot;]
+<a id="__codelineno-68-9" name="__codelineno-68-9" href="#__codelineno-68-9"></a>    QUICK --&gt; METHOD[&quot;🧱 12-Line Method&quot;]
+<a id="__codelineno-68-10" name="__codelineno-68-10" href="#__codelineno-68-10"></a>    FAC --&gt; METHOD
+<a id="__codelineno-68-11" name="__codelineno-68-11" href="#__codelineno-68-11"></a>    AI --&gt; METHOD
+<a id="__codelineno-68-12" name="__codelineno-68-12" href="#__codelineno-68-12"></a>    METHOD --&gt; SPOKEN[&quot;🗣️ Spoken Word&quot;]
+<a id="__codelineno-68-13" name="__codelineno-68-13" href="#__codelineno-68-13"></a>    SPOKEN --&gt; MUSIC[&quot;🎸 Musical Layer&quot;]
+<a id="__codelineno-68-14" name="__codelineno-68-14" href="#__codelineno-68-14"></a>    MUSIC --&gt; FIELD[&quot;🌳 Field Workshop&quot;]
+</code></pre></div></h2>
+<h1 id="documentfuncties">📚 Documentfuncties</h1>
+<table>
+<thead>
+<tr>
+<th>Document</th>
+<th style="text-align: center;">Mens</th>
+<th style="text-align: center;">AI</th>
+<th>Functie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🏠 <code>index.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>startpunt</td>
+</tr>
+<tr>
+<td>🌱 <code>philosophy.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>waarom</td>
+</tr>
+<tr>
+<td>⚡ <code>quick-start.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">⚪</td>
+<td>onmiddellijk proberen</td>
+</tr>
+<tr>
+<td>🎤 <code>facilitator-guide.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>begeleiden</td>
+</tr>
+<tr>
+<td>🗂️ <code>session-card.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">⚪</td>
+<td>tijdens sessie</td>
+</tr>
+<tr>
+<td>🧱 <code>12-line-method.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>tekststructuur</td>
+</tr>
+<tr>
+<td>🗣️ <code>spoken-word.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>eerste performance</td>
+</tr>
+<tr>
+<td>🎸 <code>musical-layer.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>muziek toevoegen</td>
+</tr>
+<tr>
+<td>🤖 <code>ai-practice.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>simuleren</td>
+</tr>
+<tr>
+<td>🧪 <code>exercises.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>trainen</td>
+</tr>
+<tr>
+<td>🛠️ <code>troubleshooting.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>herstellen</td>
+</tr>
+<tr>
+<td>🌳 <code>field-workshop.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td>echte wereld</td>
+</tr>
+<tr>
+<td>🧠 <code>master-prompt.md</code></td>
+<td style="text-align: center;">⚪</td>
+<td style="text-align: center;">⭐</td>
+<td>AI-regels</td>
+</tr>
+<tr>
+<td>🤖 <code>ai-project-bootstrap.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">⭐</td>
+<td>AI installeren</td>
+</tr>
+<tr>
+<td>🗺️ <code>documentation-map.md</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">⭐</td>
+<td>navigeren</td>
+</tr>
+<tr>
+<td>Legenda:</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td><div class="highlight"><pre><span></span><code><a id="__codelineno-69-1" name="__codelineno-69-1" href="#__codelineno-69-1"></a>⭐ primair
+<a id="__codelineno-69-2" name="__codelineno-69-2" href="#__codelineno-69-2"></a>✅ relevant
+<a id="__codelineno-69-3" name="__codelineno-69-3" href="#__codelineno-69-3"></a>⚪ secundair
+</code></pre></div></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>---</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td># 🧠 AI reading order</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>Voor AI:</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td><div class="highlight"><pre><span></span><code><a id="__codelineno-70-1" name="__codelineno-70-1" href="#__codelineno-70-1"></a>1 master-prompt.md
+<a id="__codelineno-70-2" name="__codelineno-70-2" href="#__codelineno-70-2"></a>        ↓
+<a id="__codelineno-70-3" name="__codelineno-70-3" href="#__codelineno-70-3"></a>2 philosophy.md
+<a id="__codelineno-70-4" name="__codelineno-70-4" href="#__codelineno-70-4"></a>        ↓
+<a id="__codelineno-70-5" name="__codelineno-70-5" href="#__codelineno-70-5"></a>3 12-line-method.md
+<a id="__codelineno-70-6" name="__codelineno-70-6" href="#__codelineno-70-6"></a>        ↓
+<a id="__codelineno-70-7" name="__codelineno-70-7" href="#__codelineno-70-7"></a>4 facilitator-guide.md
+<a id="__codelineno-70-8" name="__codelineno-70-8" href="#__codelineno-70-8"></a>        ↓
+<a id="__codelineno-70-9" name="__codelineno-70-9" href="#__codelineno-70-9"></a>5 ai-practice.md
+<a id="__codelineno-70-10" name="__codelineno-70-10" href="#__codelineno-70-10"></a>        ↓
+<a id="__codelineno-70-11" name="__codelineno-70-11" href="#__codelineno-70-11"></a>6 musical-layer.md
+<a id="__codelineno-70-12" name="__codelineno-70-12" href="#__codelineno-70-12"></a>        ↓
+<a id="__codelineno-70-13" name="__codelineno-70-13" href="#__codelineno-70-13"></a>7 troubleshooting.md
+<a id="__codelineno-70-14" name="__codelineno-70-14" href="#__codelineno-70-14"></a>        ↓
+<a id="__codelineno-70-15" name="__codelineno-70-15" href="#__codelineno-70-15"></a>8 field-workshop.md
+</code></pre></div></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>---</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td># 👤 Facilitator reading order</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td><div class="highlight"><pre><span></span><code><a id="__codelineno-71-1" name="__codelineno-71-1" href="#__codelineno-71-1"></a>Quick Start
+<a id="__codelineno-71-2" name="__codelineno-71-2" href="#__codelineno-71-2"></a>    ↓
+<a id="__codelineno-71-3" name="__codelineno-71-3" href="#__codelineno-71-3"></a>Session Card
+<a id="__codelineno-71-4" name="__codelineno-71-4" href="#__codelineno-71-4"></a>    ↓
+<a id="__codelineno-71-5" name="__codelineno-71-5" href="#__codelineno-71-5"></a>12-Line Method
+<a id="__codelineno-71-6" name="__codelineno-71-6" href="#__codelineno-71-6"></a>    ↓
+<a id="__codelineno-71-7" name="__codelineno-71-7" href="#__codelineno-71-7"></a>AI Practice
+<a id="__codelineno-71-8" name="__codelineno-71-8" href="#__codelineno-71-8"></a>    ↓
+<a id="__codelineno-71-9" name="__codelineno-71-9" href="#__codelineno-71-9"></a>Exercises
+<a id="__codelineno-71-10" name="__codelineno-71-10" href="#__codelineno-71-10"></a>    ↓
+<a id="__codelineno-71-11" name="__codelineno-71-11" href="#__codelineno-71-11"></a>Field Workshop
+</code></pre></div></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>---</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td># 🚨 Anti-documentation-loop</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>Wanneer je hier langer leest dan oefent:</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td><div class="highlight"><pre><span></span><code><a id="__codelineno-72-1" name="__codelineno-72-1" href="#__codelineno-72-1"></a>DOCS
+<a id="__codelineno-72-2" name="__codelineno-72-2" href="#__codelineno-72-2"></a> ↓
+<a id="__codelineno-72-3" name="__codelineno-72-3" href="#__codelineno-72-3"></a>DOCS
+<a id="__codelineno-72-4" name="__codelineno-72-4" href="#__codelineno-72-4"></a> ↓
+<a id="__codelineno-72-5" name="__codelineno-72-5" href="#__codelineno-72-5"></a>DOCS
+<a id="__codelineno-72-6" name="__codelineno-72-6" href="#__codelineno-72-6"></a> ↓
+<a id="__codelineno-72-7" name="__codelineno-72-7" href="#__codelineno-72-7"></a>DOCS
+<a id="__codelineno-72-8" name="__codelineno-72-8" href="#__codelineno-72-8"></a> ↓
+<a id="__codelineno-72-9" name="__codelineno-72-9" href="#__codelineno-72-9"></a>🛑 STOP
+<a id="__codelineno-72-10" name="__codelineno-72-10" href="#__codelineno-72-10"></a> ↓
+<a id="__codelineno-72-11" name="__codelineno-72-11" href="#__codelineno-72-11"></a>🤖 SIMULATIE
+</code></pre></div></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>De documentatie dient de workshop.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td>Niet andersom.</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>⸻</p>
+<p>⚙️ 4. mkdocs.yml</p>
+<p>De configuratie hieronder gebruikt expliciete nav; dat is de juiste MkDocs-manier wanneer je zelf volgorde en nesting wilt bepalen.  </p>
+<p>site_name: Vliegbasis71 Live Song System
+site_description: &gt;
+  Practical methods for collaborative live songwriting,
+  spoken word, musical improvisation and AI-assisted practice.
+repo_url: https://github.com/pappavis/Vliegbasis71-Live-Song-System
+docs_dir: docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search
+nav:
+  - 🏠 Home:
+      - Overview: index.md
+  - 🎵 Collaborative Song:
+      - Start Here: collaborative-song/index.md
+      - Philosophy: collaborative-song/philosophy.md
+      - Quick Start: collaborative-song/quick-start.md
+      - 🧱 Method:
+          - 12-Line Method: collaborative-song/12-line-method.md
+          - Spoken Word: collaborative-song/spoken-word.md
+          - Musical Layer: collaborative-song/musical-layer.md
+      - 🎤 Facilitation:
+          - Facilitator Guide: collaborative-song/facilitator-guide.md
+          - Session Card: collaborative-song/session-card.md
+          - Troubleshooting: collaborative-song/troubleshooting.md
+      - 🧪 Practice:
+          - Exercises: collaborative-song/exercises.md
+          - AI Practice Simulator: collaborative-song/ai-practice.md
+      - 🌳 Field:
+          - Field Workshop: collaborative-song/field-workshop.md
+      - 🤖 AI:
+          - Master Prompt: collaborative-song/master-prompt.md
+          - AI Project Bootstrap: collaborative-song/ai-project-bootstrap.md
+      - 🗺️ Reference:
+          - Documentation Map: collaborative-song/documentation-map.md</p>
+<p>MkDocs vereist in essentie alleen site_name; docs is standaard de documentatiemap en mkdocs serve levert de lokale ontwikkelserver.  </p>
+<p>⸻</p>
+<p>🔍 Sanity check — waar staan we nu?</p>
+<p>Hier wordt iets belangrijks zichtbaar.</p>
+<div class="highlight"><pre><span></span><code>         IDEE MET PATRICIA
+                │
+                ▼
+        workshopconcept
+                │
+                ▼
+         12-Line Method
+                │
+    ┌───────────┴───────────┐
+    ▼                       ▼
+</code></pre></div>
+<p>MENSELIJK                MUZIKAAL
+   FACILITEREN               LEREN
+        │                       │
+        └───────────┬───────────┘
+                    ▼
+               AI SIMULATOR
+                    │
+                    ▼
+                OEFENEN
+                    │
+                    ▼
+            ECHTE DEELNEMER
+                    │
+                    ▼
+             KLEINE GROEP
+                    │
+                    ▼
+              TOASTMASTERS
+                    │
+                    ▼
+                  PARK</p>
+<p>En hier zit voor mij nu de belangrijkste ontwerpbeslissing:</p>
+<p>🛑 De documentatie is voorlopig genoeg.</p>
+<p>Er is inmiddels voldoende beschreven om de methode te kunnen testen. Meer architectuur vóór een eerste volledige oefening zou precies het risico creëren dat we eerder hebben benoemd:</p>
+<p>interessant idee
+      ↓
+mooie documentatie
+      ↓
+nog mooiere documentatie
+      ↓
+GitHub
+      ↓
+MkDocs
+      ↓
+YouTube-plan
+      ↓
+architectuur
+      ↓
+...maar nog nooit het liedje gedaan</p>
+<p>Dus vanaf dit punt verschuift de verhouding bewust:</p>
+<p>TOT NU TOE
+80% ontwerpen
+20% uitvoeren
+VANAF NU
+20% ontwerpen
+80% uitvoeren</p>
+<p>Dat is ook precies waarom master-prompt.md eindigt met geen nieuwe architectuur aanvragen maar Simulation Level 1 starten.</p>
+<p>🎯 Eerstvolgende concrete actie</p>
+<p>Niet morgen. Niet nadat GitHub Pages perfect is.</p>
+<p>De eerstvolgende oefening kan hier in deze chat plaatsvinden:</p>
+<p>╔══════════════════════════════════════════════╗
+║        VLIEGBASIS71 — PRACTICE #001         ║
+╠══════════════════════════════════════════════╣
+║ Mode       : REAL_SIMULATION                 ║
+║ Level      : L1                              ║
+║ Publiek    : 1 beginner                      ║
+║ Muziek     : voorlopig UIT                   ║
+║ Structuur  : 12-Line Method                  ║
+║ Doel       : woorden → regels → performance  ║
+╚══════════════════════════════════════════════╝</p>
+<p>Jij bent dan Michiel de facilitator.</p>
+<p>Ik ben uitsluitend de deelnemer.</p>
+<p>Ik ga je dus niet helpen wanneer je instructie onduidelijk is. Ik ga niet stiekem de workshop verbeteren. Ik schrijf niet alvast het lied. Pas wanneer jij letterlijk STOP SIMULATION zegt, mag ik uit mijn deelnemersrol komen.</p>
+<p>Dat is het moment waarop dit van een gaaf documentatieproject verandert in een vaardigheid die je daadwerkelijk in een park kunt uitvoeren.</p>
+<p>De MkDocs-basis is bovendien technisch geschikt om lokaal te previewen en later als statische site te bouwen; mkdocs build en mkdocs serve zijn hiervoor de standaardcommando’s.  </p>
+<p>Daarom is Batch 6 geen nieuwe documentatiebatch. Batch 6 = PRACTICE #001.</p>
+<p>flowchart TD</p>
+<div class="highlight"><pre><span></span><code>A[&quot;⏰ Tijd loopt weg&quot;] --&gt; B{&quot;Tekst compleet?&quot;}
+
+B --&gt;|&quot;Ja&quot;| C[&quot;▶️ Performance&quot;]
+B --&gt;|&quot;Nee&quot;| D{&quot;≥ 4 regels?&quot;}
+
+D --&gt;|&quot;Ja&quot;| E[&quot;✂️ Stop schrijven&quot;]
+E --&gt; C
+
+D --&gt;|&quot;Nee&quot;| F[&quot;Gebruik ankerregels&quot;]
+F --&gt; G[&quot;Groep herhaalt&quot;]
+G --&gt; C
+</code></pre></div>
+<p>[2026-08-09 17:11 CEST, ID: B4R8K2M7]</p>
+<p>Denkpatroon: Alle ontwerpblokken zijn nu goedgekeurd. Ik neem je extra eis mee: de uiteindelijke Markdown moet niet alleen documentatie zijn, maar een praktisch trainingssysteem dat prettig leesbaar is voor mens én AI, met tabellen, Mermaid-boomstructuren, pijlen, iconen en duidelijke metadata. Technisch past dat goed bij Material for MkDocs: Mermaid kan rechtstreeks via pymdownx.superfences worden geïntegreerd, en de navigatie kan expliciet vanuit mkdocs.yml worden opgebouwd.  </p>
+<p>Antwoord:</p>
+<p>🚀 Volgende deel — van methode naar daadwerkelijk oefenprogramma</p>
+<p>Er ontbreekt nog één belangrijke laag vóór we alle definitieve Markdown-bestanden gaan uitschrijven:</p>
+<p>Hoe ga jij deze vaardigheid daadwerkelijk leren?</p>
+<p>Want de workshop bestaat uit meerdere vaardigheden die je nu nog niet allemaal gelijktijdig automatisch kunt uitvoeren.</p>
+<p>De fout zou zijn om dit te behandelen als één vaardigheid:</p>
+<p>“Ik moet leren een live liedje te maken.”</p>
+<p>Dat is te groot.</p>
+<p>Het zijn minimaal zeven afzonderlijke vaardigheden.</p>
+<p>⸻</p>
+<p>🧠 1. De skill tree</p>
+<p>flowchart TD
+    A["🎤 LIVE COLLABORATIVE SONG"]
+    A --&gt; B["🧠 Faciliteren"]
+    A --&gt; C["✍️ Taal improviseren"]
+    A --&gt; D["🥁 Ritme"]
+    A --&gt; E["🎸 Gitaar"]
+    A --&gt; F["🎙️ Stem"]
+    A --&gt; G["👥 Publiek"]
+    A --&gt; H["🔄 Alles combineren"]
+    B --&gt; B1["Heldere instructies"]
+    B --&gt; B2["Scaffolding"]
+    B --&gt; B3["Tempo bewaken"]
+    C --&gt; C1["Woorden verzamelen"]
+    C --&gt; C2["Korte regels maken"]
+    C --&gt; C3["Samenhang bewaken"]
+    D --&gt; D1["4/4 puls"]
+    D --&gt; D2["Woorden op puls"]
+    D --&gt; D3["Groove vasthouden"]
+    E --&gt; E1["1 akkoord"]
+    E --&gt; E2["2 akkoorden"]
+    E --&gt; E3["Eenvoudige progressie"]
+    F --&gt; F1["Spreken"]
+    F --&gt; F2["Chanten"]
+    F --&gt; F3["Eenvoudige melodie"]
+    G --&gt; G1["1 persoon"]
+    G --&gt; G2["Kleine groep"]
+    G --&gt; G3["Onbekenden"]
+    H --&gt; H1["Faciliteren + spreken"]
+    H --&gt; H2["Spreken + gitaar"]
+    H --&gt; H3["Zingen + gitaar"]
+    H --&gt; H4["Publiek + alles"]</p>
+<p>Dat laatste blok is het einddoel.</p>
+<p>Niet het beginpunt.</p>
+<p>⸻</p>
+<p>🪜 2. Daarom wordt het leertraject progressief</p>
+<p>Ik zou de documentatie nadrukkelijk een Practice Ladder geven.</p>
+<p>Level   👥 Publiek   ✍️ Tekst    🎸 Gitaar    🎤 Stem  🎯 Hoofddoel
+🟢 P0    geen    voorbereid  ❌   spreken methode leren
+🟢 P1    ChatGPT ×1  half voorbereid ❌   spreken faciliteren
+🟢 P2    ChatGPT ×4  gezamenlijk ❌   spreken groepsdynamiek
+🟡 P3    ChatGPT gezamenlijk 1 akkoord   spreken puls vasthouden
+🟡 P4    ChatGPT gezamenlijk 2 akkoorden chant   combineren
+🟠 P5    1 mens  gezamenlijk simpel  chant/zang  echte interactie
+🟠 P6    3–6 mensen  gezamenlijk simpel  zang    workshop
+🔴 P7    onbekenden  live    simpel  zang    veldtest
+⭐ P8    park/event  live    flexibel    flexibel    volledige methode</p>
+<p>Belangrijk daarbij:</p>
+<p>je promoveert niet omdat je het theoretisch begrijpt.</p>
+<p>Je promoveert omdat je het kunt uitvoeren.</p>
+<p>⸻</p>
+<p>🎯 3. Een heel concrete Definition of Done</p>
+<p>Bijvoorbeeld voor P1:</p>
+<p>practice_level: P1
+environment:
+  participants: 1
+  participant_type: AI
+facilitator_can:
+  explain_task_in_under_30_seconds: true
+  ask_for_words: true
+  convert_words_to_structure: true
+  maintain_12_line_structure: true
+  finish_without_ai_rescuing_session: true
+music:
+  required: false
+pass_condition:
+  completed_sessions: 3</p>
+<p>Dat laatste vind ik belangrijk.</p>
+<p>Niet:</p>
+<p>één keer gelukt
+    ↓
+NEXT!</p>
+<p>Maar bijvoorbeeld:</p>
+<p>sessie 1
+   ↓
+review
+   ↓
+sessie 2
+   ↓
+review
+   ↓
+sessie 3
+   ↓
+stabiel?
+   │
+ YES ──────────► volgend niveau
+   │
+  NO
+   ↓
+nogmaals oefenen</p>
+<p>⸻</p>
+<p>🎸 4. Parallel daaraan: jouw Music Independence Track</p>
+<p>Hier zit een aparte uitdaging.</p>
+<p>Je vertelde heel duidelijk:</p>
+<p>je kunt spelen;</p>
+<p>en:</p>
+<p>je kunt zingen;</p>
+<p>maar:</p>
+<p>spelen + zingen tegelijkertijd is nog niet geautomatiseerd.</p>
+<p>Dat hoort daarom niet midden in dezelfde leercurve gepropt te worden.</p>
+<p>Ik zou een tweede spoor maken.</p>
+<div class="highlight"><pre><span></span><code>             LIVE SONG TRAINING
+                    │
+      ┌─────────────┴─────────────┐
+      ▼                           ▼
+</code></pre></div>
+<p>👥 FACILITATION               🎸 MUSIC
+       TRACK                       TRACK
+          │                           │
+   woorden vragen                 1 akkoord
+          │                           │
+   regels maken                   vast ritme
+          │                           │
+   groep leiden                   praten + spelen
+          │                           │
+   timing                         chant + spelen
+          │                           │
+   improviseren                   zingen + spelen
+          │                           │
+          └─────────────┬─────────────┘
+                        ▼
+                🔥 INTEGRATION
+                        │
+                        ▼
+                LIVE WORKSHOP</p>
+<p>Dat voorkomt dat je denkt:</p>
+<p>“Ik kan de workshop nog niet doen omdat ik nog niet goed genoeg kan zingen en gitaar spelen.”</p>
+<p>Dat zou onjuist zijn.</p>
+<p>Je kunt een vroege versie al doen als:</p>
+<p>spoken-word facilitator.</p>
+<p>⸻</p>
+<p>🎸 5. Gitaartraining moet bijna belachelijk eenvoudig beginnen</p>
+<p>Voor de eerste oefening:</p>
+<p>E
+↓
+E
+↓
+E
+↓
+E</p>
+<p>Letterlijk.</p>
+<p>Geen akkoordprogressie nodig.</p>
+<p>Speel bijvoorbeeld:</p>
+<p>1     2     3     4
+↓     ↓     ↓     ↓
+E     E     E     E</p>
+<p>En spreek:</p>
+<p>Wakker met koffie
+      ↓
+aan tafel ontbijt
+      ↓
+vogels in mijn hoofd</p>
+<p>Wanneer dat automatisch wordt:</p>
+<p>E       A
+↓       ↓
+E       A
+↓       ↓
+E       A</p>
+<p>En pas daarna bijvoorbeeld:</p>
+<p>E  →  A  →  E  →  B</p>
+<p>Het doel is niet dat de progressie interessant klinkt.</p>
+<p>Het doel is:</p>
+<p>dat jouw handen zo weinig hersencapaciteit gebruiken dat je aandacht bij de deelnemers kan blijven.</p>
+<p>Dat is cruciaal.</p>
+<p>⸻</p>
+<p>🤖 6. ChatGPT wordt jouw oefenpubliek</p>
+<p>Hier wordt jouw oorspronkelijke idee bijzonder bruikbaar.</p>
+<p>We maken niet één soort simulatie.</p>
+<p>We maken participant personas.</p>
+<p>🟢 Beginner Anna</p>
+<p>“Zondag doet mij denken aan koffie.”</p>
+<p>Perfecte deelnemer.</p>
+<p>⸻</p>
+<p>🟡 Twijfelende Bram</p>
+<p>“Eh… ik weet eigenlijk niks.”</p>
+<p>Nu moet jij faciliteren.</p>
+<p>⸻</p>
+<p>🟠 Uitweidende Carla</p>
+<p>“Nou zondag doet me denken aan vroeger want mijn oma woonde in…”</p>
+<p>Nu moet jij leren:</p>
+<p>haar bijdrage respecteren én terugbrengen naar bruikbare woorden.</p>
+<p>⸻</p>
+<p>🔴 Chaotische David</p>
+<p>“Spaceship!”</p>
+<p>Terwijl het thema zondag is.</p>
+<p>😁</p>
+<p>Nu ontstaat een interessante facilitatorvraag:</p>
+<p>accepteer je het?</p>
+<p>Misschien wel.</p>
+<p>zondag
++
+spaceship
++
+koffie
++
+regen</p>
+<p>kan juist een geweldig absurd lied opleveren.</p>
+<p>⸻</p>
+<p>🧪 7. De AI-simulator krijgt daarom twee modi</p>
+<p>MODE A — Cooperative</p>
+<p>Voor leren.</p>
+<p>participant:
+  cooperation: high
+  answers: short
+  creativity: medium
+  interruptions: false</p>
+<p>MODE B — Realistic</p>
+<p>Voor trainen.</p>
+<p>participant:
+  cooperation: variable
+  answers: variable
+  creativity: unpredictable
+possible_behaviour:
+  - silence
+  - confusion
+  - too_many_words
+  - off_topic
+  - nervous_laughter
+  - refuses_to_sing
+  - asks_questions</p>
+<p>Later eventueel:</p>
+<p>MODE C — Chaos 😈</p>
+<p>iemand praat te lang
++
+iemand begrijpt opdracht niet
++
+iemand wil niet zingen
++
+tijd loopt uit
++
+jij vergeet akkoord</p>
+<p>Als je die sessie kunt afmaken, ben je behoorlijk workshopbestendig.</p>
+<p>⸻</p>
+<p>⏱️ 8. De 15-minuten challenge</p>
+<p>Dit wordt volgens mij uiteindelijk één van de belangrijkste oefeningen.</p>
+<p>00:00
+│
+├── 00:00–01:30   👋 uitleg
+│
+├── 01:30–03:00   🎯 thema
+│
+├── 03:00–05:00   💬 bijdragen
+│
+├── 05:00–08:00   ✍️ regels
+│
+├── 08:00–10:00   🗣️ hardop spreken
+│
+├── 10:00–12:00   🥁 ritme
+│
+├── 12:00–14:00   🎵 gezamenlijk uitvoeren
+│
+└── 14:00–15:00   🎉 afsluiten
+                         │
+                         ▼
+                       DONE</p>
+<p>En hier komt een harde ontwerpregel:</p>
+<p>Wanneer minuut 10 wordt bereikt zonder volledige tekst, stopt het schrijven.</p>
+<p>Gebruik wat er ligt.</p>
+<p>Bijvoorbeeld slechts:</p>
+<p>01 Wakker met koffie
+02 Regen op ramen
+03 Vogels zingen zacht
+04 Zondag wordt wakker
+05 Kat springt binnen
+06 Koffie wordt koud</p>
+<p>Prima.</p>
+<p>Dat is het lied.</p>
+<p>Uitvoeren.</p>
+<p>⸻</p>
+<p>🛟 9. Daardoor ontstaat een Time Rescue Protocol</p>
+<p>Dit wil ik absoluut in troubleshooting.md.</p>
+<p>flowchart TD
+    A["⏰ Tijd loopt weg"] --&gt; B{"Tekst compleet?"}
+    B --&gt;|"Ja"| C["▶️ Performance"]
+    B --&gt;|"Nee"| D{"≥ 4 regels?"}
+    D --&gt;|"Ja"| E["✂️ Stop schrijven"]
+    E --&gt; C
+    D --&gt;|"Nee"| F["Gebruik ankerregels"]
+    F --&gt; G["Groep herhaalt"]
+    G --&gt; C</p>
+<p>Dat maakt de workshop robuust.</p>
+<p>⸻</p>
+<p>🎤 10. De deelnemers hoeven uiteindelijk niet eens te zingen</p>
+<p>Dit wordt expliciet onderdeel van de methode.</p>
+<p>De facilitator kan zeggen:</p>
+<p>“Je hoeft niet te kunnen zingen. Je mag praten, neuriën, klappen of gewoon luisteren.”</p>
+<p>Daarmee ontstaat:</p>
+<div class="highlight"><pre><span></span><code>                PARTICIPATION
+                     │
+    ┌────────────────┼────────────────┐
+    ▼                ▼                ▼
+  🎤 zang          🗣️ stem          👏 ritme
+    │                │                │
+    └────────────────┼────────────────┘
+                     ▼
+                  🎵 GROEP
+</code></pre></div>
+<p>Dat is veel toegankelijker dan:</p>
+<p>“Kom, we gaan samen een lied zingen.”</p>
+<p>Dat laatste kan bij sommige mensen onmiddellijk de handrem aantrekken.</p>
+<p>⸻</p>
+<p>🧠 11. Patricia’s belangrijkste bijdrage wordt zo een ontwerpprincipe</p>
+<p>Wat tijdens jullie brainstorm gebeurde, kunnen we eigenlijk formaliseren:</p>
+<p>Michiel:
+"Wat kunnen we allemaal doen?"
+          │
+          ▼
+     mogelijkheden
+          │
+          ▼
+Patricia:
+"Wat moet iemand NU precies doen?"
+          │
+          ▼
+     vereenvoudiging
+          │
+          ▼
+Michiel:
+"Dan kunnen we..."
+          │
+          ▼
+     nieuwe mogelijkheid
+          │
+          ▼
+Patricia:
+"Te moeilijk."
+          │
+          ▼
+      scaffolding</p>
+<p>Daar komt een uitstekende permanente ontwerpvraag uit:</p>
+<p>“Wat moet de deelnemer in de komende 30 seconden concreet doen?”</p>
+<p>Als het antwoord langer dan ongeveer één zin wordt, is de stap waarschijnlijk te groot.</p>
+<p>⸻</p>
+<p>📚 12. Definitieve documentatiearchitectuur</p>
+<p>Na alle goedgekeurde rondes zie ik nu deze set als compleet:</p>
+<p>docs/
+│
+└── collaborative-song/
+    │
+    ├── 🏠 index.md
+    ├── 🌱 philosophy.md
+    ├── ⚡ quick-start.md
+    │
+    ├── 🧱 12-line-method.md
+    ├── 🗣️ spoken-word.md
+    ├── 🎸 musical-layer.md
+    │
+    ├── 🎤 facilitator-guide.md
+    ├── 🗂️ session-card.md
+    ├── 🛠️ troubleshooting.md
+    │
+    ├── 🧪 exercises.md
+    ├── 🪜 practice-ladder.md       ← NIEUW
+    ├── 🎸 music-training.md        ← NIEUW
+    ├── 🤖 ai-practice.md
+    │
+    ├── 🌳 field-workshop.md
+    ├── 📋 field-test-log.md        ← NIEUW
+    │
+    ├── 🧠 master-prompt.md
+    ├── 🤖 ai-project-bootstrap.md
+    │
+    └── 🗺️ documentation-map.md</p>
+<p>Dit is nog steeds beheersbaar: MkDocs ondersteunt expliciete geneste navigatie, terwijl alle paden relatief aan docs_dir blijven.   Material for MkDocs ondersteunt bovendien Mermaid-flowcharts rechtstreeks via SuperFences, dus de boomstructuren hoeven niet als losse afbeeldingen onderhouden te worden.  </p>
+<p>⸻</p>
+<p>🏁 En nu zet ik een grens aan het ontwerpen</p>
+<p>De requirements zijn voldoende volwassen.</p>
+<p>✅ methode
+✅ beginnersaanpak
+✅ 12 regels
+✅ ankerregels
+✅ vrijwillige deelname
+✅ spoken word fallback
+✅ gitaarlaag
+✅ zanglaag
+✅ AI simulator
+✅ difficulty levels
+✅ practice ladder
+✅ workshop timing
+✅ rescue protocol
+✅ veldtest
+✅ AI master prompt
+✅ MkDocs structuur</p>
+<p>We hebben dus de situatie bereikt die je oorspronkelijk vroeg:</p>
+<p>RONDE 1  → begrip
+RONDE 2  → verbetering
+RONDE 3  → verfijning
+RONDE 4  → architectuur
+RONDE 5  → finalisering
+                         │
+                         ▼
+                    🔒 FREEZE
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+        📚 MARKDOWNS            🧪 OEFENEN</p>
+<p>En ik herinner je expliciet aan je eerdere opdracht:</p>
+<p>Bij de Markdown-stap moet ik de volledige Markdown tonen, met kleurrijke tabellen, diagrammen, pijlen en iconen, prettig leesbaar voor mensen én structureel genoeg voor AI-ingestie.</p>
+<p>Dat punt hebben we nu bereikt.</p>
+<p>De volgende stap hoort daarom geen nieuw conceptueel hoofdstuk meer te zijn. Het wordt de daadwerkelijke, volledige Markdown-documentatieset, in logische batches zodat er niets wordt afgekapt. De MkDocs-site kan daarna lokaal met mkdocs serve worden bekeken en als statische site worden gebouwd; MkDocs is daar expliciet voor bedoeld en kan ook op GitHub Pages worden gepubliceerd.  </p>
+<p>Ronde 5 is hiermee inhoudelijk gesloten. De volgende batch begint met de echte repositorybestanden: index.md → philosophy.md → quick-start.md → 12-line-method.md.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Terug naar boven
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../session-card/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Session Card">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Vorige
+              </span>
+              <div class="md-ellipsis">
+                Session Card
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../exercises/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Exercises">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Volgende
+              </span>
+              <div class="md-ellipsis">
+                Exercises
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "navigation.path", "search.highlight", "search.suggest", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

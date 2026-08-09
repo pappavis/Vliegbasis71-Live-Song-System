@@ -8,7 +8,7 @@ Ja, ik begrijp de opdracht. En belangrijk: we gaan nu nog géén Markdown-bestan
 
 1. Wat je eigenlijk aan het bouwen bent
 
-De methode die vandaag met Patricia ontstond is volgens mij groter dan alleen:
+De methode die vandaag met Johanneke ontstond is volgens mij groter dan alleen:
 
 “Hoe schrijf ik samen met mensen een liedje?”
 
@@ -45,7 +45,7 @@ Dat vind ik een cruciaal ontwerpprincipe.
 
 ⸻
 
-2. De Patricia-doorbraak moet onderdeel van de methode worden
+2. De Johanneke-doorbraak moet onderdeel van de methode worden
 
 Je oorspronkelijke neiging was ongeveer:
 
@@ -55,7 +55,7 @@ Thema kiezen → publiek woorden laten bedenken → ter plekke structuur maken �
 
 Dat is te veel tegelijk.
 
-Patricia’s sterkste interventie was eigenlijk:
+Johanneke’s sterkste interventie was eigenlijk:
 
 Scaffold het vooraf.
 
@@ -523,7 +523,7 @@ eenvoudig tempo
 1 vaste akkoordprogressie
 1 vast speelpatroon
 
-Dat is Patricia’s scaffolding-principe: jij hoeft tijdens de workshop niet tegelijkertijd de fundering én het huis te bouwen.
+Dat is Johanneke’s scaffolding-principe: jij hoeft tijdens de workshop niet tegelijkertijd de fundering én het huis te bouwen.
 
 Stap 1 — kies één thema
 
@@ -970,7 +970,7 @@ Meer uitleg is op dat moment waarschijnlijk contraproductief.
 
 4. De 12 regels worden jouw vangrail
 
-Ik zou Patricia’s scaffolding nog iets verder doorvoeren.
+Ik zou Johanneke’s scaffolding nog iets verder doorvoeren.
 
 Je hoeft aanvankelijk niet eens alle twaalf regels live door deelnemers te laten maken.
 
@@ -1274,7 +1274,7 @@ Dat is geen valsspelen.
 
 Dat is scaffolding.
 
-En precies dat was volgens mij Patricia’s sterkste bijdrage.
+En precies dat was volgens mij Johanneke’s sterkste bijdrage.
 
 ⸻
 
@@ -1518,7 +1518,7 @@ Dat sluit ook veel beter aan op Toastmasters.
 
 7. Toastmasters-positionering
 
-Hier had Patricia terecht een sterk punt.
+Hier had Johanneke terecht een sterk punt.
 
 Je moet kunnen antwoorden op:
 
@@ -1900,7 +1900,7 @@ Je hoeft dus niet twee jaar te wachten op het parkconcept. Het park is Level 7; 
 
 4. De facilitator mag NIET alles improviseren
 
-Hier wil ik Patricia’s inzicht nog scherper maken.
+Hier wil ik Johanneke’s inzicht nog scherper maken.
 
 Voor Prototype #001 bereid jij vooraf voor:
 
@@ -1948,7 +1948,7 @@ Je moet niet twintig reservecoupletten schrijven, want dan doe je alsof het publ
 
 5. Een tweede belangrijke verbetering: scheid CREËREN en CORRIGEREN
 
-Dit zag ik in het gesprek met Patricia gebeuren.
+Dit zag ik in het gesprek met Johanneke gebeuren.
 
 Jullie gingen soms tegelijk:
 
@@ -2321,7 +2321,7 @@ Dit moet straks ook grafisch terugkomen in de MkDocs-site.
 
 3. Fase 0 — facilitator bereidt voor
 
-Hier neem ik Patricia’s belangrijkste correctie definitief over.
+Hier neem ik Johanneke’s belangrijkste correctie definitief over.
 
 Improvisatie voor het publiek betekent niet dat de facilitator onvoorbereid moet zijn.
 
@@ -2840,7 +2840,7 @@ Mijn oordeel over Ronde 4
 
 De methodiek is nu klaar genoeg om te documenteren, maar bewust nog niet “af”.
 
-Het belangrijkste dat Patricia’s sparren volgens mij heeft opgeleverd, zit inmiddels diep in het ontwerp:
+Het belangrijkste dat Johanneke’s sparren volgens mij heeft opgeleverd, zit inmiddels diep in het ontwerp:
 
 Jij hoeft improvisatie niet moeilijker te maken om haar echt te laten zijn. Goede voorbereiding geeft juist de ruimte waarin anderen spontaan kunnen creëren.
 
@@ -4621,7 +4621,7 @@ collaborative-song/
 ├── musical-layer.md         ⏭️
 └── troubleshooting.md       later
 
-En nu komen we bij een interessante overgang: Batch 3 wordt de technische kern van het creatieve systeem. Daar gaan we exact vastleggen hoe jouw 12-regelige brainstormschema uit de sessie met Patricia werkt, hoe we van gesproken woord naar ritme gaan en hoe E-major/4-4/gitaar daar als eenvoudige muzikale motor onder komt. Dat is het punt waarop jouw screenshot daadwerkelijk verandert van brainstormtekening in een reproduceerbare Vliegbasis71-procedure.
+En nu komen we bij een interessante overgang: Batch 3 wordt de technische kern van het creatieve systeem. Daar gaan we exact vastleggen hoe jouw 12-regelige brainstormschema uit de sessie met Johanneke werkt, hoe we van gesproken woord naar ritme gaan en hoe E-major/4-4/gitaar daar als eenvoudige muzikale motor onder komt. Dat is het punt waarop jouw screenshot daadwerkelijk verandert van brainstormtekening in een reproduceerbare Vliegbasis71-procedure.
 
 ---
 
@@ -4634,7 +4634,7 @@ Ga door met de volgende deel. ga zo door, je snapt het helemaal! :)
 
 [2026-08-09 16:44 CEST, ID: B7M2K9R4]
 
-Denkpatroon: Batch 2 is geaccepteerd. Nu leggen we de technische creatieve kern vast: jouw 12-regelige Patricia-schema → woorden → korte regels → gesproken ritme → eenvoudige gitaarbegeleiding → gezamenlijke uitvoering. Ik heb ook de actuele repository gecontroleerd: docs/, site/ en mkdocs.yml bestaan daadwerkelijk, dus deze documentatiestructuur sluit aan op de bestaande repo.  
+Denkpatroon: Batch 2 is geaccepteerd. Nu leggen we de technische creatieve kern vast: jouw 12-regelige Johanneke-schema → woorden → korte regels → gesproken ritme → eenvoudige gitaarbegeleiding → gezamenlijke uitvoering. Ik heb ook de actuele repository gecontroleerd: docs/, site/ en mkdocs.yml bestaan daadwerkelijk, dus deze documentatiestructuur sluit aan op de bestaande repo.  
 
 Antwoord:
 
@@ -4644,7 +4644,7 @@ Deze batch bevat de volledige Markdown voor:
 
 docs/collaborative-song/
 │
-├── 12-line-method.md       ← Patricia/Michiel-methode
+├── 12-line-method.md       ← Johanneke/Michiel-methode
 ├── spoken-word.md          ← woorden → ritme
 └── musical-layer.md        ← ritme → gitaar → zang
 
@@ -4999,7 +4999,7 @@ VERVANGEN
 Vervangen is de laatste optie.
 ---
 # 🔄 Alternatief: herhalingsstructuur
-De oorspronkelijke brainstorm met Patricia bevatte ook een interessant
+De oorspronkelijke brainstorm met Johanneke bevatte ook een interessant
 herhalingsprincipe.
 Bijvoorbeeld:
 ```text
@@ -6021,7 +6021,7 @@ Vliegbasis71-Live-Song-System
         ├── 🎤 field-workshop.md         ⏭️
         └── 🧠 master-prompt.md          ⏭️
 
-De kern die jij met Patricia op het whiteboard ontdekte is daarmee niet meer alleen een brainstorm. Het is nu een reproduceerbare methode met expliciete ankerregels, scaffolding, fallbackniveaus en een oefenladder voor jouw specifieke probleem van spelen + spreken/zingen + tegelijkertijd faciliteren.
+De kern die jij met Johanneke op het whiteboard ontdekte is daarmee niet meer alleen een brainstorm. Het is nu een reproduceerbare methode met expliciete ankerregels, scaffolding, fallbackniveaus en een oefenladder voor jouw specifieke probleem van spelen + spreken/zingen + tegelijkertijd faciliteren.
 
 De volgende batch moet daarom niet nóg meer muziektheorie toevoegen. Batch 4 wordt de simulator en praktijktest: ai-practice.md, exercises.md, troubleshooting.md en field-workshop.md. Daarin bouwen we precies het systeem dat je eerder vroeg: jij bent facilitator, ChatGPT speelt publiek, en ChatGPT mag je tijdens een REAL-run nadrukkelijk niet redden. Daarna volgt de master-prompt waarmee je een schoon nieuw ChatGPT-project kunt starten.
 
@@ -6485,7 +6485,7 @@ Dat laatste kan bij sommige mensen onmiddellijk de handrem aantrekken.
 
 ⸻
 
-🧠 11. Patricia’s belangrijkste bijdrage wordt zo een ontwerpprincipe
+🧠 11. Johanneke’s belangrijkste bijdrage wordt zo een ontwerpprincipe
 
 Wat tijdens jullie brainstorm gebeurde, kunnen we eigenlijk formaliseren:
 
@@ -6496,7 +6496,7 @@ Michiel:
      mogelijkheden
           │
           ▼
-Patricia:
+Johanneke:
 "Wat moet iemand NU precies doen?"
           │
           ▼
@@ -6510,7 +6510,7 @@ Michiel:
      nieuwe mogelijkheid
           │
           ▼
-Patricia:
+Johanneke:
 "Te moeilijk."
           │
           ▼
@@ -7060,7 +7060,7 @@ Dat laatste kan bij sommige mensen onmiddellijk de handrem aantrekken.
 
 ⸻
 
-🧠 11. Patricia’s belangrijkste bijdrage wordt zo een ontwerpprincipe
+🧠 11. Johanneke’s belangrijkste bijdrage wordt zo een ontwerpprincipe
 
 Wat tijdens jullie brainstorm gebeurde, kunnen we eigenlijk formaliseren:
 
@@ -7071,7 +7071,7 @@ Michiel:
      mogelijkheden
           │
           ▼
-Patricia:
+Johanneke:
 "Wat moet iemand NU precies doen?"
           │
           ▼
@@ -7085,7 +7085,7 @@ Michiel:
      nieuwe mogelijkheid
           │
           ▼
-Patricia:
+Johanneke:
 "Te moeilijk."
           │
           ▼
@@ -7181,6 +7181,1954 @@ Dat punt hebben we nu bereikt.
 De volgende stap hoort daarom geen nieuw conceptueel hoofdstuk meer te zijn. Het wordt de daadwerkelijke, volledige Markdown-documentatieset, in logische batches zodat er niets wordt afgekapt. De MkDocs-site kan daarna lokaal met mkdocs serve worden bekeken en als statische site worden gebouwd; MkDocs is daar expliciet voor bedoeld en kan ook op GitHub Pages worden gepubliceerd.  
 
 Ronde 5 is hiermee inhoudelijk gesloten. De volgende batch begint met de echte repositorybestanden: index.md → philosophy.md → quick-start.md → 12-line-method.md.
+
+
+---
+
+[2026-08-09 17:35 CEST, ID: R6K9M3V2]
+
+Denkpatroon: Je Markdown-werk is lokaal niet verloren. Git zegt alleen dat jouw lokale main én origin/main allebei nieuwe commits hebben. Omdat dit jouw eigen repo/workflow is en je waarschijnlijk gewoon beide histories achter elkaar wilt hebben, zou ik hier rebase gebruiken: eerst jouw lokale commits bovenop de nieuwe remote commits plaatsen, daarna normaal pushen. Git documenteert precies dit verschil tussen --rebase en --no-rebase.  
+
+Antwoord:
+
+🔧 Eerst je Git-probleem oplossen
+
+Voer nu dit uit:
+
+git status
+git log --oneline --graph --decorate --all -15
+
+Als je working tree schoon is, vervolgens:
+
+git pull --rebase origin main
+
+Als alles zonder conflict verloopt:
+
+git status
+git push origin main
+
+Waarschijnlijk is dat alles.
+
+Waarom?
+
+Je situatie is ongeveer:
+
+                 ┌── jouw lokale commit(s)
+                 │
+05fb70c ─────────┤
+                 │
+                 └── remote commits ── 39d2e51
+
+git pull weet nu niet welke strategie jij wilt.
+
+Met:
+
+git pull --rebase origin main
+
+wordt dit:
+
+05fb70c
+   │
+   ▼
+remote wijziging
+   │
+   ▼
+39d2e51
+   │
+   ▼
+jouw lokale commit
+   │
+   ▼
+nieuwe HEAD
+
+Daarna kan git push normaal fast-forwarden. Git beschrijft git pull --rebase expliciet als het opnieuw plaatsen van de huidige branch bovenop de opgehaalde upstream.  
+
+Als je een conflict krijgt
+
+Niet gaan forceren met git push --force.
+
+Git zal bijvoorbeeld melden:
+
+CONFLICT (content): Merge conflict in ...
+
+Dan:
+
+git status
+
+Los het betreffende bestand op en daarna:
+
+git add <bestand>
+git rebase --continue
+
+Herhaal indien nodig en uiteindelijk:
+
+git push origin main
+
+Wil je tijdens een conflict volledig terug naar vóór de rebase:
+
+git rebase --abort
+
+Dat is ook de door Git gedocumenteerde herstelroute.  
+
+🛠️ En daarna voorkomen dat Git dit iedere keer vraagt
+
+Voor deze repository zou ik instellen:
+
+git config pull.rebase true
+
+Dus niet meteen --global; alleen voor Vliegbasis71.
+
+Daarna wordt je normale workflow:
+
+git pull
+git add .
+git commit -m "docs: expand collaborative live song method"
+git push
+
+⸻
+
+🎸 En nu gaan we inhoudelijk gewoon door
+
+Je Git-melding verandert niets aan het afgesproken documentatieplan. Batch 1 is geaccepteerd.
+
+De volgende documentatiebatch wordt:
+
+docs/collaborative-song/
+│
+├── index.md                 ✅
+├── philosophy.md            ✅
+├── quick-start.md           ✅
+├── 12-line-method.md        ✅
+│
+├── spoken-word.md           ← VOLGENDE
+├── musical-layer.md         ← VOLGENDE
+├── facilitator-guide.md     ← VOLGENDE
+└── session-card.md          ← VOLGENDE
+
+En juist Batch 2 wordt voor jouw eigen oefening belangrijk:
+
+             📝 12 regels
+                  │
+                  ▼
+          🗣️ SPREEK DE TEKST
+                  │
+                  ▼
+            👏 VOEL 4/4
+                  │
+                  ▼
+          🎸 SPEEL EENVOUDIG
+                  │
+             E → A → E → B
+                  │
+                  ▼
+         🗣️ + 🎸 combineren
+                  │
+                  ▼
+             🎤 lichte zang
+                  │
+                  ▼
+        👥 publiek toevoegen
+                  │
+                  ▼
+        🎉 LIVE PERFORMANCE
+
+Daarbij houden we de belangrijke scheiding vast:
+
+eerst spreken → dan ritme → dan gitaar → dan stem+gitaar → pas daarna faciliteren terwijl je speelt.
+
+Dat voorkomt precies dat je tegelijkertijd woorden moet bedenken + deelnemers begeleiden + maat houden + akkoorden wisselen + zingen. Dat zou voor deze fase onnodig vijf cognitieve taken tegelijk maken.
+
+Ik ga in het volgende deel dus verder met de volledige Markdown van Batch 2, inclusief tabellen, Mermaid-bomen, concrete E/A/B-oefeningen, spoken-word rescue modes en de praktische facilitator session card.
+
+
+---
+
+
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git pull                                                                   17:34:23
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 1.92 KiB | 492.00 KiB/s, done.
+From https://github.com/pappavis/Vliegbasis71-Live-Song-System
+   05fb70c..39d2e51  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git status                                                                 17:34:28
+git log --oneline --graph --decorate --all -15
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/collaborative-song/12-line-method-2.md
+        docs/collaborative-song/index-2.md
+        docs/collaborative-song/philosophy-2.md
+        docs/collaborative-song/quick-start-3.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+* 3a35b92 (HEAD -> main) samen liedjes maken 0.1
+| * 39d2e51 (origin/main, origin/HEAD) Update README.md link formatting
+| * e4bfa6f Update README.md
+|/  
+* 05fb70c Fix MkDocs configuration and restore navigation
+* 8697510 v1.0.0 🎉 Eerste publieke release
+* e1fd379 v1.0.0 🎉 Eerste publieke release
+* f14c716 v1.0.0 🎉 Eerste publieke release
+* 9e34409 v1.0.0 🎉 Eerste publieke release
+* 6bbd3be v1.0.0 🎉 Eerste publieke release
+* 4c3d560 v1.0.0 🎉 Eerste publieke release
+* fd07d07 v1.0.0 🎉 Eerste publieke release
+* b4e3bde v1.0.0 🎉 Eerste publieke release
+* 942203a v1.0.0 🎉 Eerste publieke release
+* 96ce826 v1.0.0 🎉 Eerste publieke release
+* 4fe6d2a v1.0.0 🎉 Eerste publieke release
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git status                                                                 17:37:59
+git push origin main
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 2 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/collaborative-song/12-line-method-2.md
+        docs/collaborative-song/index-2.md
+        docs/collaborative-song/philosophy-2.md
+        docs/collaborative-song/quick-start-3.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+To https://github.com/pappavis/Vliegbasis71-Live-Song-System
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/pappavis/Vliegbasis71-Live-Song-System'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git pull --rebase origin main                                              17:38:10
+From https://github.com/pappavis/Vliegbasis71-Live-Song-System
+ * branch            main       -> FETCH_HEAD
+Successfully rebased and updated refs/heads/main.
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git commit -m "samen liedjes maken 0.1"                                    17:38:18
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/collaborative-song/12-line-method-2.md
+        docs/collaborative-song/index-2.md
+        docs/collaborative-song/philosophy-2.md
+        docs/collaborative-song/quick-start-3.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git add                                                                    17:38:24
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git add .                                                                  17:38:32
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git commit -m "samen liedjes maken 0.1"                                    17:38:34
+[main 0125e4e] samen liedjes maken 0.1
+ 4 files changed, 1489 insertions(+)
+ create mode 100644 docs/collaborative-song/12-line-method-2.md
+ create mode 100644 docs/collaborative-song/index-2.md
+ create mode 100644 docs/collaborative-song/philosophy-2.md
+ create mode 100644 docs/collaborative-song/quick-start-3.md
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System % git push                                                                   17:38:37
+Enumerating objects: 146, done.
+Counting objects: 100% (146/146), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (88/88), 141.28 KiB | 12.84 MiB/s, done.
+Total 88 (delta 37), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (37/37), completed with 30 local objects.
+To https://github.com/pappavis/Vliegbasis71-Live-Song-System
+   39d2e51..0125e4e  main -> main
+(venv3.12) michiele@KodeklopperM4.local Vliegbasis71-Live-Song-System %         
+
+
+---
+
+
+[2026-08-09 17:40 CEST, ID: K7R2M9V4]
+
+Denkpatroon: Dit is nou suksesvol opgelos. Jou rebase het presies gedoen wat nodig was: die twee GitHub-commits is geïntegreer, jou bestaande lokale commit is daarop herspeel, daarna het jy die vier nuwe Markdown-files apart gecommit en uiteindelik suksesvol gepush. Dit stem ook met Git se gedokumenteerde pull --rebase-gedrag ooreen.  
+
+Antwoord:
+
+Ja — klaar. Git is nou weer gesond. ✅
+
+Die belangrikste reël is:
+
+To https://github.com/pappavis/Vliegbasis71-Live-Song-System
+   39d2e51..0125e4e  main -> main
+
+Dit beteken:
+
+GitHub
+  │
+  ├── e4bfa6f  Update README.md
+  │
+  ├── 39d2e51  Update README.md link formatting
+  │
+  ▼
+REBASE SUKSESVOL
+  │
+  ├── jou oorspronklike lokale werk
+  │
+  └── 0125e4e  samen liedjes maken 0.1
+                  │
+                  ▼
+             🚀 GITHUB
+
+En belangrik: jou vier dokumente is nou ook daadwerkelijk tracked en gepush:
+
+docs/collaborative-song/
+├── 12-line-method-2.md
+├── index-2.md
+├── philosophy-2.md
+└── quick-start-3.md
+
+Die 1489 insertions(+) wys ook dat dit nie net leë placeholders is nie — die groot dokumentasieblok is in die commit opgeneem.
+
+Een klein detail uit jou terminal is interessant: jou eerste git commit -m "samen liedjes maken 0.1" ná die rebase het niks gedoen, want daardie vier files was nog untracked. Daarna het git add . hulle in die index gesit en die tweede commit het hulle korrek opgeneem. Git onderskei inderdaad untracked files van files wat reeds in die index/staging area is.  
+
+Ek sou nou net een sanity-check doen:
+
+git status
+git log --oneline --graph --decorate -8
+
+Ideaal behoort git status nou te sê:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+En om hierdie spesifieke divergent-branch-vraag voortaan te voorkom:
+
+git config pull.rebase true
+
+Dit stel net hierdie repository in om toekomstige git pull-operasies standaard via rebase te doen; Git ondersteun pull.rebase juis hiervoor.  
+
+Daarna terug na die eintlike avontuur: die Git-sidequest is klaar. Ons hoef nie verder daarin vas te val nie. Die volgende werk is weer Vliegbasis71 Collaborative Song Method — Batch 2, met spoken-word.md, musical-layer.md, facilitator-guide.md en session-card.md, volgens die struktuur wat jy en Johanneke vandag opgebou het.
+
+
+---
+
+
+[2026-08-09 16:14 CEST, ID: H4R8K2M7], [2026-08-09 16:09 CEST, ID: Q6M3K8R2], [2026-08-09 16:18 CEST, ID: N8K4R2M7], [2026-08-09 16:17 CEST, ID: C7M4K9R2], [2026-08-09 16:23 CEST, ID: F6K2R8M4] , [2026-08-09 16:29 CEST, ID: K9R4M2V7], [2026-08-09 16:36 CEST, ID: T3K8R6M2]
+2026-08-09 17:11 CEST, ID: B4R8K2M7],
+[2026-08-09 17:32 CEST, ID: M7K2R9V4]:
+ 
+
+ 100% akkoord, ja echt goed! Ga door met de Vliegbasis71 Collaborative Song Method zoals afgesproken.
+
+
+ ---
+
+
+ [2026-08-09 17:43 CEST, ID: V5K8R2M6]
+
+Denkpatroon: Akkoord. De review-/acceptatiefase is afgerond; ik behandel de afgesproken methodiek nu als baseline. De repository staat inmiddels publiek met docs, site en mkdocs.yml, dus we kunnen de volgende documenten rechtstreeks ontwerpen als onderdeel van dezelfde MkDocs-kennisstructuur.  
+
+Antwoord:
+
+We gaan door met Batch 2 — van woorden naar iets dat daadwerkelijk uit je gitaar en mond komt.
+
+Dit is een belangrijke batch, omdat hier de Collaborative Song Method verandert van:
+
+leuk workshopidee
+
+naar:
+
+woorden
+   ↓
+ritme
+   ↓
+spoken word
+   ↓
+akkoorden
+   ↓
+stem + gitaar
+   ↓
+publiek
+   ↓
+LIVE SONG
+
+De vier documenten van deze batch worden:
+
+docs/collaborative-song/
+├── spoken-word.md
+├── musical-layer.md
+├── facilitator-guide.md
+└── session-card.md
+
+Hieronder de volledige Markdown.
+
+⸻
+
+1. spoken-word.md
+
+# 🗣️ Van woorden naar Spoken Word
+> **Vliegbasis71 Collaborative Song Method**
+>
+> De tekst hoeft nog geen liedje te zijn.
+>
+> Eerst laten we de woorden lopen.
+---
+## 🎯 Doel
+Deze fase vormt de brug tussen:
+**samen woorden bedenken**
+en:
+**samen muziek maken.**
+Een veelgemaakte fout is om deelnemers onmiddellijk te vragen te zingen.
+Dat creëert onnodige drempels:
+- "Ik kan niet zingen."
+- "Ik ben niet muzikaal."
+- "Ik weet niet hoe melodieën werken."
+- "Ik durf dit niet."
+Daarom begint de Vliegbasis71 Collaborative Song Method niet met zingen.
+We beginnen met **spreken**.
+---
+# 🌱 De basisgedachte
+```mermaid
+flowchart TD
+    A[💭 Thema] --> B[🧩 Woorden]
+    B --> C[✍️ Korte regels]
+    C --> D[🗣️ Gewoon uitspreken]
+    D --> E[👏 Ritmisch spreken]
+    E --> F[🎸 Gitaar toevoegen]
+    F --> G[🎤 Zingen indien gewenst]
+```
+De belangrijkste regel:
+> **Spreken is al muziek genoeg om te beginnen.**
+---
+# 1️⃣ Lees de 12 regels eerst normaal
+Stel dat de groep deze tekst heeft gemaakt:
+```text
+Wakker met koffie
+Aan tafel ontbijt
+Vogels in mijn hoofd
+Zondag wordt langzaam
+Zon door het raam
+Niemand hoeft haast
+Kattenvoer in bak
+Rust komt vanzelf
+Buiten wacht het strand
+Schoenen bij de deur
+Klaar voor morgen
+Vandaag blijft vandaag
+```
+Doe er aanvankelijk **helemaal niets muzikaals** mee.
+Lees gewoon:
+> Wakker met koffie.  
+> Aan tafel ontbijt.  
+> Vogels in mijn hoofd...
+Geen gitaar.
+Geen melodie.
+Geen zang.
+Geen discussie over lettergrepen.
+---
+# 2️⃣ Zoek het natuurlijke spreekritme
+Lees dezelfde regel verschillende keren.
+Bijvoorbeeld:
+```text
+WAK-ker met KOF-fie
+```
+of:
+```text
+wakker — met koffie
+```
+of:
+```text
+WAKker met — KOFFIE
+```
+Er bestaat nog geen fout antwoord.
+Het doel is ontdekken:
+> **Waar wil deze zin vanzelf landen?**
+---
+# 3️⃣ Voeg een puls toe
+Tik met je hand:
+```text
+1    2    3    4
+👏   👏   👏   👏
+```
+Spreek daarna:
+```text
+1       2       3       4
+Wakker  met     koffie   —
+```
+Probeer opnieuw:
+```text
+1       &       2       &       3       4
+Wak-    ker     met     kof-    fie     —
+```
+De tekst hoeft niet mathematisch perfect verdeeld te zijn.
+We zoeken een **bruikbare groove**.
+---
+# 🧠 Belangrijk principe: tekst mag ademen
+Een regel hoeft niet alle vier tellen te vullen.
+Bijvoorbeeld:
+```text
+| 1        2       3       4 |
+| Wakker   met     koffie    - |
+```
+De stilte is geen fout.
+De stilte is onderdeel van de muziek.
+---
+# 4️⃣ Call & Response
+De facilitator kan één regel voordoen.
+```text
+Facilitator:
+"Wakker met koffie"
+Groep:
+"Wakker met koffie"
+```
+Daarna:
+```text
+Facilitator:
+"Aan tafel ontbijt"
+Groep:
+"Aan tafel ontbijt"
+```
+En uiteindelijk:
+```text
+Facilitator        Groep
+────────────       ─────────────
+Wakker met koffie  Wakker met koffie
+Aan tafel ontbijt  Aan tafel ontbijt
+```
+Dit verlaagt de drempel enorm.
+Niemand hoeft alleen te zingen.
+---
+# 🎭 Drie uitvoeringsniveaus
+## Niveau 1 — Spreken
+```text
+Wakker met koffie
+Aan tafel ontbijt
+```
+## Niveau 2 — Ritmisch spreken
+```text
+WAK-ker met KOF-fie
+AAN tafel ONT-bijt
+```
+## Niveau 3 — Half zingen
+Gebruik bijvoorbeeld maar twee toonhoogtes.
+```text
+E  E  G# G#
+Wakker met koffie
+```
+De overgang naar zang hoeft dus niet groot te zijn.
+---
+# 🚨 Rescue Mode
+Als de groep vastloopt:
+**ga één niveau terug.**
+```mermaid
+flowchart LR
+    A[🎤 Zingen lukt niet] --> B[🗣️ Ritmisch spreken]
+    B --> C[👏 Alleen puls]
+    C --> D[🗣️ Gewoon tekst lezen]
+```
+Nooit:
+> "Kom op, probeer gewoon harder."
+Wel:
+> "We spreken hem eerst samen."
+---
+# 🎯 Succescriterium
+Deze fase is geslaagd wanneer de groep:
+- de tekst kent;
+- ongeveer dezelfde puls voelt;
+- zonder spanning kan meedoen;
+- begrijpt waar de regels beginnen;
+- plezier begint te krijgen.
+Perfect zingen is **geen** succescriterium.
+---
+# ✈️ Vliegbasis71-regel
+> **Van praten naar ritme.  
+> Van ritme naar muziek.  
+> Niet andersom.**
+
+⸻
+
+2. musical-layer.md
+
+# 🎸 De Musical Layer
+> Eerst bestaat het verhaal.
+>
+> Daarna geven we het een muzikale vloer.
+---
+# 🎯 Doel
+De facilitator hoeft tijdens een workshop geen ingewikkelde compositie te bedenken.
+De muziek moet juist **voorspelbaar** zijn.
+Waarom?
+Omdat de creativiteit al ergens anders plaatsvindt:
+```text
+publiek
+   ↓
+woorden
+   ↓
+zinnen
+   ↓
+verhaal
+```
+De begeleiding moet daarom eenvoudig blijven.
+---
+# 🎸 Beginner Mode
+Voor de eerste oefeningen gebruiken we een eenvoudige akkoordwereld rond E.
+Bijvoorbeeld:
+```text
+E → A → E → B
+```
+of:
+```text
+E → A → B → E
+```
+Een hele cyclus kan bijvoorbeeld zijn:
+| Maat | Akkoord |
+|---:|:---|
+| 1 | E |
+| 2 | A |
+| 3 | E |
+| 4 | B |
+| 5 | E |
+| 6 | A |
+| 7 | B |
+| 8 | E |
+---
+# 🔁 De belangrijkste regel
+Tijdens een workshop:
+> **Geen harmonische verrassingen als die niet nodig zijn.**
+De gitarist moet bijna automatisch kunnen spelen.
+---
+# 🎸 Oefenniveau 0
+Speel alleen E.
+```text
+| E | E | E | E |
+```
+Ja.
+Echt.
+Eén akkoord kan voldoende zijn.
+Het publiek maakt het interessante gedeelte.
+---
+# 🎸 Oefenniveau 1
+Gebruik twee akkoorden:
+```text
+| E | A | E | A |
+```
+Speel langzaam.
+Bijvoorbeeld:
+```text
+↓   ↓   ↓   ↓
+1   2   3   4
+```
+---
+# 🎸 Oefenniveau 2
+Gebruik:
+```text
+| E | A | E | B |
+```
+Dit wordt de standaard oefencyclus.
+---
+# 🪕 Arpeggio Mode
+Wanneer strummen te druk voelt:
+```text
+Bass → G → B → e
+```
+bijvoorbeeld:
+```text
+1 & 2 & 3 & 4 &
+B   G   B   e
+```
+Het precieze patroon is minder belangrijk dan:
+**consistentie.**
+---
+# 🧠 Waarom simpel?
+Tijdens live faciliteren moet je brein tegelijkertijd:
+```mermaid
+mindmap
+  root((🧠 Facilitator))
+    Publiek
+      luisteren
+      uitnodigen
+      veiligheid
+    Tekst
+      regels onthouden
+      volgorde
+      woorden
+    Muziek
+      tempo
+      maat
+      akkoorden
+    Stem
+      tekst
+      toonhoogte
+      timing
+```
+Dat is al veel.
+Daarom reduceren we de muzikale complexiteit.
+---
+# 🎤 Stem toevoegen
+Gebruik aanvankelijk maximaal drie tonen.
+Bijvoorbeeld in E:
+```text
+E
+G#
+B
+```
+Je hoeft geen melodie te componeren.
+Je kunt beginnen met:
+```text
+E E E E
+Wakker met koffie
+```
+en daarna spontaan één woord hoger zingen.
+```text
+E E G# G#
+Wakker met koffie
+```
+---
+# 🪜 Michiel Training Ladder
+Ga nooit direct naar niveau 5.
+```text
+LEVEL 1
+🎸 gitaar
+│
+▼
+LEVEL 2
+🗣️ tekst spreken
+│
+▼
+LEVEL 3
+👏 tekst + puls
+│
+▼
+LEVEL 4
+🎸 + 🗣️
+gitaar + spreken
+│
+▼
+LEVEL 5
+🎸 + 🎤
+gitaar + zingen
+│
+▼
+LEVEL 6
+🎸 + 🎤 + 👥
+publiek begeleiden
+```
+---
+# ⏱️ Oefenprotocol
+## 5 minuten
+Alleen:
+```text
+E → A → E → B
+```
+Niet zingen.
+---
+## 5 minuten
+Spreek de tekst terwijl je speelt.
+Fouten zijn toegestaan.
+Niet stoppen.
+---
+## 5 minuten
+Zing één of twee regels.
+Ga daarna weer spreken.
+---
+## 5 minuten
+Probeer het hele stuk.
+---
+# 🚨 Muzikale Rescue Modes
+Wanneer je tijdens een workshop de akkoorden kwijt bent:
+```text
+→ TERUG NAAR E
+```
+Wanneer je zang vastloopt:
+```text
+→ SPREEK
+```
+Wanneer je ritme vastloopt:
+```text
+→ STOP GITAAR
+→ HOUD PULS
+```
+Wanneer iedereen vastloopt:
+```text
+→ LACH
+→ HERSTART
+```
+---
+# ✈️ Vliegbasis71-principe
+> **De muziek ondersteunt de groep.  
+> De groep ondersteunt niet de muziek.**
+
+⸻
+
+3. facilitator-guide.md
+
+# 🎤 Facilitator Guide
+## Vliegbasis71 Collaborative Song Method
+Deze handleiding beschrijft wat de facilitator daadwerkelijk doet.
+Niet theoretisch.
+Maar:
+> **Wat doe ik wanneer er acht mensen voor mij staan?**
+---
+# 🧳 Voorbereiding
+Bereid vooraf voor:
+- één thema;
+- 6–12 reservewoorden;
+- regels 1, 3, 7 en 11;
+- één eenvoudige akkoordprogressie;
+- één ritmepatroon;
+- pen + papier / whiteboard;
+- timer;
+- optioneel looper.
+---
+# 🧱 Scaffolding
+Voor beginners begint de workshop NIET met een leeg vel.
+De facilitator levert een geraamte.
+```text
+1  [FACILITATOR]
+2  [PUBLIEK]
+3  [FACILITATOR]
+4  [PUBLIEK]
+5  [PUBLIEK]
+6  [PUBLIEK]
+7  [FACILITATOR]
+8  [PUBLIEK]
+9  [PUBLIEK]
+10 [PUBLIEK]
+11 [FACILITATOR]
+12 [PUBLIEK]
+```
+Dit is de kern van de beginnersvariant.
+---
+# 🎯 Voorbeeld
+Thema:
+## ZONDAG
+Vooraf voorbereid:
+```text
+1  Wakker met koffie
+3  Vogels in mijn hoofd
+7  Kattenvoer in bak
+11 Klaar voor morgen
+```
+Het publiek hoeft dus niet een volledig lied te verzinnen.
+Het vult gaten.
+---
+# 👥 Vrijblijvende deelname
+Zeg expliciet:
+> "Je mag één woord geven."
+> "Je mag een hele regel geven."
+> "Je mag alleen luisteren."
+> "Je hoeft niet te zingen."
+> "Er bestaat hier geen auditie."
+---
+# ⏱️ 15-minutenformat
+| Tijd | Activiteit |
+|---:|---|
+| 0–2 min | Thema + uitleg |
+| 2–5 min | Woorden verzamelen |
+| 5–8 min | Regels aanvullen |
+| 8–10 min | Tekst gezamenlijk spreken |
+| 10–12 min | Ritme toevoegen |
+| 12–14 min | Gitaar toevoegen |
+| 14–15 min | Gezamenlijke uitvoering |
+---
+# 🎙️ Opening
+Bijvoorbeeld:
+> "We gaan niet proberen een perfect liedje te schrijven.
+>
+> We gaan spelen met taal.
+>
+> Over vijftien minuten bestaat er iets dat vijftien minuten geleden nog niet bestond."
+---
+# 🧩 Woorden verzamelen
+Vraag:
+> "Wanneer je aan zondag denkt, welk woord verschijnt als eerste?"
+Mogelijke antwoorden:
+```text
+koffie
+rust
+regen
+strand
+familie
+wandelen
+croissant
+kat
+zon
+uitslapen
+```
+Schrijf alles zichtbaar op.
+Nog niet beoordelen.
+---
+# 🧠 Van woorden naar regels
+Nu pas:
+> "We hebben deze woorden. Wie kan hiermee regel twee maken?"
+De facilitator bewaakt:
+- kortheid;
+- begrijpelijkheid;
+- ongeveer dezelfde lengte;
+- geen perfectionisme.
+---
+# ✂️ Faciliteren betekent ook schrappen
+Iemand zegt misschien:
+> "Wanneer ik op zondagochtend wakker word vind ik het altijd heerlijk om eerst rustig een grote kop koffie te drinken."
+Maak daarvan samen:
+> **Zondagochtend met koffie**
+of:
+> **Wakker met koffie**
+Dat is geen afwijzing.
+Dat is muzikale compressie.
+---
+# 🎭 Daarna spreken
+Iedereen samen.
+Geen gitaar.
+```text
+Wakker met koffie
+Aan tafel ontbijt
+...
+```
+---
+# 👏 Daarna puls
+```text
+1 - 2 - 3 - 4
+```
+Laat iedereen meetikken.
+---
+# 🎸 Daarna gitaar
+Pas nu komt:
+```text
+E → A → E → B
+```
+De gitaar arriveert dus relatief laat.
+---
+# 🎤 Daarna optioneel zang
+Zeg:
+> "Je mag zingen.
+> Je mag spreken.
+> Je mag neuriën.
+> Je mag alleen luisteren."
+---
+# 🧯 Wanneer het mislukt
+Dit is belangrijk.
+Een workshop kan niet werkelijk mislukken zolang er een volgende eenvoudigere toestand bestaat.
+```mermaid
+flowchart TD
+    A[🎤 Lied lukt] --> Z[🎉 uitvoeren]
+    B[🎤 Zang lukt niet] --> C[🗣️ Spoken word]
+    C --> Z
+    D[🎸 Gitaar lukt niet] --> E[👏 Handclap]
+    E --> C
+    F[✍️ Regels lukken niet] --> G[🧩 Alleen woorden]
+    G --> C
+```
+---
+# 🧭 Facilitatorhouding
+Niet:
+> "Ik ga jullie leren hoe je een lied schrijft."
+Maar:
+> "Ik heb een structuur waarmee we kunnen onderzoeken wat er ontstaat."
+Dat verschil is fundamenteel.
+---
+# ✈️ De facilitator is niet de ster
+```text
+        👥 PUBLIEK
+       /    |    \
+      /     |     \
+ woorden  verhaal  energie
+      \     |     /
+       \    |    /
+        🎤 facilitator
+             │
+             ▼
+         🎸 structuur
+             │
+             ▼
+          🎶 resultaat
+```
+De facilitator houdt het raamwerk vast.
+De groep vult het raamwerk met leven.
+---
+# ⭐ Succes
+Succes is niet:
+- perfecte zang;
+- perfecte rijm;
+- perfecte timing;
+- een Spotifywaardig lied.
+Succes is:
+> **Mensen horen iets terug dat zij enkele minuten daarvoor zelf hebben ingebracht.**
+
+⸻
+
+4. session-card.md
+
+Dit wordt expres klein. Dit is uiteindelijk het document dat je op je iPad kunt hebben terwijl je daadwerkelijk voor mensen staat.
+
+# ✈️ Vliegbasis71 — Collaborative Song Session Card
+## 🎯 MISSIE
+**Maak binnen ±15 minuten samen iets speelbaars.**
+---
+## BEFORE
+### Thema
+`____________________________`
+### Mijn startregels
+```text
+1  __________________________
+3  __________________________
+7  __________________________
+11 __________________________
+```
+### Reservewoorden
+```text
+____________    ____________
+____________    ____________
+____________    ____________
+```
+### Muziek
+**Key:** E
+**Progressie:**
+```text
+E → A → E → B
+```
+**Tempo:**
+`______ BPM`
+---
+# LIVE
+## 1️⃣ INTRO
+> We gaan spelen met woorden.
+Geen zangervaring nodig.
+---
+## 2️⃣ THEMA
+> Waar denk je aan bij __________?
+---
+## 3️⃣ WOORDEN
+```text
+____________________________
+____________________________
+____________________________
+____________________________
+____________________________
+____________________________
+```
+---
+## 4️⃣ BOUW DE 12 REGELS
+```text
+01 [M] ______________________
+02 [P] ______________________
+03 [M] ______________________
+04 [P] ______________________
+05 [P] ______________________
+06 [P] ______________________
+07 [M] ______________________
+08 [P] ______________________
+09 [P] ______________________
+10 [P] ______________________
+11 [M] ______________________
+12 [P] ______________________
+```
+M = Michiel / facilitator  
+P = publiek
+---
+## 5️⃣ SPREEK
+🗣️ Iedereen samen.
+---
+## 6️⃣ PULS
+```text
+1    2    3    4
+👏   👏   👏   👏
+```
+---
+## 7️⃣ GITAAR
+```text
+E → A → E → B
+```
+Niet ingewikkelder maken.
+---
+## 8️⃣ STEM
+Keuze:
+- 🗣️ spreken
+- 🎤 zingen
+- 🎶 neuriën
+- 👂 luisteren
+---
+# 🆘 RESCUE
+```text
+ZANG MISLUKT
+      ↓
+SPREEK
+GITAAR MISLUKT
+      ↓
+KLAP
+TEKST MISLUKT
+      ↓
+WOORDEN
+ALLES MISLUKT
+      ↓
+LACH
+      ↓
+BEGIN OPNIEUW 😛
+```
+---
+# 🛬 LANDING
+Vraag:
+> "Zullen we hem nog één keer doen?"
+Daarna:
+> "Nieuw thema?"
+---
+## ✈️ ONTHOUD
+**Niet perfectioneren.**
+**Niet uitleggen terwijl spelen voldoende is.**
+**Niet alles zelf invullen.**
+**Laat stilte bestaan.**
+**Laat deelnemers passen.**
+**Hou de muziek simpel.**
+---
+> ### Vliegbasis71
+>
+> **Van losse woorden naar iets wat samen bestaat.**
+
+⸻
+
+Daarmee hebben we nu een veel belangrijker geheel dan alleen vier nieuwe bestanden. De methode heeft inmiddels twee duidelijke lagen:
+
+                 VLIEGBASIS71
+          COLLABORATIVE SONG METHOD
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+     🧠 CREATION              🎶 PERFORMANCE
+          │                       │
+       thema                   spreken
+          ↓                       ↓
+       woorden                  puls
+          ↓                       ↓
+      12 regels                gitaar
+          ↓                       ↓
+      structuur                 stem
+          │                       │
+          └───────────┬───────────┘
+                      ↓
+                👥 LIVE GROEP
+                      ↓
+                 🎉 RESULTAAT
+
+En dit sluit precies aan bij de oorspronkelijke repository: het bestaande project noemt zichzelf Vliegbasis71 Live Song System, terwijl deze Collaborative Song Method nu de laag toevoegt voor hoe mensen gezamenlijk bij het materiaal komen dat het live-systeem vervolgens kan uitvoeren.  
+
+De volgende batch moet wat mij betreft niet nóg meer workshoptheorie worden. Dan gaan we naar jouw eigen praktische trainingssysteem: AI als gesimuleerd publiek → thema → woorden → 12 regels → E/A/E/B → spreken+spelen → zingen+spelen → volledige gesimuleerde workshop. Dat is het gedeelte waarmee je vanavond daadwerkelijk kunt beginnen oefenen.
+
+
+
+----
+
+[2026-08-09 17:43 CEST, ID: V5K8R2M6]
+
+Denkpatroon: Akkoord. De review-/acceptatiefase is afgerond; ik behandel de afgesproken methodiek nu als baseline. De repository staat inmiddels publiek met docs, site en mkdocs.yml, dus we kunnen de volgende documenten rechtstreeks ontwerpen als onderdeel van dezelfde MkDocs-kennisstructuur.  
+
+Antwoord:
+
+We gaan door met Batch 2 — van woorden naar iets dat daadwerkelijk uit je gitaar en mond komt.
+
+Dit is een belangrijke batch, omdat hier de Collaborative Song Method verandert van:
+
+leuk workshopidee
+
+naar:
+
+woorden
+   ↓
+ritme
+   ↓
+spoken word
+   ↓
+akkoorden
+   ↓
+stem + gitaar
+   ↓
+publiek
+   ↓
+LIVE SONG
+
+De vier documenten van deze batch worden:
+
+docs/collaborative-song/
+├── spoken-word.md
+├── musical-layer.md
+├── facilitator-guide.md
+└── session-card.md
+
+Hieronder de volledige Markdown.
+
+⸻
+
+1. spoken-word.md
+
+# 🗣️ Van woorden naar Spoken Word
+> **Vliegbasis71 Collaborative Song Method**
+>
+> De tekst hoeft nog geen liedje te zijn.
+>
+> Eerst laten we de woorden lopen.
+---
+## 🎯 Doel
+Deze fase vormt de brug tussen:
+**samen woorden bedenken**
+en:
+**samen muziek maken.**
+Een veelgemaakte fout is om deelnemers onmiddellijk te vragen te zingen.
+Dat creëert onnodige drempels:
+- "Ik kan niet zingen."
+- "Ik ben niet muzikaal."
+- "Ik weet niet hoe melodieën werken."
+- "Ik durf dit niet."
+Daarom begint de Vliegbasis71 Collaborative Song Method niet met zingen.
+We beginnen met **spreken**.
+---
+# 🌱 De basisgedachte
+```mermaid
+flowchart TD
+    A[💭 Thema] --> B[🧩 Woorden]
+    B --> C[✍️ Korte regels]
+    C --> D[🗣️ Gewoon uitspreken]
+    D --> E[👏 Ritmisch spreken]
+    E --> F[🎸 Gitaar toevoegen]
+    F --> G[🎤 Zingen indien gewenst]
+```
+De belangrijkste regel:
+> **Spreken is al muziek genoeg om te beginnen.**
+---
+# 1️⃣ Lees de 12 regels eerst normaal
+Stel dat de groep deze tekst heeft gemaakt:
+```text
+Wakker met koffie
+Aan tafel ontbijt
+Vogels in mijn hoofd
+Zondag wordt langzaam
+Zon door het raam
+Niemand hoeft haast
+Kattenvoer in bak
+Rust komt vanzelf
+Buiten wacht het strand
+Schoenen bij de deur
+Klaar voor morgen
+Vandaag blijft vandaag
+```
+Doe er aanvankelijk **helemaal niets muzikaals** mee.
+Lees gewoon:
+> Wakker met koffie.  
+> Aan tafel ontbijt.  
+> Vogels in mijn hoofd...
+Geen gitaar.
+Geen melodie.
+Geen zang.
+Geen discussie over lettergrepen.
+---
+# 2️⃣ Zoek het natuurlijke spreekritme
+Lees dezelfde regel verschillende keren.
+Bijvoorbeeld:
+```text
+WAK-ker met KOF-fie
+```
+of:
+```text
+wakker — met koffie
+```
+of:
+```text
+WAKker met — KOFFIE
+```
+Er bestaat nog geen fout antwoord.
+Het doel is ontdekken:
+> **Waar wil deze zin vanzelf landen?**
+---
+# 3️⃣ Voeg een puls toe
+Tik met je hand:
+```text
+1    2    3    4
+👏   👏   👏   👏
+```
+Spreek daarna:
+```text
+1       2       3       4
+Wakker  met     koffie   —
+```
+Probeer opnieuw:
+```text
+1       &       2       &       3       4
+Wak-    ker     met     kof-    fie     —
+```
+De tekst hoeft niet mathematisch perfect verdeeld te zijn.
+We zoeken een **bruikbare groove**.
+---
+# 🧠 Belangrijk principe: tekst mag ademen
+Een regel hoeft niet alle vier tellen te vullen.
+Bijvoorbeeld:
+```text
+| 1        2       3       4 |
+| Wakker   met     koffie    - |
+```
+De stilte is geen fout.
+De stilte is onderdeel van de muziek.
+---
+# 4️⃣ Call & Response
+De facilitator kan één regel voordoen.
+```text
+Facilitator:
+"Wakker met koffie"
+Groep:
+"Wakker met koffie"
+```
+Daarna:
+```text
+Facilitator:
+"Aan tafel ontbijt"
+Groep:
+"Aan tafel ontbijt"
+```
+En uiteindelijk:
+```text
+Facilitator        Groep
+────────────       ─────────────
+Wakker met koffie  Wakker met koffie
+Aan tafel ontbijt  Aan tafel ontbijt
+```
+Dit verlaagt de drempel enorm.
+Niemand hoeft alleen te zingen.
+---
+# 🎭 Drie uitvoeringsniveaus
+## Niveau 1 — Spreken
+```text
+Wakker met koffie
+Aan tafel ontbijt
+```
+## Niveau 2 — Ritmisch spreken
+```text
+WAK-ker met KOF-fie
+AAN tafel ONT-bijt
+```
+## Niveau 3 — Half zingen
+Gebruik bijvoorbeeld maar twee toonhoogtes.
+```text
+E  E  G# G#
+Wakker met koffie
+```
+De overgang naar zang hoeft dus niet groot te zijn.
+---
+# 🚨 Rescue Mode
+Als de groep vastloopt:
+**ga één niveau terug.**
+```mermaid
+flowchart LR
+    A[🎤 Zingen lukt niet] --> B[🗣️ Ritmisch spreken]
+    B --> C[👏 Alleen puls]
+    C --> D[🗣️ Gewoon tekst lezen]
+```
+Nooit:
+> "Kom op, probeer gewoon harder."
+Wel:
+> "We spreken hem eerst samen."
+---
+# 🎯 Succescriterium
+Deze fase is geslaagd wanneer de groep:
+- de tekst kent;
+- ongeveer dezelfde puls voelt;
+- zonder spanning kan meedoen;
+- begrijpt waar de regels beginnen;
+- plezier begint te krijgen.
+Perfect zingen is **geen** succescriterium.
+---
+# ✈️ Vliegbasis71-regel
+> **Van praten naar ritme.  
+> Van ritme naar muziek.  
+> Niet andersom.**
+
+⸻
+
+2. musical-layer.md
+
+# 🎸 De Musical Layer
+> Eerst bestaat het verhaal.
+>
+> Daarna geven we het een muzikale vloer.
+---
+# 🎯 Doel
+De facilitator hoeft tijdens een workshop geen ingewikkelde compositie te bedenken.
+De muziek moet juist **voorspelbaar** zijn.
+Waarom?
+Omdat de creativiteit al ergens anders plaatsvindt:
+```text
+publiek
+   ↓
+woorden
+   ↓
+zinnen
+   ↓
+verhaal
+```
+De begeleiding moet daarom eenvoudig blijven.
+---
+# 🎸 Beginner Mode
+Voor de eerste oefeningen gebruiken we een eenvoudige akkoordwereld rond E.
+Bijvoorbeeld:
+```text
+E → A → E → B
+```
+of:
+```text
+E → A → B → E
+```
+Een hele cyclus kan bijvoorbeeld zijn:
+| Maat | Akkoord |
+|---:|:---|
+| 1 | E |
+| 2 | A |
+| 3 | E |
+| 4 | B |
+| 5 | E |
+| 6 | A |
+| 7 | B |
+| 8 | E |
+---
+# 🔁 De belangrijkste regel
+Tijdens een workshop:
+> **Geen harmonische verrassingen als die niet nodig zijn.**
+De gitarist moet bijna automatisch kunnen spelen.
+---
+# 🎸 Oefenniveau 0
+Speel alleen E.
+```text
+| E | E | E | E |
+```
+Ja.
+Echt.
+Eén akkoord kan voldoende zijn.
+Het publiek maakt het interessante gedeelte.
+---
+# 🎸 Oefenniveau 1
+Gebruik twee akkoorden:
+```text
+| E | A | E | A |
+```
+Speel langzaam.
+Bijvoorbeeld:
+```text
+↓   ↓   ↓   ↓
+1   2   3   4
+```
+---
+# 🎸 Oefenniveau 2
+Gebruik:
+```text
+| E | A | E | B |
+```
+Dit wordt de standaard oefencyclus.
+---
+# 🪕 Arpeggio Mode
+Wanneer strummen te druk voelt:
+```text
+Bass → G → B → e
+```
+bijvoorbeeld:
+```text
+1 & 2 & 3 & 4 &
+B   G   B   e
+```
+Het precieze patroon is minder belangrijk dan:
+**consistentie.**
+---
+# 🧠 Waarom simpel?
+Tijdens live faciliteren moet je brein tegelijkertijd:
+```mermaid
+mindmap
+  root((🧠 Facilitator))
+    Publiek
+      luisteren
+      uitnodigen
+      veiligheid
+    Tekst
+      regels onthouden
+      volgorde
+      woorden
+    Muziek
+      tempo
+      maat
+      akkoorden
+    Stem
+      tekst
+      toonhoogte
+      timing
+```
+Dat is al veel.
+Daarom reduceren we de muzikale complexiteit.
+---
+# 🎤 Stem toevoegen
+Gebruik aanvankelijk maximaal drie tonen.
+Bijvoorbeeld in E:
+```text
+E
+G#
+B
+```
+Je hoeft geen melodie te componeren.
+Je kunt beginnen met:
+```text
+E E E E
+Wakker met koffie
+```
+en daarna spontaan één woord hoger zingen.
+```text
+E E G# G#
+Wakker met koffie
+```
+---
+# 🪜 Michiel Training Ladder
+Ga nooit direct naar niveau 5.
+```text
+LEVEL 1
+🎸 gitaar
+│
+▼
+LEVEL 2
+🗣️ tekst spreken
+│
+▼
+LEVEL 3
+👏 tekst + puls
+│
+▼
+LEVEL 4
+🎸 + 🗣️
+gitaar + spreken
+│
+▼
+LEVEL 5
+🎸 + 🎤
+gitaar + zingen
+│
+▼
+LEVEL 6
+🎸 + 🎤 + 👥
+publiek begeleiden
+```
+---
+# ⏱️ Oefenprotocol
+## 5 minuten
+Alleen:
+```text
+E → A → E → B
+```
+Niet zingen.
+---
+## 5 minuten
+Spreek de tekst terwijl je speelt.
+Fouten zijn toegestaan.
+Niet stoppen.
+---
+## 5 minuten
+Zing één of twee regels.
+Ga daarna weer spreken.
+---
+## 5 minuten
+Probeer het hele stuk.
+---
+# 🚨 Muzikale Rescue Modes
+Wanneer je tijdens een workshop de akkoorden kwijt bent:
+```text
+→ TERUG NAAR E
+```
+Wanneer je zang vastloopt:
+```text
+→ SPREEK
+```
+Wanneer je ritme vastloopt:
+```text
+→ STOP GITAAR
+→ HOUD PULS
+```
+Wanneer iedereen vastloopt:
+```text
+→ LACH
+→ HERSTART
+```
+---
+# ✈️ Vliegbasis71-principe
+> **De muziek ondersteunt de groep.  
+> De groep ondersteunt niet de muziek.**
+
+⸻
+
+3. facilitator-guide.md
+
+# 🎤 Facilitator Guide
+## Vliegbasis71 Collaborative Song Method
+Deze handleiding beschrijft wat de facilitator daadwerkelijk doet.
+Niet theoretisch.
+Maar:
+> **Wat doe ik wanneer er acht mensen voor mij staan?**
+---
+# 🧳 Voorbereiding
+Bereid vooraf voor:
+- één thema;
+- 6–12 reservewoorden;
+- regels 1, 3, 7 en 11;
+- één eenvoudige akkoordprogressie;
+- één ritmepatroon;
+- pen + papier / whiteboard;
+- timer;
+- optioneel looper.
+---
+# 🧱 Scaffolding
+Voor beginners begint de workshop NIET met een leeg vel.
+De facilitator levert een geraamte.
+```text
+1  [FACILITATOR]
+2  [PUBLIEK]
+3  [FACILITATOR]
+4  [PUBLIEK]
+5  [PUBLIEK]
+6  [PUBLIEK]
+7  [FACILITATOR]
+8  [PUBLIEK]
+9  [PUBLIEK]
+10 [PUBLIEK]
+11 [FACILITATOR]
+12 [PUBLIEK]
+```
+Dit is de kern van de beginnersvariant.
+---
+# 🎯 Voorbeeld
+Thema:
+## ZONDAG
+Vooraf voorbereid:
+```text
+1  Wakker met koffie
+3  Vogels in mijn hoofd
+7  Kattenvoer in bak
+11 Klaar voor morgen
+```
+Het publiek hoeft dus niet een volledig lied te verzinnen.
+Het vult gaten.
+---
+# 👥 Vrijblijvende deelname
+Zeg expliciet:
+> "Je mag één woord geven."
+> "Je mag een hele regel geven."
+> "Je mag alleen luisteren."
+> "Je hoeft niet te zingen."
+> "Er bestaat hier geen auditie."
+---
+# ⏱️ 15-minutenformat
+| Tijd | Activiteit |
+|---:|---|
+| 0–2 min | Thema + uitleg |
+| 2–5 min | Woorden verzamelen |
+| 5–8 min | Regels aanvullen |
+| 8–10 min | Tekst gezamenlijk spreken |
+| 10–12 min | Ritme toevoegen |
+| 12–14 min | Gitaar toevoegen |
+| 14–15 min | Gezamenlijke uitvoering |
+---
+# 🎙️ Opening
+Bijvoorbeeld:
+> "We gaan niet proberen een perfect liedje te schrijven.
+>
+> We gaan spelen met taal.
+>
+> Over vijftien minuten bestaat er iets dat vijftien minuten geleden nog niet bestond."
+---
+# 🧩 Woorden verzamelen
+Vraag:
+> "Wanneer je aan zondag denkt, welk woord verschijnt als eerste?"
+Mogelijke antwoorden:
+```text
+koffie
+rust
+regen
+strand
+familie
+wandelen
+croissant
+kat
+zon
+uitslapen
+```
+Schrijf alles zichtbaar op.
+Nog niet beoordelen.
+---
+# 🧠 Van woorden naar regels
+Nu pas:
+> "We hebben deze woorden. Wie kan hiermee regel twee maken?"
+De facilitator bewaakt:
+- kortheid;
+- begrijpelijkheid;
+- ongeveer dezelfde lengte;
+- geen perfectionisme.
+---
+# ✂️ Faciliteren betekent ook schrappen
+Iemand zegt misschien:
+> "Wanneer ik op zondagochtend wakker word vind ik het altijd heerlijk om eerst rustig een grote kop koffie te drinken."
+Maak daarvan samen:
+> **Zondagochtend met koffie**
+of:
+> **Wakker met koffie**
+Dat is geen afwijzing.
+Dat is muzikale compressie.
+---
+# 🎭 Daarna spreken
+Iedereen samen.
+Geen gitaar.
+```text
+Wakker met koffie
+Aan tafel ontbijt
+...
+```
+---
+# 👏 Daarna puls
+```text
+1 - 2 - 3 - 4
+```
+Laat iedereen meetikken.
+---
+# 🎸 Daarna gitaar
+Pas nu komt:
+```text
+E → A → E → B
+```
+De gitaar arriveert dus relatief laat.
+---
+# 🎤 Daarna optioneel zang
+Zeg:
+> "Je mag zingen.
+> Je mag spreken.
+> Je mag neuriën.
+> Je mag alleen luisteren."
+---
+# 🧯 Wanneer het mislukt
+Dit is belangrijk.
+Een workshop kan niet werkelijk mislukken zolang er een volgende eenvoudigere toestand bestaat.
+```mermaid
+flowchart TD
+    A[🎤 Lied lukt] --> Z[🎉 uitvoeren]
+    B[🎤 Zang lukt niet] --> C[🗣️ Spoken word]
+    C --> Z
+    D[🎸 Gitaar lukt niet] --> E[👏 Handclap]
+    E --> C
+    F[✍️ Regels lukken niet] --> G[🧩 Alleen woorden]
+    G --> C
+```
+---
+# 🧭 Facilitatorhouding
+Niet:
+> "Ik ga jullie leren hoe je een lied schrijft."
+Maar:
+> "Ik heb een structuur waarmee we kunnen onderzoeken wat er ontstaat."
+Dat verschil is fundamenteel.
+---
+# ✈️ De facilitator is niet de ster
+```text
+        👥 PUBLIEK
+       /    |    \
+      /     |     \
+ woorden  verhaal  energie
+      \     |     /
+       \    |    /
+        🎤 facilitator
+             │
+             ▼
+         🎸 structuur
+             │
+             ▼
+          🎶 resultaat
+```
+De facilitator houdt het raamwerk vast.
+De groep vult het raamwerk met leven.
+---
+# ⭐ Succes
+Succes is niet:
+- perfecte zang;
+- perfecte rijm;
+- perfecte timing;
+- een Spotifywaardig lied.
+Succes is:
+> **Mensen horen iets terug dat zij enkele minuten daarvoor zelf hebben ingebracht.**
+
+⸻
+
+4. session-card.md
+
+Dit wordt expres klein. Dit is uiteindelijk het document dat je op je iPad kunt hebben terwijl je daadwerkelijk voor mensen staat.
+
+# ✈️ Vliegbasis71 — Collaborative Song Session Card
+## 🎯 MISSIE
+**Maak binnen ±15 minuten samen iets speelbaars.**
+---
+## BEFORE
+### Thema
+`____________________________`
+### Mijn startregels
+```text
+1  __________________________
+3  __________________________
+7  __________________________
+11 __________________________
+```
+### Reservewoorden
+```text
+____________    ____________
+____________    ____________
+____________    ____________
+```
+### Muziek
+**Key:** E
+**Progressie:**
+```text
+E → A → E → B
+```
+**Tempo:**
+`______ BPM`
+---
+# LIVE
+## 1️⃣ INTRO
+> We gaan spelen met woorden.
+Geen zangervaring nodig.
+---
+## 2️⃣ THEMA
+> Waar denk je aan bij __________?
+---
+## 3️⃣ WOORDEN
+```text
+____________________________
+____________________________
+____________________________
+____________________________
+____________________________
+____________________________
+```
+---
+## 4️⃣ BOUW DE 12 REGELS
+```text
+01 [M] ______________________
+02 [P] ______________________
+03 [M] ______________________
+04 [P] ______________________
+05 [P] ______________________
+06 [P] ______________________
+07 [M] ______________________
+08 [P] ______________________
+09 [P] ______________________
+10 [P] ______________________
+11 [M] ______________________
+12 [P] ______________________
+```
+M = Michiel / facilitator  
+P = publiek
+---
+## 5️⃣ SPREEK
+🗣️ Iedereen samen.
+---
+## 6️⃣ PULS
+```text
+1    2    3    4
+👏   👏   👏   👏
+```
+---
+## 7️⃣ GITAAR
+```text
+E → A → E → B
+```
+Niet ingewikkelder maken.
+---
+## 8️⃣ STEM
+Keuze:
+- 🗣️ spreken
+- 🎤 zingen
+- 🎶 neuriën
+- 👂 luisteren
+---
+# 🆘 RESCUE
+```text
+ZANG MISLUKT
+      ↓
+SPREEK
+GITAAR MISLUKT
+      ↓
+KLAP
+TEKST MISLUKT
+      ↓
+WOORDEN
+ALLES MISLUKT
+      ↓
+LACH
+      ↓
+BEGIN OPNIEUW 😛
+```
+---
+# 🛬 LANDING
+Vraag:
+> "Zullen we hem nog één keer doen?"
+Daarna:
+> "Nieuw thema?"
+---
+## ✈️ ONTHOUD
+**Niet perfectioneren.**
+**Niet uitleggen terwijl spelen voldoende is.**
+**Niet alles zelf invullen.**
+**Laat stilte bestaan.**
+**Laat deelnemers passen.**
+**Hou de muziek simpel.**
+---
+> ### Vliegbasis71
+>
+> **Van losse woorden naar iets wat samen bestaat.**
+
+⸻
+
+Daarmee hebben we nu een veel belangrijker geheel dan alleen vier nieuwe bestanden. De methode heeft inmiddels twee duidelijke lagen:
+
+                 VLIEGBASIS71
+          COLLABORATIVE SONG METHOD
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+     🧠 CREATION              🎶 PERFORMANCE
+          │                       │
+       thema                   spreken
+          ↓                       ↓
+       woorden                  puls
+          ↓                       ↓
+      12 regels                gitaar
+          ↓                       ↓
+      structuur                 stem
+          │                       │
+          └───────────┬───────────┘
+                      ↓
+                👥 LIVE GROEP
+                      ↓
+                 🎉 RESULTAAT
+
+En dit sluit precies aan bij de oorspronkelijke repository: het bestaande project noemt zichzelf Vliegbasis71 Live Song System, terwijl deze Collaborative Song Method nu de laag toevoegt voor hoe mensen gezamenlijk bij het materiaal komen dat het live-systeem vervolgens kan uitvoeren.  
+
+De volgende batch moet wat mij betreft niet nóg meer workshoptheorie worden. Dan gaan we naar jouw eigen praktische trainingssysteem: AI als gesimuleerd publiek → thema → woorden → 12 regels → E/A/E/B → spreken+spelen → zingen+spelen → volledige gesimuleerde workshop. Dat is het gedeelte waarmee je vanavond daadwerkelijk kunt beginnen oefenen.
+
+---
+
+# chat
+[2026-08-09 16:14 CEST, ID: H4R8K2M7], [2026-08-09 16:09 CEST, ID: Q6M3K8R2], [2026-08-09 16:18 CEST, ID: N8K4R2M7], [2026-08-09 16:17 CEST, ID: C7M4K9R2], [2026-08-09 16:23 CEST, ID: F6K2R8M4] , [2026-08-09 16:29 CEST, ID: K9R4M2V7], [2026-08-09 16:36 CEST, ID: T3K8R6M2]
+2026-08-09 17:11 CEST, ID: B4R8K2M7], [2026-08-09 17:43 CEST, ID: V5K8R2M6], 
+[2026-08-09 17:52 CEST, ID: C8R4K2M7],
+[2026-08-09 17:32 CEST, ID: M7K2R9V4]:
 
 
 
