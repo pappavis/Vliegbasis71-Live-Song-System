@@ -9128,7 +9128,182 @@ De volgende batch moet wat mij betreft niet nóg meer workshoptheorie worden. Da
 [2026-08-09 16:14 CEST, ID: H4R8K2M7], [2026-08-09 16:09 CEST, ID: Q6M3K8R2], [2026-08-09 16:18 CEST, ID: N8K4R2M7], [2026-08-09 16:17 CEST, ID: C7M4K9R2], [2026-08-09 16:23 CEST, ID: F6K2R8M4] , [2026-08-09 16:29 CEST, ID: K9R4M2V7], [2026-08-09 16:36 CEST, ID: T3K8R6M2]
 2026-08-09 17:11 CEST, ID: B4R8K2M7], [2026-08-09 17:43 CEST, ID: V5K8R2M6], 
 [2026-08-09 17:52 CEST, ID: C8R4K2M7],
-[2026-08-09 17:32 CEST, ID: M7K2R9V4]:
+[2026-08-09 17:32 CEST, ID: M7K2R9V4]: Ga door zoals afgerpken met de Vliegbasis71 live song systeem: Collaborative Song Method.
 
 
+[2026-08-09 18:11 CEST, ID: K6R9M3V2]
+
+Denkpatroon: De documentstructuur staat nu stevig genoeg. Zoals afgesproken gaan we niet verder verdrinken in architectuur: de Collaborative Song Method moet nu een uitvoerbare vaardigheid worden. Daarom gaan we van documenteren → simuleren → spelen → evalueren, waarbij ik eerst publiek ben en jij facilitator.
+
+Antwoord:
+
+🎵 Vliegbasis71 Collaborative Song Method — Practice Round 001
+
+Dit is de eerste echte oefenronde van het systeem dat uit jouw brainstorm met Patricia is ontstaan.
+
+                    🎤 MICHIEL
+                    facilitator
+                        │
+                        ▼
+                 1. THEMA KIEZEN
+                        │
+                        ▼
+                 2. WOORDEN OOGSTEN
+                        │
+                        ▼
+              3. KORTE REGELS BOUWEN
+                        │
+                        ▼
+                  4. 12 REGELS
+                        │
+                        ▼
+                  5. 4/4 RITME
+                        │
+                        ▼
+                 6. Eenvoudige
+                akkoordprogressie
+                        │
+                        ▼
+                 7. 🎸 + 🎤
+                        │
+                        ▼
+                 8. PUBLIEK MEE
+                        │
+                        ▼
+                  9. REFLECTIE
+
+Dit sluit ook technisch netjes aan op de MkDocs-opzet: geneste secties kunnen rechtstreeks in nav worden georganiseerd, en Material kan tabs + sections combineren.  
+
+De belangrijkste regel voor deze oefening
+
+Ik neem het proces niet van je over.
+
+We gebruiken drie rollen:
+
+Commando	Mijn rol	Wat ik doe
+Publiek	👥 Deelnemer	Reageer zoals een gewone workshopdeelnemer
+Coach	🧭 Coach	Geef korte praktische feedback
+AI assist	🤖 Assistent	Help met rijm, structuur, akkoorden of ritme
+
+Standaard sta ik vanaf nu in Publiek-modus.
+
+Dat betekent bijvoorbeeld dat wanneer jij vraagt:
+
+“Waar denken jullie aan bij zondag?”
+
+ik niet onmiddellijk twaalf perfecte regels, een akkoordprogressie en een arrangement produceer.
+
+Ik zou als deelnemer bijvoorbeeld antwoorden:
+
+“Koffie, uitslapen en wandelen.”
+
+Daarna moet jij bepalen wat ermee gebeurt.
+
+⸻
+
+🧪 Practice Round 001
+
+Voor deze eerste oefening maken we het bewust makkelijker dan een echte parksessie.
+
+Jij mag vooraf vier ankerregels voorbereiden:
+
+01  [MICHIEL — voorbereid]
+02  [PUBLIEK]
+03  [MICHIEL — voorbereid]
+04  [PUBLIEK]
+05  [PUBLIEK]
+06  [PUBLIEK]
+07  [MICHIEL — voorbereid]
+08  [PUBLIEK]
+09  [PUBLIEK]
+10  [PUBLIEK]
+11  [MICHIEL — voorbereid]
+12  [PUBLIEK]
+
+Dit is precies Patricia’s belangrijke scaffolding-principe: het publiek krijgt geen leeg vel waarop het ineens creatief moet zijn. Jij zet paaltjes neer; deelnemers bouwen ertussen.
+
+Muzikale beperking
+
+Voor ronde 001 wil ik bovendien dat we expres binnen een klein speelveld blijven:
+
+Tempo       ± 80 BPM
+Maat        4/4
+Gitaar      akoestisch
+Akkoorden   E – A – B7
+Optioneel   C#m
+Techniek    eenvoudige down-strum
+            OF langzaam arpeggio
+Stem        spreek-zing eerst toegestaan
+Doel        ritme vasthouden > mooi zingen
+
+En belangrijk: als tegelijkertijd zingen en spelen instort, stoppen we niet met de oefening.
+
+spreken
+   ↓
+spreken + tikken
+   ↓
+zingen zonder gitaar
+   ↓
+gitaar zonder zingen
+   ↓
+spreken + gitaar
+   ↓
+zingen + gitaar
+
+Dat wordt later een expliciete trainingsladder in personal-training-plan.md.
+
+⸻
+
+🌳 Waarom dit straks in het park kan werken
+
+De deelnemer hoeft uiteindelijk maar één klein ding te kunnen:
+
+           IK KAN GEEN MUZIEK
+                   │
+                   ▼
+       "Geef mij drie woorden."
+                   │
+                   ▼
+      zon — koffie — vrijheid
+                   │
+                   ▼
+          facilitator helpt
+                   │
+                   ▼
+           één korte regel
+                   │
+                   ▼
+             🎵 MUZIEK
+
+Daar zit volgens mij nog steeds de sterkste ontdekking uit het gesprek met Patricia.
+
+De workshop verkoopt niet:
+
+“Kom een lied componeren.”
+
+Dat klinkt moeilijk.
+
+Hij verkoopt eigenlijk:
+
+“Geef drie woorden. Over tien minuten hoor je wat ermee gebeurt.”
+
+Dat is nieuwsgierigheid.
+
+En later kun je zelfs met een bord in het park staan:
+
+🎵 GEEF MIJ 3 WOORDEN
+MAAK SAMEN EEN LIEDJE
+Je hoeft niet te kunnen zingen.
+
+⸻
+
+🎤 Simulator gestart
+
+Vanaf nu ben ik geen coach meer.
+
+Ik ben deelnemer nummer 1. Ik weet weinig van muziektheorie. Ik ben nieuwsgierig, maar wil niet voor gek staan. Als je instructie onduidelijk is, zal ik ook daadwerkelijk onzeker of verkeerd reageren. Daarmee testen we of de methode zonder voorkennis werkt.
+
+👥 Publiek-modus actief.
+
+Hoi! Leuk idee. Ik heb eigenlijk nog nooit zelf een liedje gemaakt. Wat gaan we doen?
 
