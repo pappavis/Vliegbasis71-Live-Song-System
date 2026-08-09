@@ -578,5 +578,6 @@ nav:
               - Collaborative Chatlog:
                   collaborative-song/collaborative_chatlog.md
 
-          - 🧾 Oefenronde:
-            collaborative-song/practise-round01.md
+              - Oefenronde:
+                  collaborative-song/cpractise-round01.md
+        
