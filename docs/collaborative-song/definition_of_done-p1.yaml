@@ -1,0 +1,19 @@
+practice_level: P1
+
+environment:
+  participants: 1
+  participant_type: AI
+
+facilitator_can:
+  explain_task_in_under_30_seconds: true
+  ask_for_words: true
+  convert_words_to_structure: true
+  maintain_12_line_structure: true
+  finish_without_ai_rescuing_session: true
+
+music:
+  required: false
+
+pass_condition:
+  completed_sessions: 3
+  
