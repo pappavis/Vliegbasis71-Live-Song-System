@@ -394,6 +394,7 @@ nav:
   #   📚 Boek
   #   📎 Bijlagen
   #   🎵 Collaborative Song
+  #   💼 AMS Marketing System
   #
   # ==========================================================
 
@@ -594,3 +595,80 @@ nav:
 
               - Oefenronde:
                   collaborative-song/cpractise-round01.md
+
+
+  # ==========================================================
+  # AISHA MARKETING SYSTEM
+  #
+  # IMPORTANT:
+  # This is intentionally a TOP-LEVEL navigation item.
+  #
+  # AMS applies the same underlying design philosophy as the
+  # Collaborative Song Method to customer discovery,
+  # communication, marketing experiments and customer journeys.
+  #
+  # Current repository directory:
+  #
+  #   docs/aisha-marketing-system/
+  #
+  # Current documents:
+  #
+  #   Aisha-Marketing-System.md
+  #   customer-conversation-card.md
+  #   customer-journeys.md
+  #   experiment-card.md
+  #   aisha_marketingsystem_chatlog.md
+  #
+  # ==========================================================
+
+  - 💼 AMS Marketing System:
+
+
+      # ------------------------------------------------------
+      # START
+      # ------------------------------------------------------
+
+      - 🚀 Start Here:
+
+          - Aisha Marketing System:
+              aisha-marketing-system/Aisha-Marketing-System.md
+
+
+      # ------------------------------------------------------
+      # CUSTOMER DISCOVERY
+      # ------------------------------------------------------
+
+      - 👂 Customer Discovery:
+
+          - Customer Conversation Card:
+              aisha-marketing-system/customer-conversation-card.md
+
+
+      # ------------------------------------------------------
+      # CUSTOMER JOURNEYS
+      # ------------------------------------------------------
+
+      - 🧭 Customer Journeys:
+
+          - Customer Journeys:
+              aisha-marketing-system/customer-journeys.md
+
+
+      # ------------------------------------------------------
+      # EXPERIMENTS
+      # ------------------------------------------------------
+
+      - 🧪 Experiments:
+
+          - Experiment Card:
+              aisha-marketing-system/experiment-card.md
+
+
+      # ------------------------------------------------------
+      # PROJECT HISTORY
+      # ------------------------------------------------------
+
+      - 🧾 Project History:
+
+          - AMS Chatlog:
+              aisha-marketing-system/aisha_marketingsystem_chatlog.md
