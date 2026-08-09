@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Het receptenboek voor iedere Happy Strummer. Inclusief de Vliegbasis71 Collaborative Song Method: een praktische methode voor gezamenlijk woorden, spoken word en eenvoudige live liedjes creëren.">
+        <meta name="description" content="Gebruik ChatGPT als gesimuleerd publiek om de Vliegbasis71 Collaborative Song Method veilig en herhaalbaar te oefenen.">
       
       
         <meta name="author" content="Michiel Erasmus">
@@ -29,7 +29,7 @@
     
     
       
-        <title>AI Practice - Vliegbasis71 Live Song System</title>
+        <title>AI Practice Simulator - Vliegbasis71 Live Song System</title>
       
     
     
@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ai-practice-simulator" class="md-skip">
+          Ga naar inhoud
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AI Practice
+              AI Practice Simulator
             
           </span>
         </div>
@@ -2066,6 +2071,8 @@ Het receptenboek voor iedere Happy Strummer
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -2080,6 +2087,13 @@ Het receptenboek voor iedere Happy Strummer
     
   </span>
   
+  
+    
+  
+  
+    <span class="md-status md-status--experimental"></span>
+  
+
   
 
       </a>
@@ -3187,6 +3201,8 @@ Het receptenboek voor iedere Happy Strummer
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -3280,7 +3296,528 @@ Het receptenboek voor iedere Happy Strummer
   
 
 
-  <h1>AI Practice</h1>
+<h1 id="ai-practice-simulator">🤖 AI Practice Simulator</h1>
+<blockquote>
+<p><strong>AI schrijft het lied niet voor jou. AI geeft jou een publiek om mee te oefenen.</strong></p>
+</blockquote>
+<p>De AI Practice Simulator is een trainingsomgeving voor de facilitator.</p>
+<p>Het doel is nadrukkelijk NIET:</p>
+<blockquote>
+<p>"ChatGPT, schrijf een liedje voor mij."</p>
+</blockquote>
+<p>Het doel is:</p>
+<blockquote>
+<p>"ChatGPT, speel mijn publiek zodat IK leer faciliteren."</p>
+</blockquote>
+<hr />
+<h1 id="waarom-simuleren">🎯 Waarom simuleren?</h1>
+<p>Een echte workshop bevat onzekerheid.</p>
+<p>Deelnemers kunnen:</p>
+<ul>
+<li>niets weten;</li>
+<li>te veel zeggen;</li>
+<li>rare woorden noemen;</li>
+<li>zenuwachtig zijn;</li>
+<li>niet willen zingen;</li>
+<li>de opdracht verkeerd begrijpen;</li>
+<li>een onderwerp veranderen;</li>
+<li>juist enorm enthousiast worden.</li>
+</ul>
+<p>Dat kun je oefenen.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flowchart LR
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[&quot;🤖 AI publiek&quot;] --&gt; B[&quot;🎤 Facilitator oefent&quot;]
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B --&gt; C[&quot;🧠 Ervaring&quot;]
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    C --&gt; D[&quot;🌳 Echt publiek&quot;]
+</code></pre></div>
+<hr />
+<h1 id="de-fundamentele-rolverdeling">🧠 De fundamentele rolverdeling</h1>
+<table>
+<thead>
+<tr>
+<th>Rol</th>
+<th style="text-align: right;">Mens</th>
+<th style="text-align: right;">AI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thema introduceren</td>
+<td style="text-align: right;">🟢</td>
+<td style="text-align: right;">🔴</td>
+</tr>
+<tr>
+<td>Workshop leiden</td>
+<td style="text-align: right;">🟢</td>
+<td style="text-align: right;">🔴</td>
+</tr>
+<tr>
+<td>Deelnemers simuleren</td>
+<td style="text-align: right;">🔴</td>
+<td style="text-align: right;">🟢</td>
+</tr>
+<tr>
+<td>Woorden bijdragen</td>
+<td style="text-align: right;">soms</td>
+<td style="text-align: right;">🟢</td>
+</tr>
+<tr>
+<td>Structuur bewaken</td>
+<td style="text-align: right;">🟢</td>
+<td style="text-align: right;">🔴</td>
+</tr>
+<tr>
+<td>Lied volledig schrijven</td>
+<td style="text-align: right;">🔴</td>
+<td style="text-align: right;">🔴</td>
+</tr>
+<tr>
+<td>Feedback achteraf</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">🟢</td>
+</tr>
+<tr>
+<td>Beslissen wanneer iets goed genoeg is</td>
+<td style="text-align: right;">🟢</td>
+<td style="text-align: right;">🔴</td>
+</tr>
+</tbody>
+</table>
+<p>De facilitator blijft eigenaar van het proces.</p>
+<hr />
+<h1 id="twee-volledig-verschillende-ai-modi">🚦 Twee volledig verschillende AI-modi</h1>
+<p>Dit onderscheid is essentieel.</p>
+<h2 id="mode-1-real-simulation">🟢 MODE 1 — REAL SIMULATION</h2>
+<p>Tijdens deze modus gedraagt AI zich als deelnemer.</p>
+<p>AI mag de facilitator <strong>niet redden</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REAL_SIMULATION</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nt">ai_role</span><span class="p">:</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nt">participant</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="nt">coach</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nt">songwriter</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="nt">facilitator</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="nt">feedback_during_session</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</code></pre></div>
+<hr />
+<h2 id="mode-2-coach-review">🔵 MODE 2 — COACH REVIEW</h2>
+<p>Pas na afloop verandert AI in coach.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">COACH_REVIEW</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nt">ai_role</span><span class="p">:</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="nt">participant</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="nt">coach</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="nt">feedback</span><span class="p">:</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">clarity</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">scaffolding</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pacing</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">participant_safety</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">creative_freedom</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">musical_complexity</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">facilitator_load</span>
+</code></pre></div>
+<p>Meng deze twee modi niet.</p>
+<hr />
+<h1 id="waarom-dit-belangrijk-is">🚨 Waarom dit belangrijk is</h1>
+<p>Wanneer AI tijdens een oefening voortdurend zegt:</p>
+<blockquote>
+<p>"Je zou dit beter zo kunnen doen..."</p>
+</blockquote>
+<p>train je niet het faciliteren.</p>
+<p>Je traint dan:</p>
+<blockquote>
+<p><strong>het opvolgen van ChatGPT.</strong></p>
+</blockquote>
+<p>Dat is een andere vaardigheid.</p>
+<hr />
+<h1 id="simulation-level-1-de-ideale-deelnemer">🧪 Simulation Level 1 — De ideale deelnemer</h1>
+<p>Begin eenvoudig.</p>
+<p>De AI:</p>
+<ul>
+<li>begrijpt de opdracht;</li>
+<li>antwoordt kort;</li>
+<li>levert bruikbare woorden;</li>
+<li>werkt mee;</li>
+<li>stelt weinig vragen.</li>
+</ul>
+<h3 id="startprompt">Startprompt</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>We gaan mijn Vliegbasis71 Collaborative Song workshop simuleren.
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>Jij bent één vriendelijke beginner.
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>Ik ben de facilitator.
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>Tijdens de simulatie:
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>- antwoord alleen als deelnemer;
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>- geef korte natuurlijke antwoorden;
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>- geef mij geen advies;
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>- schrijf niet zelfstandig het lied;
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>- verbeter mijn workshop niet;
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>- wacht steeds op mijn volgende instructie.
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>Wanneer ik zeg &quot;STOP SIMULATION&quot;, stopt de rollensimulatie.
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>Bevestig alleen met:
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>&quot;Klaar.&quot;
+</code></pre></div>
+<hr />
+<h1 id="simulation-level-2-meerdere-deelnemers">🧪 Simulation Level 2 — Meerdere deelnemers</h1>
+<p>Nu wordt AI een groep.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Simuleer vier deelnemers:
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Anna:
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>enthousiast en creatief.
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>Bram:
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>verlegen en geeft zeer korte antwoorden.
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>Carla:
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>praat gemakkelijk te lang.
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>David:
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>zegt regelmatig dat hij niet muzikaal is.
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>Geef alleen reacties wanneer ik iemand aanspreek of wanneer een
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>natuurlijke groepsreactie logisch is.
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>Blijf deelnemer totdat ik zeg:
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>STOP SIMULATION.
+</code></pre></div>
+<hr />
+<h1 id="voorbeeldgroep">👥 Voorbeeldgroep</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>🎤 MICHIEL
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>   │
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>   ├── 🙂 Anna
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>   │     creatief
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>   │
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>   ├── 😶 Bram
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>   │     voorzichtig
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>   │
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>   ├── 🗣️ Carla
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>   │     langdradig
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>   │
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>   └── 😬 David
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>         &quot;ik kan niet zingen&quot;
+</code></pre></div>
+<p>Dit is veel realistischer dan vier perfecte deelnemers.</p>
+<hr />
+<h1 id="simulation-level-3-onverwachte-woorden">🧪 Simulation Level 3 — Onverwachte woorden</h1>
+<p>Deelnemers mogen vreemde associaties geven.</p>
+<p>Thema:</p>
+<blockquote>
+<p>Zondag</p>
+</blockquote>
+<p>Mogelijke antwoorden:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>koffie
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>kerkklok
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>wasmachine
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>regen
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>sokken
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>Netflix
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>eenzaamheid
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>pannenkoeken
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>stofzuiger
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>hond
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>maandagstress
+</code></pre></div>
+<p>De facilitator moet leren:</p>
+<blockquote>
+<p><strong>materiaal gebruiken in plaats van materiaal beoordelen.</strong></p>
+</blockquote>
+<hr />
+<h1 id="simulation-level-4-lange-deelnemer">🧪 Simulation Level 4 — Lange deelnemer</h1>
+<p>AI simuleert iemand die op:</p>
+<blockquote>
+<p>"Geef één tot drie woorden."</p>
+</blockquote>
+<p>antwoordt:</p>
+<blockquote>
+<p>"Nou zondag doet mij eigenlijk denken aan vroeger toen ik bij mijn oma
+kwam en dan gingen we altijd..."</p>
+</blockquote>
+<p>De facilitator moet vriendelijk ingrijpen.</p>
+<p>Bijvoorbeeld:</p>
+<blockquote>
+<p>"Mooi. Als we daar drie woorden uit pakken: oma, koffie en zondagmiddag?"</p>
+</blockquote>
+<p>Dit is een belangrijke facilitatorsvaardigheid.</p>
+<hr />
+<h1 id="simulation-level-5-ik-kan-niet-zingen">🧪 Simulation Level 5 — "Ik kan niet zingen"</h1>
+<p>AI:</p>
+<blockquote>
+<p>"Maar ik kan helemaal niet zingen."</p>
+</blockquote>
+<p>De facilitator hoeft die persoon niet te overtuigen.</p>
+<p>Een goed antwoord is:</p>
+<blockquote>
+<p>"Hoeft ook niet. Je mag praten, neuriën, alleen een woord zeggen of gewoon luisteren."</p>
+</blockquote>
+<p>Daarna:</p>
+<p><strong>doorgaan.</strong></p>
+<hr />
+<h1 id="simulation-level-6-stilte">🧪 Simulation Level 6 — Stilte</h1>
+<p>AI krijgt de opdracht:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Wanneer ik een open vraag stel, reageert de groep soms 5-10 seconden
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>figuurlijk met stilte.
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>Schrijf dan alleen:
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>[stilte]
+</code></pre></div>
+<p>De facilitator oefent:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>VRAAG
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>  ↓
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>STILTE
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>  ↓
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>NIET PANIEKEREN
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>  ↓
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>WACHTEN
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>  ↓
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>KLEINERE VRAAG
+</code></pre></div>
+<p>Bijvoorbeeld:</p>
+<blockquote>
+<p>"Wat hoort bij zondag?"</p>
+</blockquote>
+<p>stilte.</p>
+<p>Dan:</p>
+<blockquote>
+<p>"Noem eens iets wat je zondagmorgen drinkt."</p>
+</blockquote>
+<p>Dat is <strong>scaffolding</strong>.</p>
+<hr />
+<h1 id="simulation-level-7-chaos">🧪 Simulation Level 7 — Chaos</h1>
+<p>Pas later gebruiken.</p>
+<p>De groep bevat bijvoorbeeld:</p>
+<table>
+<thead>
+<tr>
+<th>Deelnemer</th>
+<th>Gedrag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🟢 A</td>
+<td>enthousiast</td>
+</tr>
+<tr>
+<td>🟡 B</td>
+<td>begrijpt opdracht verkeerd</td>
+</tr>
+<tr>
+<td>🟣 C</td>
+<td>wil alles laten rijmen</td>
+</tr>
+<tr>
+<td>🔵 D</td>
+<td>praat veel</td>
+</tr>
+<tr>
+<td>⚪ E</td>
+<td>doet nauwelijks mee</td>
+</tr>
+<tr>
+<td>🟠 F</td>
+<td>wil meteen zingen</td>
+</tr>
+</tbody>
+</table>
+<p>De facilitator moet de workshop bijeenhouden.</p>
+<hr />
+<h1 id="de-trainingsladder">🪜 De trainingsladder</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>flowchart TD
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>    A[&quot;1️⃣ Eén makkelijke deelnemer&quot;]
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>    B[&quot;2️⃣ Vier deelnemers&quot;]
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>    C[&quot;3️⃣ Vreemde woorden&quot;]
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>    D[&quot;4️⃣ Lange antwoorden&quot;]
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>    E[&quot;5️⃣ Ik kan niet zingen&quot;]
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    F[&quot;6️⃣ Stiltes&quot;]
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>    G[&quot;7️⃣ Chaotische groep&quot;]
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>    H[&quot;8️⃣ Volledige workshop&quot;]
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>    A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F --&gt; G --&gt; H
+</code></pre></div>
+<hr />
+<h1 id="time-pressure-mode">⏱️ Time Pressure Mode</h1>
+<p>Later kan een echte tijdslimiet worden gesimuleerd.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Je simuleert een workshop van maximaal 15 minuten.
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>Houd voor jezelf bij waar we ongeveer zijn in het proces.
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>Onderbreek mij NIET met coaching.
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>Wanneer de oefening inhoudelijk duidelijk te lang wordt, reageer als
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>deelnemer natuurlijk verder.
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>Pas nadat ik STOP SIMULATION zeg, mag je aangeven waar waarschijnlijk
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>tijd verloren ging.
+</code></pre></div>
+<hr />
+<h1 id="full-workshop-simulation">🎤 Full Workshop Simulation</h1>
+<p>De facilitator begint bijvoorbeeld:</p>
+<blockquote>
+<p>"Hoi allemaal. Vandaag gaan we iets vreemds proberen..."</p>
+</blockquote>
+<p>Daarna neemt AI alleen deelnemersrollen aan.</p>
+<p>Het proces:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>INTRO
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>  ↓
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>THEMA
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>  ↓
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>WOORDEN
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>  ↓
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>ANKERREGELS
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>  ↓
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>OPEN REGELS
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>  ↓
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>12 REGELS
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>  ↓
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>SPREKEN
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>  ↓
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>RITME
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>  ↓
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>MUZIEK?
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>  ↓
+<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>PERFORMANCE
+<a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a>  ↓
+<a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>STOP SIMULATION
+</code></pre></div>
+<hr />
+<h1 id="coach-review">🔵 Coach Review</h1>
+<p>Na:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>STOP SIMULATION
+</code></pre></div>
+<p>kan worden gevraagd:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Ga nu naar COACH REVIEW.
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>Analyseer mijn workshop alsof je een ervaren workshopfacilitator bent.
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>Beoordeel:
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>1. duidelijkheid;
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>2. scaffolding;
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>3. tempo;
+<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>4. hoeveel ik zelf praatte;
+<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>5. hoeveel ruimte deelnemers kregen;
+<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>6. momenten waarop iemand kon afhaken;
+<a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>7. muzikale complexiteit;
+<a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a>8. hoe ik met onverwachte antwoorden omging;
+<a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a>9. wat ik absoluut moet behouden;
+<a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a>10. slechts drie belangrijkste verbeterpunten.
+<a id="__codelineno-13-17" name="__codelineno-13-17" href="#__codelineno-13-17"></a>
+<a id="__codelineno-13-18" name="__codelineno-13-18" href="#__codelineno-13-18"></a>Geef daarna één oefendoel voor mijn volgende simulatie.
+</code></pre></div>
+<hr />
+<h1 id="scorecard">📊 Scorecard</h1>
+<table>
+<thead>
+<tr>
+<th>Onderdeel</th>
+<th style="text-align: right;">Score 1–5</th>
+<th>Notitie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intro duidelijk</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Thema duidelijk</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Vraag eenvoudig</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Deelnemersruimte</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Scaffolding</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Tempo</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Creatieve veiligheid</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Muzikale eenvoud</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Herstel na fouten</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+<tr>
+<td>Afsluiting</td>
+<td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="ai-leesbare-trainingsstatus">🧠 AI-leesbare trainingsstatus</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nt">vb71_training_session</span><span class="p">:</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="w">  </span><span class="nt">simulation_level</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">  </span><span class="nt">facilitator</span><span class="p">:</span>
+<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="w">    </span><span class="nt">human</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>
+<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="w">  </span><span class="nt">ai</span><span class="p">:</span>
+<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">participant</span>
+<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>
+<a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="w">  </span><span class="nt">theme</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">null</span>
+<a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>
+<a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a><span class="w">  </span><span class="nt">target_duration_minutes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">15</span>
+<a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a>
+<a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="w">  </span><span class="nt">objectives</span><span class="p">:</span>
+<a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">explain_task_simply</span>
+<a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">collect_words</span>
+<a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">construct_short_lines</span>
+<a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">preserve_participant_input</span>
+<a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">reach_spoken_performance</span>
+<a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a>
+<a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a><span class="w">  </span><span class="nt">optional_objectives</span><span class="p">:</span>
+<a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">guitar</span>
+<a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">chant</span>
+<a id="__codelineno-14-25" name="__codelineno-14-25" href="#__codelineno-14-25"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">singing</span>
+<a id="__codelineno-14-26" name="__codelineno-14-26" href="#__codelineno-14-26"></a>
+<a id="__codelineno-14-27" name="__codelineno-14-27" href="#__codelineno-14-27"></a><span class="w">  </span><span class="nt">forbidden_ai_behavior</span><span class="p">:</span>
+<a id="__codelineno-14-28" name="__codelineno-14-28" href="#__codelineno-14-28"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">take_over_facilitation</span>
+<a id="__codelineno-14-29" name="__codelineno-14-29" href="#__codelineno-14-29"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">write_complete_song</span>
+<a id="__codelineno-14-30" name="__codelineno-14-30" href="#__codelineno-14-30"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">coach_during_real_simulation</span>
+<a id="__codelineno-14-31" name="__codelineno-14-31" href="#__codelineno-14-31"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">automatically_fix_participant_input</span>
+<a id="__codelineno-14-32" name="__codelineno-14-32" href="#__codelineno-14-32"></a>
+<a id="__codelineno-14-33" name="__codelineno-14-33" href="#__codelineno-14-33"></a><span class="w">  </span><span class="nt">termination_phrase</span><span class="p">:</span>
+<a id="__codelineno-14-34" name="__codelineno-14-34" href="#__codelineno-14-34"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">STOP SIMULATION</span>
+</code></pre></div>
+<hr />
+<h1 id="hoofdregel">⭐ Hoofdregel</h1>
+<blockquote>
+<p><strong>Tijdens de simulatie moet AI soms een beetje lastig zijn.</strong></p>
+</blockquote>
+<p>Want uiteindelijk train je niet:</p>
+<p><strong>ChatGPT bedienen.</strong></p>
+<p>Je traint:</p>
+<p><strong>mensen begeleiden.</strong></p>
 
 
 
@@ -3288,7 +3825,8 @@ Het receptenboek voor iedere Happy Strummer
 
 
 
-
+  
+  
 
 
 
