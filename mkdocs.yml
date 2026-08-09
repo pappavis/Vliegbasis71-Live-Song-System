@@ -412,6 +412,9 @@ nav:
           - Philosophy:
               collaborative-song/philosophy.md
 
+          - Collaboration Design Principles:
+              collaborative-song/collaboration-design-principles.md
+
           - Quick Start:
               collaborative-song/quick-start.md
 
