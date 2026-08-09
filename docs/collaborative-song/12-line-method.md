@@ -133,7 +133,7 @@ De facilitator wel.
 
 ---
 
-<img src="../assets/Liedjes_workshop_structuur.png" width="70%" height="70%">
+<img src="../assets/Liedjes_workshop_structuur.png" width="70%" height="70%" alt="12-lijn mantra liedjie strctuur">
 
 
 ---
