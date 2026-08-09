@@ -90,6 +90,8 @@ We beginnen met ____________________________________________
 
 ## 12-Line Template
 
+<img src="../assets/12-regels-mantra-liedje-structuur.png" alt="12-regels-mantra-liedje-structuur.">
+
 ```text
 01  ______________________________________  ← ANKER
 
