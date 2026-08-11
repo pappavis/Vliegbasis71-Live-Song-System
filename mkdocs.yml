@@ -124,38 +124,17 @@ theme:
 
   features:
 
-    # Fast page navigation
     - navigation.instant
-
-    # Top-level navigation tabs
     - navigation.tabs
-
-    # Group navigation sections
     - navigation.sections
-
-    # Expand nested sections
     - navigation.expand
-
-    # Back-to-top button
     - navigation.top
-
-    # Previous / next navigation
     - navigation.footer
-
-    # Breadcrumb-like navigation path
     - navigation.path
-
-    # Search
     - search.highlight
     - search.suggest
-
-    # Code blocks
     - content.code.copy
-
-    # Tabs
     - content.tabs.link
-
-    # Follow current heading in TOC
     - toc.follow
 
 
@@ -174,40 +153,25 @@ plugins:
 
 markdown_extensions:
 
-  # Standard Markdown extensions
   - admonition
-
   - attr_list
-
   - md_in_html
-
   - tables
-
   - footnotes
 
-
-  # ----------------------------------------------------------
-  # PYMDOWN EXTENSIONS
-  # ----------------------------------------------------------
-
   - pymdownx.details
-
   - pymdownx.superfences
 
   - pymdownx.tabbed:
-
       alternate_style: true
 
   - pymdownx.highlight:
-
       anchor_linenums: true
 
   - pymdownx.inlinehilite
-
   - pymdownx.keys
 
   - pymdownx.tasklist:
-
       custom_checkbox: true
 
 
@@ -232,13 +196,6 @@ extra_javascript:
 # ------------------------------------------------------------
 # INTENTIONALLY NOT IN NAVIGATION
 # ------------------------------------------------------------
-#
-# definition_of_done-p1.yaml is machine-readable project data,
-# rather than a normal documentation page.
-#
-# MkDocs should know that its omission from nav is intentional.
-#
-# ------------------------------------------------------------
 
 not_in_nav: |
 
@@ -248,35 +205,20 @@ not_in_nav: |
 # ------------------------------------------------------------
 # VALIDATION
 # ------------------------------------------------------------
-#
-# Intended for:
-#
-#     mkdocs build --strict
-#
-# Missing documents, forgotten navigation pages and broken links
-# should become visible during development.
-#
-# ------------------------------------------------------------
 
 validation:
 
   nav:
 
     omitted_files: warn
-
     not_found: warn
-
     absolute_links: warn
-
 
   links:
 
     not_found: warn
-
     anchors: warn
-
     absolute_links: warn
-
     unrecognized_links: warn
 
 
@@ -343,7 +285,7 @@ nav:
           14-Park_uitdagingen.md
 
       - 15 De eerste 100 Live Liedjes:
-          15-De_Eerste_100_Live_Liedjes.md
+          15-De_Eerste_100_Live_Liedjies.md
 
       - 16 Manifest:
           16-Het_Vliegbasis71_Manifest.md
@@ -382,20 +324,6 @@ nav:
 
   # ==========================================================
   # COLLABORATIVE SONG METHOD
-  #
-  # IMPORTANT:
-  # This is intentionally a TOP-LEVEL navigation item.
-  #
-  # With Material for MkDocs and navigation.tabs enabled,
-  # this places "🎵 Collaborative Song" in the top menu
-  # alongside:
-  #
-  #   🏠 Home
-  #   📚 Boek
-  #   📎 Bijlagen
-  #   🎵 Collaborative Song
-  #   💼 AMS Marketing System
-  #
   # ==========================================================
 
   - 🎵 Collaborative Song:
@@ -514,53 +442,26 @@ nav:
               collaborative-song/documentation-map.md
 
 
-      # ======================================================
-      #
+      # ------------------------------------------------------
       # DEVELOPMENT / ALTERNATE DOCUMENT VERSIONS
-      #
-      # These files are deliberately preserved.
-      #
-      # They represent intermediate generations,
-      # alternative formulations and/or extended drafts.
-      #
-      # ======================================================
+      # ------------------------------------------------------
 
       - 🧬 Development & Alternate Versions:
-
-
-          # --------------------------------------------------
-          # INDEX / OVERVIEW
-          # --------------------------------------------------
 
           - 📘 Alternate Overview:
 
               - Index v2:
                   collaborative-song/index-2.md
 
-
-          # --------------------------------------------------
-          # PHILOSOPHY
-          # --------------------------------------------------
-
           - 💭 Philosophy Versions:
 
               - Philosophy v2:
                   collaborative-song/philosophy-2.md
 
-
-          # --------------------------------------------------
-          # QUICK START
-          # --------------------------------------------------
-
           - ⚡ Quick Start Versions:
 
               - Quick Start v3:
                   collaborative-song/quick-start-3.md
-
-
-          # --------------------------------------------------
-          # METHOD
-          # --------------------------------------------------
 
           - 🧱 Method Versions:
 
@@ -570,11 +471,6 @@ nav:
               - Spoken Word v2:
                   collaborative-song/spoken-word-2.md
 
-
-          # --------------------------------------------------
-          # FACILITATION
-          # --------------------------------------------------
-
           - 🎤 Facilitation Versions:
 
               - Facilitator Guide v2:
@@ -582,11 +478,6 @@ nav:
 
               - Session Card v2:
                   collaborative-song/session-card-2.md
-
-
-          # --------------------------------------------------
-          # PROJECT HISTORY
-          # --------------------------------------------------
 
           - 🧾 Project History:
 
@@ -599,26 +490,6 @@ nav:
 
   # ==========================================================
   # AISHA MARKETING SYSTEM
-  #
-  # IMPORTANT:
-  # This is intentionally a TOP-LEVEL navigation item.
-  #
-  # AMS applies the same underlying design philosophy as the
-  # Collaborative Song Method to customer discovery,
-  # communication, marketing experiments and customer journeys.
-  #
-  # Current repository directory:
-  #
-  #   docs/aisha-marketing-system/
-  #
-  # Current documents:
-  #
-  #   Aisha-Marketing-System.md
-  #   customer-conversation-card.md
-  #   customer-journeys.md
-  #   experiment-card.md
-  #   aisha_marketingsystem_chatlog.md
-  #
   # ==========================================================
 
   - 💼 AMS Marketing System:
@@ -672,3 +543,146 @@ nav:
 
           - AMS Chatlog:
               aisha-marketing-system/aisha_marketingsystem_chatlog.md
+
+
+  # ==========================================================
+  # LIVE SONG WORKBENCH
+  #
+  # TOP-LEVEL navigation item.
+  #
+  # Purpose:
+  #
+  #   Turn the Vliegbasis71 collaborative method into a
+  #   practical offline-first live performance workbench.
+  #
+  # Philosophy:
+  #
+  #      HUMAN STORY
+  #           │
+  #           ▼
+  #      SIMPLE WORDS
+  #           │
+  #           ▼
+  #      SIMPLE MUSIC
+  #           │
+  #           ▼
+  #      PLAY TOGETHER
+  #
+  # AI is optional.
+  # Human interaction remains primary.
+  #
+  # ==========================================================
+
+  - 🎛️ Live Song Workbench:
+
+
+      # ------------------------------------------------------
+      # START HERE
+      # ------------------------------------------------------
+
+      - 🚀 Start Here:
+
+          - Overview:
+              live-song-workbench/index.md
+
+          - Quick Start:
+              live-song-workbench/quick-start.md
+
+          - Workbench Philosophy:
+              live-song-workbench/philosophy.md
+
+
+      # ------------------------------------------------------
+      # LIVE WORKFLOW
+      # ------------------------------------------------------
+
+      - 🎤 Live Workflow:
+
+          - Live Session Workflow:
+              live-song-workbench/live-session-workflow.md
+
+          - Story to Song:
+              live-song-workbench/story-to-song.md
+
+          - 12-Line Workbench:
+              live-song-workbench/12-line-workbench.md
+
+          - Performance View:
+              live-song-workbench/performance-view.md
+
+
+      # ------------------------------------------------------
+      # MUSIC ENGINE
+      # ------------------------------------------------------
+
+      - 🎸 Music Engine:
+
+          - Chord Progressions:
+              live-song-workbench/chord-progressions.md
+
+          - Rhythm and Strumming:
+              live-song-workbench/rhythm-and-strumming.md
+
+          - Style Presets:
+              live-song-workbench/style-presets.md
+
+          - Remix Workflow:
+              live-song-workbench/remix-workflow.md
+
+
+      # ------------------------------------------------------
+      # AI ASSISTANCE
+      # ------------------------------------------------------
+
+      - 🤖 AI Assistance:
+
+          - Local LLM:
+              live-song-workbench/local-llm.md
+
+          - Prompt Recipes:
+              live-song-workbench/prompt-recipes.md
+
+          - Keyword Generator:
+              live-song-workbench/keyword-generator.md
+
+          - Phrase Generator:
+              live-song-workbench/phrase-generator.md
+
+
+      # ------------------------------------------------------
+      # OFFLINE ARCHITECTURE
+      # ------------------------------------------------------
+
+      - 📴 Offline Architecture:
+
+          - Offline First:
+              live-song-workbench/offline-first.md
+
+          - JSON Contract:
+              live-song-workbench/json-contract.md
+
+          - Technical Architecture:
+              live-song-workbench/technical-architecture.md
+
+
+      # ------------------------------------------------------
+      # MVP
+      # ------------------------------------------------------
+
+      - 🧪 MVP:
+
+          - MVP Definition:
+              live-song-workbench/mvp.md
+
+
+      # ------------------------------------------------------
+      # AI APP DEVELOPMENT
+      # ------------------------------------------------------
+
+      - 🤖 AI App Development:
+
+          - App Builder Master Prompt:
+              live-song-workbench/ai-system/app-builder-master-prompt.md
+
+          - Agile Development Guide:
+              live-song-workbench/ai-system/agile-development-guide.md

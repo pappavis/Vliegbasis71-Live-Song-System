@@ -798,3 +798,6 @@ Daarmee ontstaat bovendien een interessante gezamenlijke ontwerpregel voor beide
 
 Vliegbasis71 bouwt geen liedjesfabriek. Aisha bouwt geen contentfabriek. Beide bouwen een eenvoudige ingang waardoor een mens iets kan ervaren wat daarvoor ingewikkeld leek.
 
+
+# chat
+
