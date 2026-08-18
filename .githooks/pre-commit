@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -e
+
+echo "[MEMORY] Updating MEMORY.md before commit..."
+
+python scripts/update_memory.py \
+  --mode pre-commit \
+  --trace-id "GIT-PRE-COMMIT" \
+  --current-work-package "Commit checkpoint" \
+  --last-completed-action "Preparing commit and updating operational memory" \
+  --next-action "Continue from memory_state.json after commit" \
+  --next-command "python -m pytest" \
+  --expected-result "All tests pass or failures are captured as evidence"
+
+git add MEMORY.md
+git add memory_state.json
+git add docs/memory || true
+
+echo "[MEMORY] MEMORY.md, memory_state.json and docs/memory staged."
+
