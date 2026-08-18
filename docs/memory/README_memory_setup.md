@@ -158,25 +158,40 @@ Installeren:
 
 ```bash
 cat > .git/hooks/pre-commit <<'EOF'
-#!/bin/sh
-echo "[MEMORY-HOOK] Updating repository memory before commit..."
-python3 scripts/update_memory.py \
-    --mode pre-commit \
-    --trace-id "GIT-PRE-COMMIT"
-RESULT=$?
-if [ $RESULT -ne 0 ]; then
-    echo "[MEMORY-HOOK] ERROR: memory update failed."
-    exit $RESULT
-fi
-git add MEMORY.md memory_state.json docs/memory/
-echo "[MEMORY-HOOK] Memory updated and staged."
-exit 0
+#!/usr/bin/env bash
+set -e
+
+echo "[MEMORY] Updating MEMORY.md before commit..."
+
+python scripts/update_memory.py \
+  --mode pre-commit \
+  --trace-id "GIT-PRE-COMMIT" \
+  --current-work-package "Commit checkpoint" \
+  --last-completed-action "Preparing commit and updating operational memory" \
+  --next-action "Continue from memory_state.json after commit" \
+  --next-command "python -m pytest" \
+  --expected-result "All tests pass or failures are captured as evidence"
+
+git add MEMORY.md
+git add memory_state.json
+git add docs/memory || true
+
+echo "[MEMORY] MEMORY.md, memory_state.json and docs/memory staged."
 EOF
+```
+Maak hem executable:
+```bash
 chmod +x .git/hooks/pre-commit
 ```
+
+
 Daarna testen:
 ```bash
-git commit --allow-empty -m "test memory pre-commit hook"
+git add scripts/update_memory.py
+git commit -m "test pre-commit memory automation"
+git status
+git show --stat HEAD
+
 ```
 Voor jouw governance/continuity-systeem zou ik pre-commit kiezen, omdat MEMORY.md, memory_state.json en de history dan onderdeel worden van dezelfde Git-snapshot waarop ze betrekking hebben.
 
@@ -185,5 +200,6 @@ Nog beter voor een repository die je tussen Mac/Windows/Linux wilt gebruiken: ze
 git config core.hooksPath .githooks
 ```
 Git ondersteunt core.hooksPath specifiek om een andere hooks-directory te gebruiken dan .git/hooks.   Daarmee kun je de hooks gewoon committen en hoef je niet op iedere machine verborgen bestanden in .git/hooks handmatig te onderhouden.
+
 
 > ChatID: A71C4E9B

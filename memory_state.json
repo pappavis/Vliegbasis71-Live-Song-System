@@ -1,15 +1,15 @@
 {
-    "last_updated_utc": "2026-08-18T12:11:23.877278+00:00",
+    "last_updated_utc": "2026-08-18T12:17:15.683499+00:00",
     "trace_id": "GIT-PRE-COMMIT",
     "mode": "pre-commit",
     "current_branch": "main",
-    "last_commit": "38cbbb2 - test memory hook",
-    "modified_files": "M .githooks/pre-commit\nM  MEMORY.md\nA  docs/memory/memory_history_202608181205.md\nA  docs/memory/memory_history_202608181209.md\nM  memory_state.json",
-    "staged_files": "MEMORY.md\ndocs/memory/memory_history_202608181205.md\ndocs/memory/memory_history_202608181209.md\nmemory_state.json",
+    "last_commit": "7ad5bae - test pre-commit memory automation",
+    "modified_files": "M  .githooks/pre-commit\nM  docs/memory/README_memory_setup.md",
+    "staged_files": ".githooks/pre-commit\ndocs/memory/README_memory_setup.md",
     "current_work_package": "Commit checkpoint",
     "last_completed_action": "Preparing commit and updating operational memory",
     "next_action": "Continue from memory_state.json after commit",
     "next_command": "python -m pytest",
     "expected_result": "All tests pass or failures are captured as evidence",
-    "latest_memory_history_file": "/Volumes/data1/Yandex.Disk.localized/michiele/Programmering/Python/python_normaal/github_python_normaal/Vliegbasis71-Live-Song-System/docs/memory/memory_history_202608181211.md"
+    "latest_memory_history_file": "/Volumes/data1/Yandex.Disk.localized/michiele/Programmering/Python/python_normaal/github_python_normaal/Vliegbasis71-Live-Song-System/docs/memory/memory_history_202608181217.md"
 }
