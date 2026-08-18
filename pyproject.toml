@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vliegbasis71-live-song-system"
+version = "0.1.0"
+description = "Vliegbasis71 Live Song System"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["muscriptor_batch"]
+
+[tool.setuptools.package-dir]
+"" = "src"
